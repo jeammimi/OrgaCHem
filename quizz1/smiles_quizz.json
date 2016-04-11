@@ -12,4 +12,17 @@
                 "solution" : 0 }
             ]
 }
-                
+              { "equation": "O[C@@H]1[C@@H](O)[C@H](O)[C@@H](O)[C@H](OC2=CC=CC=C2CO)O1>>" ,
+                 "condition" : "H2O/H2SO4" ,
+                "possibilities" : ["OC1=C(CO)C=CC=C1.O[C@@H]2[C@@H](O)[C@H](O)[C@@H](O)[C@H](O)O2",
+                                   "O[C@@H]1[C@@H](O)[C@H](O)[C@@H](O)[C@H](OC2=CC=C(S(=O)(O)=O)C=C2CO)O1" ],
+                "solution" : 0 }
+            ] 
+             { "equation": "OC1=C(CO)C=CC=C1>>" ,
+                 "condition" : "FeSO4.7H2O, 
+                 Oxone (KHSO5)
+H2O, 20°C" ,
+                "possibilities" : ["OC1=C(C(O)=O)C=CC=C1",
+                                   "OC1=C(C([H])=O)C=CC=C1" ],
+                "solution" : 0 }
+            ] 
