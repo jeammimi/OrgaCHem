@@ -12,7 +12,7 @@
                                    "OC1=C(C(O)=O)C=CC=C1" ],
                 "solution" : 1 },
             { "equation": "OC1=C(C(O)=O)C=CC=C1" ,
-                 "condition" : "Ac2O, Refulx" ,
+                 "condition" : "Ac2O, Reflux" ,
                 "possibilities" : ["O=C(O)C1=C(OC(C)=O)C=CC=C1",
                                    "OC1=C(C(OC(C)=O)=O)C=CC=C1" ],
                 "solution" : 0 }
