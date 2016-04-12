@@ -2,17 +2,21 @@
 { "quizz_title": "Penicillin V",
    "cards" : [
                 { "equation": "O=C1N(C(C([H])=O)C(OC(C)(C)C)=O)C(C2=CC=CC=C21)=O.[NH3+][C@@H](C(O)=O)C(C)(S)C.[Cl-]" ,
-                              "condition" : "NaOAc
-EtOH, H2O
-r.t, 10h" ,
+                              "condition" : "NaOAc, EtOH, H2O, r.t, 10h" ,
                               "possibilities" : ["O=C1N([C@@H]([C@]2(SC(C)(C)[C@H](C(O)=O)N2)[H])C(OC(C)(C)C)=O)C(C3=CC=CC=C31)=O" ,
                                                  "O=C1N(C(C([H])=O)C(N[C@@H](C(O)=O)C(C)(S)C)=O)C(C2=CC=CC=C21)=O" ],
                               "solution" : 0 },
                               
-                { "equation": "CC(C#C)(C)OC1=CC=C(OC)C(OC)=C1" ,
-                               "condition" : "N,N-Diéthylaniline, 200 °C" ,
-                              "possibilities" : ["CC(C=C1)(C)OC2=C1C=C(OC)C(OC)=C2" ,
-                                                 "CC(C=C[N]1=CC=CC=C1)(C)OC2=CC=C(OC)C(OC)=C2" ],
-                              "solution" : 0 }
-              ],
+                { "equation": "O=C1N([C@@H]([C@]2(SC(C)(C)[C@H](C(O)=O)N2)[H])C(OC(C)(C)C)=O)C(C3=CC=CC=C31)=O" ,
+                               "condition" : "NH2NH2, Dioxane, H2O, r.t, 24 h" ,
+                              "possibilities" : ["N[C@@H]([C@]1(SC(C)(C)[C@H](C(O)=O)N1)[H])C(OC(C)(C)C)=O" ,
+                                                 "O=C1N([C@@H]([C@]2(SC(C)(C)[C@H](C(O)=O)N2)[H])C)C(C3=CC=CC=C31)=O" ],
+                              "solution" : 1 }
+                              
+                { "equation": "" ,
+                               "condition" : "NH2NH2, Dioxane, H2O, r.t, 24 h" ,
+                              "possibilities" : ["N[C@@H]([C@]1(SC(C)(C)[C@H](C(O)=O)N1)[H])C(OC(C)(C)C)=O" ,
+                                                 "O=C1N([C@@H]([C@]2(SC(C)(C)[C@H](C(O)=O)N2)[H])C)C(C3=CC=CC=C31)=O" ],
+                              "solution" : 1 }
+             
 }
