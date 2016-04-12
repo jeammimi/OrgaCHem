@@ -11,22 +11,24 @@
                                "condition" : "NH2NH2, Dioxane, H2O, r.t, 24 h" ,
                               "possibilities" : ["O=C1N([C@@H]([C@]2(SC(C)(C)[C@H](C(O)=O)N2)[H])C)C(C3=CC=CC=C31)=O" ,
                                                  "N[C@@H]([C@]1(SC(C)(C)[C@H](C(O)=O)N1)[H])C(OC(C)(C)C)=O" ],
-                              "solution" : 1 }
+                              "solution" : 1 },
                               
                 { "equation": "N[C@@H]([C@]1(SC(C)(C)[C@H](C(O)=O)N1)[H])C(OC(C)(C)C)=O.O=C(Cl)COC2=CC=CC=C2" ,
                                "condition" : "Et3N, CH2Cl2, 0°C, 22h" ,
                               "possibilities" : ["[H][C@@]1(SC(C)(C)[C@H](C(O)=O)N1)[C@@H](C(OC(C)(C)C)=O)NC(COC2=CC=CC=C2)=O" ,
                                                  "N[C@@H]([C@]1(SC(C)(C)[C@H](C(OC(COC2=CC=CC=C2)=O)=O)N1)[H])C(OC(C)(C)C)=O" ],
-                              "solution" : 0 }
+                              "solution" : 0 },
                               
                  { "equation": "[H][C@@]1(SC(C)(C)[C@H](C(O)=O)N1)[C@@H](C(OC(C)(C)C)=O)NC(COC2=CC=CC=C2)=O" ,
                                "condition" : "HCl, CH2Cl2, 5-0°C, 30h" ,
                               "possibilities" : ["[H][C@@]1(SC(C)(C)[C@H](C(O)=O)N1)[C@@H](C(O)=O)NC(COC2=CC=CC=C2)=O" ,
                                                  "[H][C@@]1(SC(C)(C)[C@H](C(O)=O)N1)[C@@H](C(OC(C)(C)C)=O)NC(CO)=O" ],
-                              "solution" : 0 }  
+                              "solution" : 0 }  ,
                               
                { "equation": "[H][C@@]1(SC(C)(C)[C@H](C(O)=O)N1)[C@@H](C(O)=O)NC(COC2=CC=CC=C2)=O.C3(CCCCC3)N=C=NC4CCCCC4" ,
                                "condition" : "NaOH, Dioxane, H2O, r.t, 33 h" ,
                               "possibilities" : ["O=C(N1[C@H](C1=O)[C@]2([H])N[C@@H](C(O)=O)C(C)(C)S2)COC3=CC=CC=C3" ,
                                                  "O=C(N[C@H]1[C@@]([H])(SC(C)(C)[C@@H]2C(O)=O)N2C1=O)COC3=CC=CC=C3" ],
                               "solution" : 1 } 
+               ]
+}
