@@ -18,5 +18,11 @@
                               "possibilities" : ["[H][C@@]1(SC(C)(C)[C@H](C(O)=O)N1)[C@@H](C(OC(C)(C)C)=O)NC(COC2=CC=CC=C2)=O" ,
                                                  "N[C@@H]([C@]1(SC(C)(C)[C@H](C(OC(COC2=CC=CC=C2)=O)=O)N1)[H])C(OC(C)(C)C)=O" ],
                               "solution" : 0 }
-             
+                              
+                 { "equation": "[H][C@@]1(SC(C)(C)[C@H](C(O)=O)N1)[C@@H](C(OC(C)(C)C)=O)NC(COC2=CC=CC=C2)=O" ,
+                               "condition" : "HCl, CH2Cl2, 5-0°C, 30h" ,
+                              "possibilities" : ["[H][C@@]1(SC(C)(C)[C@H](C(O)=O)N1)[C@@H](C(O)=O)NC(COC2=CC=CC=C2)=O" ,
+                                                 "[H][C@@]1(SC(C)(C)[C@H](C(O)=O)N1)[C@@H](C(OC(C)(C)C)=O)NC(CO)=O" ],
+                              "solution" : 0 }  
+                              
 }
