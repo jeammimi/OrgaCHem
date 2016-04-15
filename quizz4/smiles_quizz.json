@@ -10,6 +10,18 @@
                                "condition" : "H2SO4, H2O, 0°C to r.t., 48 h" ,
                               "possibilities" : ["OC1=CC=CC(C([H])NCC(OCC)OCC)=C1" ,
                                                  "OC1=CC=C2C(C=NC=C2)=C1" ],
-                              "solution" : 1 }
+                              "solution" : 1 },
+                              
+              { "equation": "OC1=CC=C2C(C=NC=C2)=C1.[H]C([H])=O.C3CCCCN3" ,
+                              "condition" : "EtOH, H2O, 100°C, 6 h" ,
+                              "possibilities" : ["OC1=CC=C2C(C=NC=C2)=C1CN3CCCCC3" ,
+                                                 "C12=CC=C(OCN3CCCCC3)C=C1C=NC=C2" ],
+                              "solution" : 0 },
+                              
+                { "equation": "OC1=CC=C2C(C=NC=C2)=C1CN3CCCCC3" ,
+                               "condition" : "NaOMe, MeOH, 200°C, 16 h" ,
+                              "possibilities" : ["COC1=CC=C2C(C=NC=C2)=C1CN3CCCCC3" ,
+                                                 "OC1=CC=C2C(C=NC=C2)=C1C" ],
+                              "solution" : 1 },  
               ],
 }
