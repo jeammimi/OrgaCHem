@@ -41,5 +41,17 @@
                               "possibilities" : ["OC1CCC2C(CN(C(C)=O)CC2)C1C" ,
                                                  "OC1=CC=C2C(CN(C(O)C)CC2)=C1C" ],
                               "solution" : 0 },
+                              
+                  { "equation": "OC1CCC2C(CN(C(C)=O)CC2)C1C" ,
+                              "condition" : "CrO3, AcOH, H2O, 0 to 50 °C" ,
+                              "possibilities" : ["O=C1CCC2C(CN(C(C)=O)CC2)C1C" ,
+                                                 "OC1CCC2C(CN(C(O)=O)CC2)C1C" ],
+                              "solution" : 0 },
+                              
+                              { "equation": "OC1CCC2C(CN(C(C)=O)CC2)C1C" ,
+                              "condition" : "CrO3, AcOH, H2O, 0 to 50 °C" ,
+                              "possibilities" : ["O=C1CCC2C(CN(C(C)=O)CC2)C1C" ,
+                                                 "OC1CCC2C(CN(C(O)=O)CC2)C1C" ],
+                              "solution" : 0 },
               ],
 }
