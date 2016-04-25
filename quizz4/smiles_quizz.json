@@ -1,4 +1,4 @@
-{ "quizz_title": "Quinine Woodward's Synthesis",
+{ "quizz_title": "Quinine Synthesis",
    "cards" : [
                 { "equation": "NCC(OCC)OCC.[H]C(C1=CC(O)=CC=C1)=O" ,
                               "condition" : "100°C, 30 min" ,
@@ -58,6 +58,18 @@
                               "condition" : "H2/PtO2, 3 atm, AcOH, r.t, 40 h" ,
                               "possibilities" : ["N[C@H](C)[C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O" ,
                                                  "N[C@H](C)[C@@H](CN(C(O)C)CC1)[C@@H]1CCC(OCC)=O" ],
-                              "solution" : 0 },
+                              "solution" : 0 }, 
+                              
+                   { "equation": "N[C@H](C)[C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O" ,
+                              "condition" : "MeI, K2CO3, EtOH, reflux, 48 h" ,
+                              "possibilities" : ["N[C@H](C)[C@@H](CN(C(OC)(C)C)CC1)[C@@H]1CCC(OCC)=O" ,
+                                                 "C[C@H]([C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O)[N+](C)(C)C" ],
+                              "solution" : 1 },   
+                              
+                   { "equation": "NaOH, H2O, 180 °C, 60 min" ,
+                              "condition" : "NaOH, H2O, 180 °C, 60 min" ,
+                              "possibilities" : ["C[C@H]([C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(O)=O)[N+](C)(C)C" ,
+                                                 "C=C[C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(O)=O" ],
+                              "solution" : 1 },
               ],
 }
