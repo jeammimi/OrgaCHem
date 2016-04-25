@@ -48,10 +48,16 @@
                                                  "OC1CCC2C(CN(C(O)=O)CC2)C1C" ],
                               "solution" : 0 },
                               
-                              { "equation": "OC1CCC2C(CN(C(C)=O)CC2)C1C" ,
-                              "condition" : "CrO3, AcOH, H2O, 0 to 50 °C" ,
-                              "possibilities" : ["O=C1CCC2C(CN(C(C)=O)CC2)C1C" ,
-                                                 "OC1CCC2C(CN(C(O)=O)CC2)C1C" ],
+                   { "equation": "O=C1CCC2C(CN(C(C)=O)CC2)C1C.O=NOCC" ,
+                              "condition" : "NaOEt/EtOH, 0 °C, 18 h" ,
+                              "possibilities" : ["O=C1CCC2C(CN(C(CN=O)=O)CC2)C1C" ,
+                                                 "C/C([C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O)=N\O" ],
+                              "solution" : 1 },
+                              
+                   { "equation": "C/C([C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O)=N\O" ,
+                              "condition" : "H2/PtO2, 3 atm, AcOH, r.t, 40 h" ,
+                              "possibilities" : ["N[C@H](C)[C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O" ,
+                                                 "N[C@H](C)[C@@H](CN(C(O)C)CC1)[C@@H]1CCC(OCC)=O" ],
                               "solution" : 0 },
               ],
 }
