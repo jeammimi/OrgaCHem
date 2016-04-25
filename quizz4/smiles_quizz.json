@@ -66,10 +66,16 @@
                                                  "C[C@H]([C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O)[N+](C)(C)C" ],
                               "solution" : 1 },   
                               
-                   { "equation": "NaOH, H2O, 180 °C, 60 min" ,
+                   { "equation": "C[C@H]([C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O)[N+](C)(C)C" ,
                               "condition" : "NaOH, H2O, 180 °C, 60 min" ,
                               "possibilities" : ["C[C@H]([C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(O)=O)[N+](C)(C)C" ,
                                                  "C=C[C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(O)=O" ],
                               "solution" : 1 },
+                                                         
+                   { "equation": "C=C[C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(O)=O" ,
+                              "condition" : "HCl, EtOH, reflux" ,
+                              "possibilities" : ["C=C[C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O" ,
+                                                 "CC(N(CC1)C[C@@H]([C@@H]1CCC(O)=O)CCOCC)=O" ],
+                              "solution" : 0 },
               ],
 }
