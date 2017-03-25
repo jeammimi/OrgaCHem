@@ -76,6 +76,6 @@
                               "condition" : "HCl, EtOH, reflux" ,
                               "possibilities" : ["C=C[C@@H](CNCC1)[C@@H]1CCC(OCC)=O" ,
                                                  "OC(CC[C@H]1[C@H](CNCC1)CCOCC)=O" ],
-                              "solution" : 0 },
-              ],
+                              "solution" : 0 }
+              ]
 }
