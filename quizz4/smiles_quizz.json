@@ -1,4 +1,4 @@
-{ "quizz_title": "Quinine Synthesis",
+{ "quizz_title": "Quinine",
    "cards" : [
                 { "equation": "NCC(OCC)OCC.[H]C(C1=CC(O)=CC=C1)=O" ,
                               "condition" : "100°C, 30 min" ,
