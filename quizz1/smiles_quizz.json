@@ -5,7 +5,6 @@
                 "possibilities" : ["O[C@@H](C#CC(C)(C)C)[C@H]1N(C(OC(C)(C)C)=O)C(C)(C)SC1",
                                    "O[C@H](C#CC(C)(C)C)[C@H]1N(C(OC(C)(C)C)=O)C(C)(C)SC1" ],
                 "solution" : 0 },
-            
              { "equation": "O[C@@H](C#CC(C)(C)C)[C@H]1N(C(OC(C)(C)C)=O)C(C)(C)SC1.CC2=CC=C(S(=O)(O)=O)C=C2" ,
                  "condition" : "MeOH" ,
                 "possibilities" : ["O[C@@H](C#CC(C)(C)C)[C@H]1NC(C)(C)SC1",
@@ -15,6 +14,16 @@
                  "condition" : "Py" ,
                 "possibilities" : ["O[C@@H](C#CC(C)(C)C)[C@H]1N(C(NCC2=CC=CC=C2)=O)C(C)(C)SC1",
                                    "CC(SC1)(C)N[C@@H]1[C@@H](OC(NCC2=CC=CC=C2)=O)C#CC(C)(C)C" ],
+                "solution" : 1 },
+            { "equation": "O[C@@H](C#CC(C)(C)C)[C@H]1N(C(NCC2=CC=CC=C2)=O)C(C)(C)SC1.CC3=CC=C(S(=O)(Cl)=O)C=C3" ,
+                 "condition" : "KH, THF, HMPA" ,
+                "possibilities" : ["O=C2N(CC3=CC=CC=C3)[C@H](C#CC(C)(C)C)[C@@H]1CSC(C)(C)N12",
+                                   "CC(SC1)(C)N(C(NCC2=CC=CC=C2)=O)[C@@H]1[C@@H](OS(=O)(C3=CC=C(C)C=C3)=O)C#CC(C)(C)C" ],
+                "solution" : 0 },
+            { "equation": "O=C2N(CC3=CC=CC=C3)[C@H](C#CC(C)(C)C)[C@@H]1CSC(C)(C)N12.CC4=CC=C(S(=O)(O)=O)C=C4" ,
+                 "condition" : "" ,
+                "possibilities" : ["O=C2N(CC3=CC=CC=C3)[C@H](/C(OS(=O)(C4=CC=C(C)C=C4)=O)=C\C(C)(C)C)[C@@H]1CSC(C)(C)N12",
+                                   "SC[C@@H]([C@@H](C#CC(C)(C)C)N1CC2=CC=CC=C2)NC1=O" ],
                 "solution" : 1 }
             ]
 }
