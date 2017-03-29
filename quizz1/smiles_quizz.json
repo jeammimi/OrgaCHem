@@ -1,20 +1,20 @@
-{ "quizz_title": "Aspirin",
+{ "quizz_title": "Biotin",
   "cards" : [
-              { "equation": "O[C@@H]1[C@@H](O)[C@H](O)[C@@H](O)[C@H](OC2=CC=CC=C2CO)O1" ,
-                 "condition" : "H2O/H2SO4" ,
-                "possibilities" : ["OC1=C(CO)C=CC=C1.O[C@@H]2[C@@H](O)[C@H](O)[C@@H](O)[C@H](O)O2",
-                                   "O[C@@H]1[C@@H](O)[C@H](O)[C@@H](O)[C@H](OC2=CC=C(S(=O)(O)=O)C=C2CO)O1" ],
+              { "equation": "[H]C([C@H]1N(C(OC(C)(C)C)=O)C(C)(C)SC1)=O.[H]C#CC(C)(C)C" ,
+                 "condition" : "ZnCl, Et2O" ,
+                "possibilities" : ["O[C@@H](C#CC(C)(C)C)[C@H]1N(C(OC(C)(C)C)=O)C(C)(C)SC1",
+                                   "O[C@H](C#CC(C)(C)C)[C@H]1N(C(OC(C)(C)C)=O)C(C)(C)SC1" ],
                 "solution" : 0 },
             
-             { "equation": "OC1=C(CO)C=CC=C1" ,
-                 "condition" : "FeSO4.7H2O, Oxone (KHSO5) H2O, 20°C" ,
-                "possibilities" : ["OC1=C(C([H])=O)C=CC=C1",
-                                   "OC1=C(C(O)=O)C=CC=C1" ],
-                "solution" : 1 },
-            { "equation": "OC1=C(C(O)=O)C=CC=C1" ,
-                 "condition" : "Ac2O, Reflux" ,
-                "possibilities" : ["O=C(O)C1=C(OC(C)=O)C=CC=C1",
-                                   "OC1=C(C(OC(C)=O)=O)C=CC=C1" ],
-                "solution" : 0 }
+             { "equation": "O[C@@H](C#CC(C)(C)C)[C@H]1N(C(OC(C)(C)C)=O)C(C)(C)SC1.CC2=CC=C(S(=O)(O)=O)C=C2" ,
+                 "condition" : "MeOH" ,
+                "possibilities" : ["O[C@@H](C#CC(C)(C)C)[C@H]1NC(C)(C)SC1",
+                                   "O[C@@H](C#CC(C)(C)C)[C@H](CS)NC(OC(C)(C)C)=O" ],
+                "solution" : 0 },
+            { "equation": "O[C@@H](C#CC(C)(C)C)[C@H]1NC(C)(C)SC1.O=C=NCC2=CC=CC=C2" ,
+                 "condition" : "Py" ,
+                "possibilities" : ["O[C@@H](C#CC(C)(C)C)[C@H]1N(C(NCC2=CC=CC=C2)=O)C(C)(C)SC1",
+                                   "CC(SC1)(C)N[C@@H]1[C@@H](OC(NCC2=CC=CC=C2)=O)C#CC(C)(C)C" ],
+                "solution" : 1 }
             ]
 }
