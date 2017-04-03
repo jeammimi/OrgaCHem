@@ -1,6 +1,8 @@
 { "quizz_title": "Biotin",
+  "quizz_info":  "Histoire de la petite molecule",
   "cards" : [
               { "equation": "[H]C([C@H]1N(C(OC(C)(C)C)=O)C(C)(C)SC1)=O.[H]C#CC(C)(C)C" ,
+                "type_reaction" : "", 
                  "condition" : "ZnCl, Et2O" ,
                 "possibilities" : ["O[C@@H](C#CC(C)(C)C)[C@H]1N(C(OC(C)(C)C)=O)C(C)(C)SC1",
                                    "O[C@H](C#CC(C)(C)C)[C@H]1N(C(OC(C)(C)C)=O)C(C)(C)SC1" ],
