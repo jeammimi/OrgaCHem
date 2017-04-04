@@ -32,5 +32,15 @@
                 "possibilities" : ["CC(SC1)(C)N[C@@H]1[C@@H](OC(NCC2=CC=CC=C2)=O)C#CCCCC",
                                    "O[C@@H](C#CCCCC)[C@H]1N(C(NCC2=CC=CC=C2)=O)C(C)(C)SC1" ],
              "solution" : 1 },
+            { "equation": "O[C@@H](C#CCCCC)[C@H]1N(C(NCC2=CC=CC=C2)=O)C(C)(C)SC1.CC3=CC=C(S(=O)(Cl)=O)C=C3" ,
+                 "condition" : "KH,THF,HMPA" ,
+                "possibilities" : ["CC(SC1)(C)N(C(NCC2=CC=CC=C2)=O)[C@@H]1[C@@H](OS(=O)(C3=CC=C(C)C=C3)=O)C#CCCCC",
+                                   "O=C2N(CC3=CC=CC=C3)[C@H](C#CCCCC)[C@@H]1CSC(C)(C)N12" ],
+             "solution" : 1 },
+             { "equation": "" ,
+                 "condition" : "" ,
+                "possibilities" : ["",
+                                   "" ],
+             "solution" : 0 }
             ]
 }
