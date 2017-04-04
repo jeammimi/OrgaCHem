@@ -26,6 +26,11 @@
                  "condition" : "MeOH" ,
                 "possibilities" : ["O[C@@H](C#CCCCC)[C@H](CS)NC(OC(C)(C)C)=O",
                                    "O[C@@H](C#CCCCC)[C@H]1NC(C)(C)SC1" ],
-                "solution" : 1 }
+                "solution" : 1 },
+            { "equation": "O[C@@H](C#CCCCC)[C@H]1NC(C)(C)SC1.O=C=NCC2=CC=CC=C2" ,
+                 "condition" : "Py" ,
+                "possibilities" : ["CC(SC1)(C)N[C@@H]1[C@@H](OC(NCC2=CC=CC=C2)=O)C#CCCCC",
+                                   "O[C@@H](C#CCCCC)[C@H]1N(C(NCC2=CC=CC=C2)=O)C(C)(C)SC1" ],
+             "solution" : 1 },
             ]
 }
