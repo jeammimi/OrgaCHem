@@ -11,12 +11,12 @@
                 { "equation": "OC1=C(CO)C=CC=C1" ,
                                "condition" : "FeSO4.7H2O,Oxone(KHSO5),H2O, 20°C" ,
                               "possibilities" : ["OC1=C(C(O)=O)C=CC=C1" ,
-                                                ["OC1=C(C([H])=O)C=CC=C1" ],
+                                                "OC1=C(C([H])=O)C=CC=C1" ],
                               "solution" : 0 },
                 { "equation": "OC1=C(C(O)=O)C=CC=C1" ,
                                "condition" : "Ac2O, Reflux" ,
                               "possibilities" : ["O=C(O)C1=C(OC(C)=O)C=CC=C1" ,
-                                                ["OC1=C(C(OC(C)=O)=O)C=CC=C1" ],
+                                                "OC1=C(C(OC(C)=O)=O)C=CC=C1" ],
                               "solution" : 0 }
               ]
 }
