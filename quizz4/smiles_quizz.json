@@ -76,6 +76,11 @@
                               "condition" : "HCl, EtOH, reflux" ,
                               "possibilities" : ["C=C[C@@H](CNCC1)[C@@H]1CCC(OCC)=O" ,
                                                  "OC(CC[C@H]1[C@H](CNCC1)CCOCC)=O" ],
-                              "solution" : 0 }
+                              "solution" : 0 },
+                   { "equation": "{ "C=C[C@@H](CN(CC1)C(C2=CC=CC=C2)=O)[C@@H]1CCC(OCC)=O.O=C(OCC)C3=CC=NC4=C3C=C(OC)C=C4" ,
+                              "condition" : "NaOEt, 82°C, 14 h" ,
+                              "possibilities" : ["O=C(OCC)CC[C@H]1[C@H](CN(CC1)C(C4=CC=CC=C4)=O)CCC(C2=CC=NC3=C2C=C(OC)C=C3)=O" ,
+                                                 "C=C[C@@H](CN(CC1)C(C4=CC=CC=C4)=O)[C@@H]1CC(C(C2=C(C=C(OC)C=C3)C3=NC=C2)=O)C(OCC)=O" ],
+                              "solution" : 1 }
               ]
 }
