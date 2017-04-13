@@ -86,6 +86,21 @@
                               "condition" : "HCl, H2O, Reflux, 4 h" ,
                               "possibilities" : ["C=C[C@@H](CN(CC1)C(C4=CC=CC=C4)=O)[C@@H]1CC(C(C2=C(C=C(OC)C=C3)C3=NC=C2)=O)C(O)=O" ,
                                                  "C=C[C@@H](CNCC1)[C@@H]1CC(C(C2=C(C=C(OC)C=C3)C3=NC=C2)=O)C(OCC)=O" ],
+                              "solution" : 1 },
+                   { "equation": "C=C[C@@H](CNCC1)[C@@H]1CC(C(C2=C(C=C(OC)C=C3)C3=NC=C2)=O)C(OCC)=O" ,
+                              "condition" : "NaOBr" ,
+                              "possibilities" : ["C=C[C@@H](CN(Br)CC1)[C@@H]1CC(C(C2=C(C=C(OC)C=C3)C3=NC=C2)=O)C(OCC)=O" ,
+                                                 "O=C(O)C(C(C2=C(C=C(OC)C=C3)C3=NC=C2)=O)C[C@H]1[C@H](CN(CC1)C(C4=CC=CC=C4)=O)/C=C\Br" ],
+                              "solution" : 0 },
+                   { "equation": "C=C[C@@H](CN(Br)CC1)[C@@H]1CC(C(C2=C(C=C(OC)C=C3)C3=NC=C2)=O)C(OCC)=O" ,
+                              "condition" : "NaOEt, EtOH" ,
+                              "possibilities" : ["COC2=CC1=C(C(C3([H])CC4C(C=C)CN3CC4)=O)C=CN=C1C=C2" ,
+                                                 "C=C[C@@H](CN(Br)CC1)[C@@H]1CC(C(C2=C(C=C(OC)C=C3)C3=NC=C2)(OCC)O)C(OCC)=O" ],
+                              "solution" : 0 },
+                   { "equation": "COC2=CC1=C(C(C3([H])CC4C(C=C)CN3CC4)=O)C=CN=C1C=C2" ,
+                              "condition" : "Al Powder" ,
+                              "possibilities" : ["OC2=CC1=C([C@@](O)([H])C3CC4C(C=C)CN3CC4)C=CN=C1C=C2" ,
+                                                 "COC2=CC1=C([C@@]([H])(O)C3CC4C(C=C)CN3CC4)C=CN=C1C=C2" ],
                               "solution" : 1 }
               ]
 }
