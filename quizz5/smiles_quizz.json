@@ -1,22 +1,15 @@
 { "quizz_title": "Aspirin",
-  "quizz_info_1": "From the natural source for pain relief salicin, Isolated from the Salix tree in XXXX by YYYY",
-  "quizz_info_2": "The acetyl salicylic acid shows the benefits of pain relief reducing the undesirable side effect of an upset stomach",
    "cards" : [
-                { "equation": "O[C@@H]1[C@@H](O)[C@H](O)[C@@H](O)[C@H](OC2=CC=CC=C2CO)O1" ,
-                              "condition" : "H2O/H2SO4" ,
-                              "possibilities" : ["O[C@@H]1[C@@H](O)[C@H](O)[C@@H](O)[C@H](OC2=CC=C(S(=O)(O)=O)C=C2CO)O1" ,
-                                                 "OC1=C(CO)C=CC=C1.O[C@@H]2[C@@H](O)[C@H](O)[C@@H](O)[C@H](O)O2" ],
-                              "solution" : 1 },
-                              
-                { "equation": "OC1=C(CO)C=CC=C1" ,
-                               "condition" : "FeSO4.7H2O,Oxone(KHSO5),H2O, 20°C" ,
-                              "possibilities" : ["OC1=C(C(O)=O)C=CC=C1" ,
-                                                "OC1=C(C([H])=O)C=CC=C1" ],
+                { "equation": "O[C@@H]1CC2=C(OCC3=CC=CC=C3)C=C(OCC4=CC=CC=C4)C=C2O[C@@H]1C5=CC(OCC6=CC=CC=C6)=C(OCC7=CC=CC=C7)C=C5" ,
+                              "condition" : "DDQ, Dichloromethane, ethylene glycol" ,
+                              "possibilities" : ["O[C@@H]1C(OCCO)C2=C(OCC3=CC=CC=C3)C=C(OCC4=CC=CC=C4)C=C2O[C@@H]1C5=CC(OCC6=CC=CC=C6)=C(OCC7=CC=CC=C7)C=C5" ,
+                                                 "O[C@@H]1CC2=C(OCC3=CC=CC=C3)C=C(OCC4=CC=CC=C4)C=C2O[C@@H]1C5=CC(OCC6=CC=CC=C6)=C(OCC7=CC=CC=C7)C(OCCO)=C5" ],
                               "solution" : 0 },
-                { "equation": "OC1=C(C(O)=O)C=CC=C1" ,
-                               "condition" : "Ac2O, Reflux" ,
-                              "possibilities" : ["O=C(O)C1=C(OC(C)=O)C=CC=C1" ,
-                                                "OC1=C(C(OC(C)=O)=O)C=CC=C1" ],
+                              
+                { "equation": "CC(C#C)(C)OC1=CC=C(OC)C(OC)=C1" ,
+                               "condition" : "N,N-Diéthylaniline, 200 °C" ,
+                              "possibilities" : ["CC(C=C1)(C)OC2=C1C=C(OC)C(OC)=C2" ,
+                                                 "CC(C=C[N]1CC=CC=C1)(C)OC2=CC=C(OC)C(OC)=C2" ],
                               "solution" : 0 }
               ]
 }
