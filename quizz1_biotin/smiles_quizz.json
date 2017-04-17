@@ -1,5 +1,5 @@
 { "quizz_title": "Biotin",
-  "quizz_info":  "Histoire de la petite molecule",
+  "quizz_info":  "The biotin is a natural product widely used in biochemical assays. It's interaction with the streptavidin protein is the strongest non-covalent interaction known. It is also known as vitamin B7 and we consume it in products beef liver, butter, peanuts and lentills ",
   "cards" : [
               { "equation": "SC[C@H](N)C(O)=O" ,
                 "type_reaction" : "", 
