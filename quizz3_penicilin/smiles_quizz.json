@@ -1,5 +1,8 @@
 
 { "quizz_title": "Penicillin V",
+  "quizz_info_1": ""
+  "quizz_info_2": "",
+
    "cards" : [
                 { "equation": "O=C1N(C(C([H])=O)C(OC(C)(C)C)=O)C(C2=CC=CC=C21)=O.[NH3+][C@@H](C(O)=O)C(C)(S)C.[Cl-]" ,
                               "condition" : "NaOAc, EtOH, H2O, r.t, 10h" ,
