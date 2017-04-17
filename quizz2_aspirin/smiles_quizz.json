@@ -1,6 +1,6 @@
 { "quizz_title": "Aspirin",
   "quizz_info_1": "In ancient Egypt trees from the salicaceae family were used as herbal remedies for pain relief. Modern chemical research allowed in the active molecule to be isolated (1800's) and named salicin, several studies allowed to identify the active moiety that would be later on be modified to the acetylsaliylic acid or Aspirin that has less undesirable secondary effects than its historical precursors",
-  "quizz_info_2": "For more on the story of this exciting molecule: Nicolau, K.C and Montagnon, T. Molecules that Changed the World. Chapter 4, Pages 22-28 and Mirza-Aghayan, M. et al. Tetrahedron. Lett. 55, 2014, 342–345",
+  "quizz_info_2": "For more on the story of this exciting molecule: Nicolau, K.C and Montagnon, T. Molecules that Changed the World, 2008, Chapter 4, Pages 22-28 and Mirza-Aghayan, M. et al. Tetrahedron. Lett. 55, 2014, 342–345",
   "cards" : [
                 { "equation": "O[C@@H]1[C@@H](O)[C@H](O)[C@@H](O)[C@H](OC2=CC=CC=C2CO)O1" ,
                               "condition" : "H2O/H2SO4" ,
