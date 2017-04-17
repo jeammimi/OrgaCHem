@@ -1,7 +1,7 @@
 
 { "quizz_title": "Penicillin V",
   "quizz_info_1": "Penicillin comprehends a family of famous antibiotics who's amazing story of accidental discovery starts with the use of moldy bread for the treatment of flesh wounds",
-  "quizz_info_2": "For more details on the synthesis of penicillin V see: Sheehan, J.C and Henery-Logan, K.R. J. Am. Chem. Soc. 1959, 81, 3089-3094. For more on the amazing story of this great familly of antibiotics see: Graeme Donald, De l'erreur a la decouverte (The accidental scientist) Page 67-78",
+  "quizz_info_2": "For more details on the synthesis of penicillin V see: Sheehan, J.C and Henery-Logan, K.R. J. Am. Chem. Soc. 1959, 81, 3089-3094. For more on the amazing story of this great familly of antibiotics see: Graeme Donald, De l'erreur a la decouverte (The accidental scientist), 2013, Page 67-78",
 
    "cards" : [
                 { "equation": "O=C1N(C(C([H])=O)C(OC(C)(C)C)=O)C(C2=CC=CC=C21)=O.[NH3+][C@@H](C(O)=O)C(C)(S)C.[Cl-]" ,
