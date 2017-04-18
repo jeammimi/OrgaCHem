@@ -1,5 +1,5 @@
 { "quizz_title": "Quinine",
-   "quizz_info_1":"Quinine is a natural alkaloid that is best known for its use as an anti-malaria drug. Its story started with the use of the quina-quina tree to treat malaria fever. The story of its total synthesis is fascinating",
+   "quizz_info_1":"Quinine is a natural alkaloid that is best known for its use as an anti-malaria drug. Its story started with the use of the quina-quina tree to treat malaria fever. The story of its total synthesis is fascinating!",
    "quizz_info_2":"For more details on the synthesis and the fascinating story behind the total synthesis see: Woodward, R.B and Doering, W.E.,JACS, 1945, 67, 860-874 and Seeman, J.I., Angew. Chem. Int. Ed. 2007, 46, 1378 – 1413",
  "cards" : [
                 { "equation": "NCC(OCC)OCC.[H]C(C1=CC(O)=CC=C1)=O" ,
