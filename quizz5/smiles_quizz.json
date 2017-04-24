@@ -1,9 +1,9 @@
 { "quizz_title": "Terpineol",
-   "quizz_info_1": "",
+   "quizz_info_1": "Terpenes are natural products often responsible for the characteristic smell of fruits and plants. Terpineol smells like lilac flowers and It is famous terpene because its hydrate crystalized in pure form from the natural source turpentine (a source for fragrant compounds), which captured the attention of a group of chemists to discover its structure! It was Perkin Jr. (1900’s) who synthetized racemic terpineol hydrate for the first time using the recently discovered Grignard reaction!.",
    "cards" : [
-                { "equation": "O[C@@H]1CC2=C(OCC3=CC=CC=C3)C=C(OCC4=CC=CC=C4)C=C2O[C@@H]1C5=CC(OCC6=CC=CC=C6)=C(OCC7=CC=CC=C7)C=C5" ,
-                              "condition" : "DDQ, Dichloromethane, ethylene glycol" ,
-                              "possibilities" : ["O[C@@H]1C(OCCO)C2=C(OCC3=CC=CC=C3)C=C(OCC4=CC=CC=C4)C=C2O[C@@H]1C5=CC(OCC6=CC=CC=C6)=C(OCC7=CC=CC=C7)C=C5" ,
+                { "equation": "" ,
+                              "condition" : "" ,
+                              "possibilities" : ["" ,
                                                  "O[C@@H]1CC2=C(OCC3=CC=CC=C3)C=C(OCC4=CC=CC=C4)C=C2O[C@@H]1C5=CC(OCC6=CC=CC=C6)=C(OCC7=CC=CC=C7)C(OCCO)=C5" ],
                               "solution" : 0 },
                               
