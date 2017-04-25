@@ -1,11 +1,20 @@
 
 { "quizz_title": "New",
-  "quizz_info":  "Histoire de la petite molecule",
+  "quizz_info_1":  "Histoire de la petite molecule",
+  "quizz_info_2":
   "cards" : [
               { "equation": "SC[C@H](N)C(O)=O" ,
                 "type_reaction" : "", 
                  "condition" : "Acetone, Reflux, 15 h" ,
                 "possibilities" : ["OC([C@H]1NC(C)(C)SC1)=O",
                                    "SC[C@H](NC=C)C(O)=O" ],
-                "solution" : 0 }]
+                "solution" : 0 }],
+
+              { "equation": "SC[C@H](N)C(O)=O" ,
+                "type_reaction" : "", 
+                 "condition" : "Acetone, Reflux, 15 h" ,
+                "possibilities" : ["OC([C@H]1NC(C)(C)SC1)=O",
+                                   "SC[C@H](NC=C)C(O)=O" ],
+                "solution" : 0 }],
+ ]
 }
