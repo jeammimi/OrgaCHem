@@ -1,13 +1,102 @@
+﻿{ "quizz_title": "Lysergic Acid Diethylamine",
+   "quizz_info_1":"Lysergic Acid Diethylamine (LSD) is a psychedelic drug first synthesized by A. Hoffman in 1938. Its psychological effects were discovered accidentally in 1943 and has then been widely used for recreational purposes",
+   "quizz_info_2":"For more details on the synthesis described here and for a review concerning LSD, see: Kornfeld, E. C.; Fornefeld, E. J.; Kline, G. B.; Mann, M. J.; Morrison, D. E.; Jones, R. G.; Woodward, R. B. J. Am. Chem. Soc. 1956, 3087-3114; 
+                   Pioch, R. P. (1956). U.S. Patent No. 2,736,728. Washington, DC: U.S. Patent and Trademark Office; 
+				   Passie, T.; Halpern, J. H.; Stichtenoth, D. O.; Emrich, H. M.; Hintzen, A. CNS Neuroscience & Therapeutics 2008, 14, 295–314.",
+ "cards" : [
+                { "equation": "O=C(O)CCC1=CNC2=CC=CC=C21" ,
+                              "condition" : "H2, Ni (Raney), NaOH, 200-270 atm, rt, 20-30 h" ,
+                              "possibilities" : ["O=C(O)CCC1CNC2=CC=CC=C21" ,
+                                                 "O=C(O)CCC1CNC2CCCCC21" ],
+                              "solution" : 0 },
+                              
+                { "equation": "O=C(O)CCC1CNC2=CC=CC=C21" ,
+			      "type_reaction" : "Schotten-Baumann Reaction", 
+                               "condition" : "BzCl, NaOH, H2O, rt to 40 °C" , 
+                              "possibilities" : ["O=C(C1=CC=CC=C1)N2C3=CC=CC=C3C(CCC(O)=O)C2" ,
+                                                 "O=C(C1=CC=CC=C1)N2C3=CC=CC=C3C(CCC(OC(C4=CC=CC=C4)=O)=O)C2" ],
+                              "solution" : 0 }, 
+                              
+                 { "equation": "O=C(C1=CC=CC=C1)N2C3=CC=CC=C3C(CCC(O)=O)C2" ,
+                              "condition" : "SOCl2, rt to reflux, 45-55 min" ,
+                              "possibilities" : ["O=C(C1=CC=CC=C1)N2C3=CC=CC=C3C(CC(Cl)(Cl)C(Cl)=O)C2" ,
+                                                 "O=C(C1=CC=CC=C1)N2C3=CC=CC=C3C(CCC(Cl)=O)C2" ],
+                              "solution" : 1 },
+                              
+                  { "equation": "O=C(C1=CC=CC=C1)N2C3=CC=CC=C3C(CCC(Cl)=O)C2" ,
+				"type_reaction" : "Friedel-Crafts Acylation", 
+                               "condition" : "AlCl3, CS2, reflux, 60 min" ,
+                              "possibilities" : ["O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3C(CC4)C2" ,
+                                                 "O=C1C2=C3C(NCC3CC1)=CC=C2" ],
+                              "solution" : 0 },
+                              
+                  { "equation": "O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3C(CC4)C2" ,
+                              "condition" : "PyrHBr3, hv, AcOH, 40-60 °C, 30 min" ,
+                              "possibilities" : ["O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3[C@@](CC4Br)([H])C2" ,
+                                                 "O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3C(C=C4)C2" ],
+                              "solution" : 0 },
+                              
+                  { "equation": "O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3[C@@](CC4Br)([H])C2.CC1(OCCO1)CNC" ,
+                              "condition" : "PhH, reflux, 21 h" ,
+                              "possibilities" : ["O=C(C1=CC=CC=C1)N2C3=CC=CC(C(N(C)CC4(OCCO4)C)=C(Br)C5)=C3[C@@]5([H])C2" ,
+                                                 "O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3[C@@](CC4N(C)CC5(OCCO5)C)([H])C2" ],
+                              "solution" : 1 },
+                              
+                  { "equation": "O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3[C@@](CC4N(C)CC5(OCCO5)C)([H])C2" ,
+                              "condition" : "HCl (aq), 37 °C, 5 d" ,
+                              "possibilities" : ["O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3[C@@](CC4N(C)CC(C)=O)([H])C2" ,
+                                                 "O=C1C2=C3C(NC[C@@]3([H])CC1N(C)CC(C)=O)=CC=C2" ],
+                              "solution" : 1 },
+                              
+                  { "equation": "O=C1C2=C3C(NC[C@@]3([H])CC1N(C)CC(C)=O)=CC=C2" ,
+				"type_reaction" : "Aldol Condensation",
+                              "condition" : "NaOMe, MeOH, -10 °C, 10 min" ,
+                              "possibilities" : ["CN(C1)[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4NC3)C2(O)CC1=O" ,
+                                                 "CN(C1)[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4NC3)C2=CC1=O" ],
+                              "solution" : 1 },
+                              
+                   { "equation": "CN(C1)[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4NC3)C2=CC1=O" ,
+                              "condition" : "Ac2O, rt, 5 min" ,
+                              "possibilities" : ["CN(C1)[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)C2=CC1=O" ,
+                                                 "CN([C@@H]1C(C)=O)[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)C2=CC1=O" ],
+                              "solution" : 0 },
+                              
+                   { "equation": "CN(C1)[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)C2=CC1=O" ,
+                              "condition" : "1) NaBH4 2) HCl,MeOH, H2O, rt, 2 h" ,
+                              "possibilities" : ["CN(C1)[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)[C@@]2([H])CC1=O.Cl" ,
+                                                 "CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)C2=C[C@@H](O)C1.Cl" ],
+                              "solution" : 1 }, 
+                              
+                   { "equation": "CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)C2=C[C@@H](O)C1.Cl" ,
+                              "condition" : "SOCl2,SO2, rt, 6 h" ,
+                              "possibilities" : ["CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)C2=C[C@@H](Cl)C1.Cl" ,
+                                                 "CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)C2=C[C@H](Cl)C1.Cl" ],
+                              "solution" : 0 },   
+                              
+                   { "equation": "CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)C2=C[C@H](Cl)C1.Cl" ,
+                              "condition" : "NaCN, HCN, 0-10 °C, 30 min, 54%" ,
+                              "possibilities" : ["CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)[C@]2(C#N)C=CC1.Cl" ,
+                                                 "CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C=O)C3)C2=C[C@@H](C#N)C1.Cl" ],
+                              "solution" : 1 },
+                                                         
+                   { "equation": "CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C=O)C3)C2=C[C@@H](C#N)C1.Cl" ,
+                              "condition" : "H2SO4, MeOH, H2O, 100 °C, 24 h" ,
+                              "possibilities" : ["CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4NC3)C2=C[C@@H](C#N)C1.Cl" ,
+                                                 "CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4NC3)C2=C[C@@H](C(OC)=O)C1.Cl" ],
+                              "solution" : 1 },
 
-{ "quizz_title": "New",
-  "quizz_info_1":  "Histoire de la petite molecule",
-  "quizz_info_2": "",
-  "cards" : [
-              { "equation": "SC[C@H](N)C(O)=O" ,
-                "type_reaction" : "", 
-                 "condition" : "Acetone, Reflux, 15 h" ,
-                "possibilities" : ["OC([C@H]1NC(C)(C)SC1)=O",
-                                   "SC[C@H](NC=C)C(O)=O" ],
-                "solution" : 0 }]
- ]
+                   { "equation": "CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4NC3)C2=C[C@@H](C(OC)=O)C1.Cl" ,
+                              "condition" : "KOH, Ni (Raney), Na3AsO4•12H2O, H2O, reflux, 20.5 h" ,
+                              "possibilities" : ["CN1[C@]2([H])CC3=CNC4=CC=CC(C2=C[C@@H](C(O)=O)C1)=C34" ,
+                                                 "CN1C2=CC3=CNC4=CC=CC(C2=C[C@@H](C(O)=O)C1)=C34" ],
+                              "solution" : 0 },
+
+                   { "equation": "CN1[C@]2([H])CC3=CNC4=CC=CC(C2=C[C@@H](C(O)=O)C1)=C34" ,
+                              "condition" : "1) TFAA, CH3CN, -20 °C, 1.5 h 2) Et2NH, CH3CN, rt, 2 h" ,
+                              "possibilities" : ["CN1[C@]2([H])CC3=CN(C(C(F)(F)F)=O)C4=CC=CC(C2=C[C@@H](C(N(CC)CC)=O)C1)=C34" ,
+                                                 "CN1[C@]2([H])CC3=CNC4=CC=CC(C2=C[C@@H](C(N(CC)CC)=O)C1)=C34" ],
+                              "solution" : 1 }
+
+                   
+              ]
 }
