@@ -1,7 +1,7 @@
 
 { "quizz_title": "New",
   "quizz_info_1":  "Histoire de la petite molecule",
-  "quizz_info_2":
+  "quizz_info_2": "",
   "cards" : [
               { "equation": "SC[C@H](N)C(O)=O" ,
                 "type_reaction" : "", 
