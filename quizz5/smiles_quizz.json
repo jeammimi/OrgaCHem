@@ -31,7 +31,7 @@
                               "possibilities" : ["O=C1CCC(C(OCC)(C)O)CC1" ,
                                                  "OC1(C)CCC(C(O)=O)CC1" ],
                               "solution" : 1 ,
-                              "reaction type": "Name reaction: Grignard"},
+                              "type_reaction ": "Name reaction: Grignard"},
                               
                 { "equation": "OC1(C)CCC(C(O)=O)CC1" ,
                               "condition": "HBr(aq)" ,
@@ -55,6 +55,7 @@
                               "condition": "1) Mg(s), MeI, Et2O 2) HCl(aq)" ,
                               "possibilities" : ["OC(C)(C)C1CCC(C)=CC1" ,
                                                  "OC(OCC)(C)C1CCC(C)=CC1" ],
+                              "type_reaction ": "Name reaction: Grignard",
                               "solution" : 0 }
                 
               ]
