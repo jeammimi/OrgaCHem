@@ -27,36 +27,36 @@
                               "solution" : 0 },
                               
                 { "equation": "O=C1CCC(C(OCC)=O)CC1" ,
-                              "1) MeMgI, Et2O 2) HCl(aq)" ,
+                              "condition": "1) MeMgI, Et2O 2) HCl(aq)" ,
                               "possibilities" : ["O=C1CCC(C(OCC)(C)O)CC1" ,
                                                  "OC1(C)CCC(C(O)=O)CC1" ],
                               "solution" : 1 ,
                               "reaction type": "Name reaction: Grignard"},
                               
                 { "equation": "OC1(C)CCC(C(O)=O)CC1" ,
-                              "HBr(aq)" ,
+                              "condition": "HBr(aq)" ,
                               "possibilities" : ["BrC1(C)CCC(C(O)=O)CC1" ,
                                                  "OC1(C)CCC(C(Br)=O)CC1" ],
                               "solution" : 0 },
                 
                 { "equation": "BrC1(C)CCC(C(O)=O)CC1.C2=CC=CC=N2" ,
-                              "" ,
+                              "condition": "" ,
                               "possibilities" : ["O=C(O)C1CCC(C2NC=CC=C2)(C)CC1" ,
                                                  "O=C(O)C1CCC(C)=CC1" ],
                               "solution" : 1 },
                 
                 { "equation": "O=C(O)C1CCC(C)=CC1" ,
-                              "H2SO4, EtOH" ,
+                              "condition": "H2SO4, EtOH" ,
                               "possibilities" : ["O=C(OCC)C1CCC(C)C(OCC)C1" ,
                                                  "O=C(OCC)C1CCC(C)=CC1" ],
                               "solution" : 1 },
                 
                 { "equation": "O=C(OCC)C1CCC(C)=CC1" ,
-                              "1) Mg(s), MeI, Et2O 2) HCl(aq)" ,
+                              "condition": "1) Mg(s), MeI, Et2O 2) HCl(aq)" ,
                               "possibilities" : ["OC(C)(C)C1CCC(C)=CC1" ,
                                                  "OC(OCC)(C)C1CCC(C)=CC1" ],
-                              "solution" : 0 },
+                              "solution" : 0 }
                 
               ]
 }
-e
+
