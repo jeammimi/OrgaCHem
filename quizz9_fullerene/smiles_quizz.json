@@ -18,14 +18,14 @@
                 { "equation": "ClC1=CC=C(C(Br)C)C=C1" ,
 							"type_reaction" : "Wittig Reaction",
                               "condition" : "1) PPh3, toluene 2) LiOEt, 2-naphtaldehyde, EtOH/CH2Cl2" ,
-                              "possibilities" : ["ClC1=CC=C(/C(C)=C\C2=CC(C=CC=C3)=C3C=C2)C=C1" ,
-                                                 "C/C(C1=CC=C(Cl)C=C1)=C\C2=CC(C=CC=C3)=C3C=C2" ],
+                              "possibilities" : ["ClC1=CC=C(/C(C)=C\\C2=CC(C=CC=C3)=C3C=C2)C=C1" ,
+                                                 "C/C(C1=CC=C(Cl)C=C1)=C\\C2=CC(C=CC=C3)=C3C=C2" ],
                               "solution" : 0 },
 
-                { "equation": "ClC1=CC=C(/C(C)=C\C2=CC(C=CC=C3)=C3C=C2)C=C1" ,
+                { "equation": "ClC1=CC=C(/C(C)=C\\C2=CC(C=CC=C3)=C3C=C2)C=C1" ,
                               "condition" : "I2, propylene oxide, hv, cyclohexane" ,
                               "possibilities" : ["ClC1=CC=C(C(C)=CC2=CC=C(C=CC=C3)C3=C24)C4=C1" ,
-                                                 "IC1=CC=C(/C(C)=C\C2=CC(C=CC=C3)=C3C=C2)C=C1" ],
+                                                 "IC1=CC=C(/C(C)=C\\C2=CC(C=CC=C3)=C3C=C2)C=C1" ],
                               "solution" : 0 },
 
                 { "equation": "ClC1=CC=C(C(C)=CC2=CC=C(C=CC=C3)C3=C24)C4=C1" ,
