@@ -1,0 +1,43 @@
+{ "quizz_title": "Vitamin A1",
+   "quizz_info_1":"Vitamin A1, or retinol, was discovered in 1909. Its oxidated form, retinal, is found in the retina to help you see. A severe lack of vitamin A can lead to blindness",
+   "quizz_info_2":"For more details on the synthesis see: Tetrahedron Letters, 1988, 29, 213-216.",
+ "cards" : [
+                { "equation": "CC1(C)C(/C=C/C(C)=O)=C(C)CCC1.C#C[Mg]Br" ,
+                              "condition" : "" ,
+                              "possibilities" : ["CC1(C)C(/C=C/C(C)(C#C)O)=C(C)CCC1" ,
+                                                 "CC1(C)C(C(C#C)CC(C)=O)=C(C)CCC1" ],
+                              "solution" : 0 },
+							  
+                { "equation": "CC1(C)C(/C=C/C(C)(C#C)O)=C(C)CCC1.O=C/C(C)=C/C(OCC)=O" ,
+                              "condition" : "EtMgBr" ,
+                              "possibilities" : ["CC1(C)C(/C=C/C(O)(C#CC(C(OCC)=O)C(C=O)C)C)=C(C)CCC1" ,
+                                                 "CC1(C)C(/C=C/C(O)(C#CC(/C(C)=C/C(OCC)=O)O)C)=C(C)CCC1" ],
+                              "solution" : 1 },
+							  
+                { "equation": "CC1(C)C(/C=C/C(O)(C#CC(/C(C)=C/C(OCC)=O)O)C)=C(C)CCC1" ,
+                              "condition" : "1) DIBAL-H 2) TBDMSCl" ,
+                              "possibilities" : ["CC1(C)C(/C=C/C(C#CC(/C(C)=C/CO[Si](C)(C)C(C)(C)C)O[Si](C)(C)C(C)(C)C)(O[Si](C)(C)C(C)(C)C)C)=C(C)CCC1" ,
+                                                 "CC1(C)C(/C=C/C(O)(C#CC(/C(C)=C/CO[Si](C)(C)C(C)(C)C)O)C)=C(C)CCC1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC1(C)C(/C=C/C(O)(C#CC(/C(C)=C/CO[Si](C)(C)C(C)(C)C)O)C)=C(C)CCC1" ,
+                              "condition" : "Lindlar catalyst" ,
+                              "possibilities" : ["CC1(C)C(/C=C/C(O)(/C=C/C(O)/C(C)=C/CO[Si](C)(C)C(C)(C)C)C)=C(C)CCC1" ,
+                                                 "CC1(C)C(/C=C/C(O)(/C=C\C(/C(C)=C/CO[Si](C)(C)C(C)(C)C)O)C)=C(C)CCC1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC1(C)C(/C=C/C(O)(/C=C\C(/C(C)=C/CO[Si](C)(C)C(C)(C)C)O)C)=C(C)CCC1" ,
+                              "condition" : "LiAlH4, TiCl3, THF" ,
+                              "possibilities" : ["CC1(C)C(/C=C/C(C)=C/C=C/C(C)=C/CO[Si](C)(C)C(C)(C)C)=C(C)CCC1" ,
+                                                 "CC1(C)C(/C=C/C(C)=C\C=C/C(C)=C/CO[Si](C)(C)C(C)(C)C)=C(C)CCC1" ],
+                              "solution" : 0 },
+							  
+				{ "equation": "CC1(C)C(/C=C/C(C)=C/C=C/C(C)=C/CO[Si](C)(C)C(C)(C)C)=C(C)CCC1" ,
+                              "condition" : "TBAF" ,
+                              "possibilities" : ["CC1(C)C(/C=C/C(C)=C/C=C/C(C)=C/CO)=C(C)CCC1" ,
+                                                 "CC1(C)C(/C=C/C(C)=C/C=C/C(C)=C/CF)=C(C)CCC1" ],
+                              "solution" : 0 }
+                              
+
+              ]
+}
