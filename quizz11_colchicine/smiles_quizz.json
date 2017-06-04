@@ -1,0 +1,85 @@
+{ "quizz_title": "Colchicine",
+   "quizz_info_1":"Colchicine is used to treat gout. It comes from plants originally found in Colchis region, which is famous through the yellow crocus of Colchis in legend with Medea",
+   "quizz_info_2":"For more details on the synthesis see: Tetrahedron 2000, 56, 10175-10184.",
+ "cards" : [
+                { "equation": "OC[C@@H](C(OC)=O)NC(OC(C)(C)C)=O" ,
+                              "condition" : "1) MsCl 2) NaI" ,
+                              "possibilities" : ["IC[C@@H](C(OC)=O)NC(OC(C)(C)C)=O" ,
+                                                 "CC(OC(N1[C@H](C(OC)=O)C1)=O)(C)C" ],
+                              "solution" : 0 },
+							  
+				{ "equation": "IC[C@@H](C(OC)=O)NC(OC(C)(C)C)=O" ,
+                              "condition" : "Zn(Cu), benzene/dimethylacetamide, rt, 3 h, then (PPh3)2PdCl2, 3,4,5-trimethoxybenzoyl chloride, rt, 2 h" ,
+                              "possibilities" : ["OC1([C@@H](C(OC)=O)N1C(OC(C)(C)C)=O)C2=CC(OC)=C(OC)C(OC)=C2" ,
+                                                 "O=C(C[C@H](NC(OC(C)(C)C)=O)C(OC)=O)C1=CC(OC)=C(OC)C(OC)=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C[C@H](NC(OC(C)(C)C)=O)C(OC)=O)C1=CC(OC)=C(OC)C(OC)=C1" ,
+                              "condition" : "Pd/C (5%), H2, EtOH/H2O, rt, 60 psi, 22 h" ,
+                              "possibilities" : ["OC(C[C@H](NC(OC(C)(C)C)=O)C(OC)=O)C1=CC(OC)=C(OC)C(OC)=C1" ,
+                                                 "COC1=C(OC)C(OC)=CC(CC[C@H](NC(OC(C)(C)C)=O)C(OC)=O)=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "COC1=C(OC)C(OC)=CC(CC[C@H](NC(OC(C)(C)C)=O)C(OC)=O)=C1" ,
+                              "condition" : "NaHCO3, Ag(O2CCF3), I2, CHCl3, 0 °C, 2 h" ,
+                              "possibilities" : ["IC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(OC(C)(C)C)=O)C(OC)=O" ,
+                                                 "CC(OC(N1C2=C(OC)C(OC)=C(OC)C=C2CC[C@H]1C(OC)=O)=O)(C)C" ],
+                              "solution" : 0 },
+							  
+				{ "equation": "IC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(OC(C)(C)C)=O)C(OC)=O" ,
+                              "condition" : "1) TFA, Et2O, rt, 3 h 2) DMAP, Et3N, Ac2O, Et2O, rt, 10 h" ,
+                              "possibilities" : ["IC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C(OC)=O" ,
+                                                 "IC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(OC(C)(C)C)=O)C(OC(C)=O)=O" ],
+                              "solution" : 0 },
+							  
+				{ "equation": "IC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C(OC)=O.C#C[Si](C)(C)C" ,
+                              "condition" : "Et2NH, (PPh3)2PdCl2, CuI, DMSO, 90 °C, 15 h" ,
+                              "possibilities" : ["COC1=C(OC)C(OC)=C(C#C[Si](C)(C)C)C(CC[C@H](NC(C)=O)C(OC)=O)=C1" ,
+                                                 "O=C(N1/C(C2=C(OC)C(OC)=C(OC)C=C2CC[C@H]1C(OC)=O)=C\[Si](C)(C)C)C" ],
+                              "solution" : 0 },
+							  
+				{ "equation": "COC1=C(OC)C(OC)=C(C#C[Si](C)(C)C)C(CC[C@H](NC(C)=O)C(OC)=O)=C1" ,
+                              "condition" : "K2CO3, MeOH, rt, 11 h" ,
+                              "possibilities" : ["N[C@H](C(OC)=O)CCC1=CC(OC)=C(OC)C(OC)=C1C#C" ,
+                                                 "C#CC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C(OC)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C#CC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C(OC)=O" ,
+                              "condition" : "1) DIBAL-H, –78 °C, CH2Cl2, 1 h 2) TsCH2NC, K2CO3, MeOH, reflux, 1 h" ,
+                              "possibilities" : ["C#CC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C2O/C2=N\CS(C3=CC=C(C)C=C3)(=O)=O" ,
+                                                 "C#CC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C2=CN=CO2" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C#CC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C2=CN=CO2" ,
+                              "condition" : "o-dichlorobenzene, reflux, 66 h" ,
+                              "possibilities" : ["COC1=C(OC)C(OC)=C(C(C=CO2)=C2[C@@H](NC(C)=O)CC3)C3=C1" ,
+                                                 "C=C1C2=C(OC)C(OC)=C(OC)C=C2CC[C@@H](C3=CN=CO3)N1C(C)=O" ],
+                              "solution" : 0 },
+							  
+				{ "equation": "COC1=C(OC)C(OC)=C(C(C=CO2)=C2[C@@H](NC(C)=O)CC3)C3=C1" ,
+                              "condition" : "1) Boc2O, Et3N, DMAP, CH2Cl2, 35 °C, 10 h 2) LiOH, THF, rt, 12 h" ,
+                              "possibilities" : ["OC1=C(O)C(O)=C(C(C=CO2)=C2[C@@H](NC(OC(C)(C)C)=O)CC3)C3=C1" ,
+                                                 "COC1=C(OC)C(OC)=C(C(C=CO2)=C2[C@@H](NC(OC(C)(C)C)=O)CC3)C3=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "COC1=C(OC)C(OC)=C(C(C=CO2)=C2[C@@H](NC(OC(C)(C)C)=O)CC3)C3=C1.C=C(O[Si](C)(C)C)C(OC)OC" ,
+                              "condition" : "TMSOTf, nitroethane, –60 °C, 12 h" ,
+                              "possibilities" : ["O=C1C[C@@H](O2)C=C3C4=C(OC)C(OC)=C(OC)C=C4CC[C@H](NC(OC(C)(C)C)=O)[C@]32[C@@H]1OC" ,
+                                                 "O=C1[C@@H](OC)[C@H](O2)C=C3C4=C(OC)C(OC)=C(OC)C=C4CC[C@H](NC(OC(C)(C)C)=O)[C@@]32C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C1[C@@H](OC)[C@H](O2)C=C3C4=C(OC)C(OC)=C(OC)C=C4CC[C@H](NC(OC(C)(C)C)=O)[C@@]32C1" ,
+                              "condition" : "TMSOTf, Et3N, CH2Cl2, 0 °C to 10 °C" ,
+                              "possibilities" : ["O=C1C(OC)=CC=C2C3=C(OC)C(OC)=C(OC)C=C3CC[C@H](NC(OC(C)(C)C)=O)C2=C1" ,
+                                                 "O=C(C1)[C@@H](OC)C(CC2=C1[C@@H](NC(OC(C)(C)C)=O)CCC3=CC(OC)=C(OC)C(OC)=C32)=O" ],
+                              "solution" : 0 },
+							  
+				{ "equation": "O=C1C(OC)=CC=C2C3=C(OC)C(OC)=C(OC)C=C3CC[C@H](NC(OC(C)(C)C)=O)C2=C1" ,
+                              "condition" : "1) 1M HCl, Et2O, rt, 1 h 2) Ac2O, DMAP, Et3N, Et2O, rt, 10 h" ,
+                              "possibilities" : ["O=C1C(OC)=CC=C2C3=C(OC)C(OC)=C(OC)C=C3CC[C@H](NC(C)=O)C2=C1" ,
+                                                 "O=C1C(OC)=CC=C2C3=C(OC)C(OC)=C(OC)C=C3CC[C@H](N(C(C)=O)C(C)=O)C2=C1" ],
+                              "solution" : 0 }
+                              
+
+              ]
+}
