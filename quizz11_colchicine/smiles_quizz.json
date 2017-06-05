@@ -35,7 +35,7 @@
 				{ "equation": "IC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C(OC)=O.C#C[Si](C)(C)C" ,
                               "condition" : "Et2NH, (PPh3)2PdCl2, CuI, DMSO, 90 °C, 15 h" ,
                               "possibilities" : ["COC1=C(OC)C(OC)=C(C#C[Si](C)(C)C)C(CC[C@H](NC(C)=O)C(OC)=O)=C1" ,
-                                                 "O=C(N1/C(C2=C(OC)C(OC)=C(OC)C=C2CC[C@H]1C(OC)=O)=C\[Si](C)(C)C)C" ],
+                                                 "O=C(N1/C(C2=C(OC)C(OC)=C(OC)C=C2CC[C@H]1C(OC)=O)=C\\[Si](C)(C)C)C" ],
                               "solution" : 0 },
 							  
 				{ "equation": "COC1=C(OC)C(OC)=C(C#C[Si](C)(C)C)C(CC[C@H](NC(C)=O)C(OC)=O)=C1" ,
@@ -46,7 +46,7 @@
 							  
 				{ "equation": "C#CC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C(OC)=O" ,
                               "condition" : "1) DIBAL-H, –78 °C, CH2Cl2, 1 h 2) TsCH2NC, K2CO3, MeOH, reflux, 1 h" ,
-                              "possibilities" : ["C#CC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C2O/C2=N\CS(C3=CC=C(C)C=C3)(=O)=O" ,
+                              "possibilities" : ["C#CC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C2O/C2=N\\CS(C3=CC=C(C)C=C3)(=O)=O" ,
                                                  "C#CC1=C(OC)C(OC)=C(OC)C=C1CC[C@H](NC(C)=O)C2=CN=CO2" ],
                               "solution" : 1 },
 							  
