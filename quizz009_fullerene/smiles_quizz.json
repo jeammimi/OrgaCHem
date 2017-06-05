@@ -45,20 +45,23 @@
                               "condition" : "1) SOCl2 2) AlCl3, CH2Cl2" ,
                               "possibilities" : ["ClC1=CC=C(C(CC4=O)=C4C2=CC=C(C=CC=C5)C5=C23)C3=C1" ,
                                                  "ClC1=CC4=C(C(CC4=O)=CC2=CC=C(C=CC=C5)C5=C23)C3=C1" ],
-                              "solution" : 1 },
+                              "solution" : 1,
+			      "3D" : true},
 
                 { "equation": "ClC1=CC2=C(C(CC2=O)=CC3=CC=C(C=CC=C4)C4=C35)C5=C1" ,
 							"type_reaction" : "Aldol Condensation",
                               "condition" : "TiCl4, o-dichlorobenzene" ,
                               "possibilities" : ["ClC1=CC2=C(C(C3=C2C4=C(C5=C3C6=C(C5=CC7=CC=C(C=CC=C8)C8=C79)C9=CC(Cl)=C6)C%10=C(C4=CC%11=CC=C(C=CC=C%12)C%12=C%11%13)C%13=CC(Cl)=C%10)=CC%14=CC=C(C=CC=C%15)C%15=C%14%16)C%16=C1" ,
                                                  "O=C1CC2=CC3=CC=C(C=CC=C4)C4=C3C5=CC(C6=CC7=CC8=CC=C(C=CC=C9)C9=C8C%10=CC(Cl)=CC6=C%107)=CC1=C52" ],
-                              "solution" : 0 },
+                              "solution" : 0,
+			      "3D" : true},
 
                 { "equation": "ClC1=CC2=C(C(C3=C2C4=C(C5=C3C6=C(C5=CC7=CC=C(C=CC=C8)C8=C79)C9=CC(Cl)=C6)C%10=C(C4=CC%11=CC=C(C=CC=C%12)C%12=C%11%13)C%13=CC(Cl)=C%10)=CC%14=CC=C(C=CC=C%15)C%15=C%14%16)C%16=C1" ,
                               "condition" : "flash vacuum pyrolysis, 1100 °C" ,
                               "possibilities" : ["C1(C(C=C2)=C3C4=C(C5=C6C7=C(C=C8)C2=C36)C9=C%10C%11=C%12C=CC%13=C%14C=CC%15=C8C7=C%16C5=C9C(C%14=C%16%15)=C%13%11)=C4C%10=C%12C=C1" ,
                                                  "C12=CC=CC3=C1C(C4=C3C5=C(C6=C4C7=C(C6=CC8=CC=C(C=CC=C9)C9=C8%10)C%10=CC=C7)C%11=C(C5=CC%12=CC=C(C=CC=C%13)C%13=C%12%14)C%14=CC=C%11)=CC%15=CC=C(C=CC=C%16)C%16=C%152" ],
-                              "solution" : 0 }
+                              "solution" : 0,
+			      "3D" : true}
                               
 
               ]
