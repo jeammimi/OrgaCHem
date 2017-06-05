@@ -43,8 +43,8 @@
                 { "equation": "ClC1=CC=C(C(CC(O)=O)=CC2=CC=C(C=CC=C3)C3=C24)C4=C1" ,
 							"type_reaction" : "Friedel-Craft Acylation",
                               "condition" : "1) SOCl2 2) AlCl3, CH2Cl2" ,
-                              "possibilities" : ["ClC1=CC=C(C(CC2=O)=C2C3=CC=C(C=CC=C4)C4=C35)C5=C1" ,
-                                                 "ClC1=CC2=C(C(CC2=O)=CC3=CC=C(C=CC=C4)C4=C35)C5=C1" ],
+                              "possibilities" : ["ClC1=CC=C(C(CC4=O)=C4C2=CC=C(C=CC=C5)C5=C23)C3=C1" ,
+                                                 "ClC1=CC4=C(C(CC4=O)=CC2=CC=C(C=CC=C5)C5=C23)C3=C1" ],
                               "solution" : 1 },
 
                 { "equation": "ClC1=CC2=C(C(CC2=O)=CC3=CC=C(C=CC=C4)C4=C35)C5=C1" ,
