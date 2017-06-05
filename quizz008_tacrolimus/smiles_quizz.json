@@ -13,7 +13,7 @@
                               "possibilities" : ["C[C@H]([C@@H](O)C=O)[C@H](O[Si](C)(C)C(C)(C)C)COCC1=CC=CC=C1" ,
                                                  "C[C@H]([C@@H](O)C(SCC)SCC)[C@H](O[Si](C)(C)C(C)(C)C)COCC1=CC=CC=C1" ],
                               "solution" : 1,
-			      "3D" : true},
+			      "template" : false },
 
                  { "equation": "C[C@H]([C@@H](O)C(SCC)SCC)[C@H](O[Si](C)(C)C(C)(C)C)COCC1=CC=CC=C1" ,
                               "condition" : "1) HgCl2, CaCO3, CH3CN/H2O, rt, 3.5 h 2) NaBH4, rt, 3.5 h" ,
