@@ -23,13 +23,13 @@
 				{ "equation": "CC1(C)C(/C=C/C(O)(C#CC(/C(C)=C/CO[Si](C)(C)C(C)(C)C)O)C)=C(C)CCC1" ,
                               "condition" : "Lindlar catalyst" ,
                               "possibilities" : ["CC1(C)C(/C=C/C(O)(/C=C/C(O)/C(C)=C/CO[Si](C)(C)C(C)(C)C)C)=C(C)CCC1" ,
-                                                 "CC1(C)C(/C=C/C(O)(/C=C\C(/C(C)=C/CO[Si](C)(C)C(C)(C)C)O)C)=C(C)CCC1" ],
+                                                 "CC1(C)C(/C=C/C(O)(/C=C\\C(/C(C)=C/CO[Si](C)(C)C(C)(C)C)O)C)=C(C)CCC1" ],
                               "solution" : 1 },
 							  
-				{ "equation": "CC1(C)C(/C=C/C(O)(/C=C\C(/C(C)=C/CO[Si](C)(C)C(C)(C)C)O)C)=C(C)CCC1" ,
+				{ "equation": "CC1(C)C(/C=C/C(O)(/C=C\\C(/C(C)=C/CO[Si](C)(C)C(C)(C)C)O)C)=C(C)CCC1" ,
                               "condition" : "LiAlH4, TiCl3, THF" ,
                               "possibilities" : ["CC1(C)C(/C=C/C(C)=C/C=C/C(C)=C/CO[Si](C)(C)C(C)(C)C)=C(C)CCC1" ,
-                                                 "CC1(C)C(/C=C/C(C)=C\C=C/C(C)=C/CO[Si](C)(C)C(C)(C)C)=C(C)CCC1" ],
+                                                 "CC1(C)C(/C=C/C(C)=C\\C=C/C(C)=C/CO[Si](C)(C)C(C)(C)C)=C(C)CCC1" ],
                               "solution" : 0 },
 							  
 				{ "equation": "CC1(C)C(/C=C/C(C)=C/C=C/C(C)=C/CO[Si](C)(C)C(C)(C)C)=C(C)CCC1" ,
