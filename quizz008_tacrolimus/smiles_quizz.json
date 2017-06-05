@@ -171,8 +171,7 @@
                             "condition" : "aq. HF, CH3CN, rt, 10 h" ,
 							"possibilities" : ["O[C@H]1[C@H](O)CC[C@@H](/C=C([C@@H](OC([C@H]2N(C3=O)CCCC2)=O)[C@H](C)[C@@H](O)CC([C@H](CC=C)/C=C(C)/C[C@H](C)C[C@H](O)[C@@H](O4)[C@@H](O)C[C@@H](C)[C@]4(O)C3=O)=O)\\C)C1" ,
 											   "O[C@H]1[C@H](OC)C[C@H](/C=C([C@@H](OC([C@H]2N(C3=O)CCCC2)=O)[C@H](C)[C@@H](O)CC([C@H](CC=C)/C=C(C)/C[C@H](C)C[C@H](OC)[C@@H](O4)[C@@H](OC)C[C@@H](C)[C@]4(O)C3=O)=O)\\C)CC1" ],
-							"solution" : 1,
-							"3D" : true}
+							"solution" : 1}
 
               ]
 }
