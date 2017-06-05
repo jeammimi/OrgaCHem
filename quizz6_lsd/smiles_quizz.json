@@ -73,11 +73,11 @@
                               
                    { "equation": "CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)C2=C[C@H](Cl)C1.Cl" ,
                               "condition" : "NaCN, HCN, 0-10 °C, 30 min, 54%" ,
-                              "possibilities" : ["CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)[C@]2(C#N)C=CC1.Cl" ,
-                                                 "CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)C2=C[C@@H](C#N)C1.Cl" ],
+                              "possibilities" : ["CN2[C@]1([H])C[C@@]4([H])C3=C(C=CC=C3N(C(C)=O)C4)[C@@](C#N)1C=CC2.Cl" ,
+                                                 "CN2[C@]1([H])C[C@@]4([H])C3=C(C=CC=C3N(C(C)=O)C4)C1=C[C@@H](C#N)C2.Cl" ],
                               "solution" : 1 },
                                                          
-                   { "equation": "CCN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4N(C(C)=O)C3)C2=C[C@@H](C#N)C1.Cl" ,
+                   { "equation": "CN2[C@]1([H])C[C@@]4([H])C3=C(C=CC=C3N(C(C)=O)C4)C1=C[C@@H](C#N)C2.Cl" ,
                               "condition" : "H2SO4, MeOH, H2O, 100 °C, 24 h" ,
                               "possibilities" : ["CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4NC3)C2=C[C@@H](C#N)C1.Cl" ,
                                                  "CN1[C@]2([H])C[C@@]3([H])C4=C(C=CC=C4NC3)C2=C[C@@H](C(OC)=O)C1.Cl" ],
