@@ -13,3 +13,5 @@ python -mjson.tool
   - Tenter d'aligner les molecules
   - Ameliorer l'allignement des reactif quand il y en a plusieurs
   - Fleche next au niveau des réponses
+  - tacrolimus (fin a verifier)
+  - allignement partiel
