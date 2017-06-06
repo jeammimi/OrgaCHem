@@ -37,13 +37,15 @@
                               "condition" : "mCPBA, CH2Cl2, 0 °C, 1h, then HCl, 0 °C, 2 h" ,
                               "possibilities" : ["C[C@H]([C@H]1OC(CO)(O2)C(OC(C)(C)O3)C3[C@H]2C1)[C@H](O[Si](C)(C)C(C)(C)C)COCC4=CC=CC=C4" ,
                                                  "CC1(C)O[C@](C=CC2=O)(OC2)C[C@@H]([C@@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)COCC3=CC=CC=C3)O1" ],
-                              "solution" : 1 },
+                              "solution" : 1,
+		  	      "template":false},
 
                   { "equation": "CC1(C)O[C@](C=CC2=O)(OC2)C[C@@H]([C@@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)COCC3=CC=CC=C3)O1.C/C(C[C@H](C)CO[Si](C)(C)C(C)(C)C)=C\\[Cu]" ,
                               "condition" : "Et2O, –23 °C, 45 min" ,
                               "possibilities" : ["CC1(C)O[C@@]2([C@@H](/C=C(C[C@@H](C)CO[Si](C)(C)C(C)(C)C)\\C)CC(CO2)=O)C[C@@H]([C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)COCC3=CC=CC=C3)O1" ,
                                                  "CC1(C)O[C@@]2(C=C[C@@](O)(/C=C(C[C@H](C)CO[Si](C)(C)C(C)(C)C)\\C)CO2)C[C@@H]([C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)COCC3=CC=CC=C3)O1" ],
-                              "solution" : 0 },
+                              "solution" : 0,
+		  	      "template":false},
 
                   { "equation": "CC1(C)O[C@@]2([C@@H](/C=C(C[C@@H](C)CO[Si](C)(C)C(C)(C)C)\\C)CC(CO2)=O)C[C@@H]([C@H](C)[C@@H](O[Si](C)(C)C(C)(C)C)COCC3=CC=CC=C3)O1" ,
                               "condition" : "1) L-selectride, THF, -78 °C to 0 °C, overnight 2) PMBOC(NH)CCl3, Ph3CBF4, THF, 0 °C, 4 h" ,
@@ -116,32 +118,37 @@
                             "condition" : "LiHDMS, MeMgBr, HMPA/DME, 0 °C, 18 min" ,
 							"possibilities" : ["CC1(C)O[C@@]2([C@@H](/C=C(C[C@@H](C)C[C@H]([C@@H]3[C@@H](OC)C[C@@H](C)[C@]4([C@H](C(C)(C)O)OC(C)(C)O4)O3)OC)\\C)C[C@@H](OCC5=CC=C(OC)C=C5)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]6C[C@@H](OC)[C@H](O[Si](C7=CC=CC=C7)(C(C)(C)C)C8=CC=CC=C8)CC6)O[Si](CC)(CC)CC)O1" ,
 											   "CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O)C(OC)CC(C)C3=C(C(OCC)=O)OC(C)(C)O3)\\C)C[C@@H](OCC4=CC=C(OC)C=C4)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]5C[C@@H](OC)[C@H](O[Si](C6=CC=CC=C6)(C(C)(C)C)C7=CC=CC=C7)CC5)O[Si](CC)(CC)CC)O1" ],
-							"solution" : 1 },
+							"solution" : 1 ,
+							"template":false},
 
 					{ "equation": "CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O)C(OC)CC(C)C3=C(C(OCC)=O)OC(C)(C)O3)\\C)C[C@@H](OCC4=CC=C(OC)C=C4)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]5C[C@@H](OC)[C@H](O[Si](C6=CC=CC=C6)(C(C)(C)C)C7=CC=CC=C7)CC5)O[Si](CC)(CC)CC)O1" ,
                             "condition" : "TBSOTf, MgSO4, 2,6-(t-Bu)2-pyr, DMAP, CH2Cl2, rt, 1 h" ,
 							"possibilities" : ["CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C(OC)CC(C)C3=C(C(OCC)=O)OC(C)(C)O3)\\C)C[C@@H](OCC4=CC=C(OC)C=C4)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]5C[C@@H](OC)[C@H](O[Si](C6=CC=CC=C6)(C(C)(C)C)C7=CC=CC=C7)CC5)O[Si](CC)(CC)CC)O1" ,
 											   "CC1(C)O[C@@]2([C@@H](/C=C(C[C@@H](C)C[C@H]([C@@H]3[C@@H](OC)C[C@@H](C)[C@]4([C@@H](C(OCC)=O)OC(C)(C)O4)O3)OC)\\C)C[C@@H](OCC5=CC=C(OC)C=C5)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]6C[C@@H](OC)[C@H](O[Si](C7=CC=CC=C7)(C(C)(C)C)C8=CC=CC=C8)CC6)O[Si](CC)(CC)CC)O1" ],
-							"solution" : 0 },
+							"solution" : 0,
+							"template":false},
 
 					{ "equation": "CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C(OC)CC(C)C3=C(C(OCC)=O)OC(C)(C)O3)\\C)C[C@@H](OCC4=CC=C(OC)C=C4)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]5C[C@@H](OC)[C@H](O[Si](C6=CC=CC=C6)(C(C)(C)C)C7=CC=CC=C7)CC5)O[Si](CC)(CC)CC)O1.CC(C)(C)OC(N1CCCC[C@H]1C(O)=O)=O" ,
                             "condition" : "1) 3N NaOH, dioxane, 100 °C, 8 h 2) TFA, THF/H2O, rt, 1.5 h 3) DCC, DMAP, CH2Cl2, –15 °C, 3 h" ,
 							"possibilities" : ["CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C(OC)CC(C)C3=C(C(O)=O)OC(C)(C)O3)\\C)C[C@@H](OCC4=CC=C(OC)C=C4)CO2)C[C@@H]([C@H](C)[C@H](/C(C)=C/[C@@H]5C[C@H](OC)[C@@H](O[Si](C6=CC=CC=C6)(C(C)(C)C)C7=CC=CC=C7)CC5)OC([C@H]8CCCCN8C(OC(C)(C)C)=O)=O)O1" ,
 											   "CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C(OC)CC(C)C3=C(C(OC([C@H]4CCCCN4C(OC(C)(C)C)=O)=O)=O)OC(C)(C)O3)\\C)C[C@@H](OCC5=CC=C(OC)C=C5)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]6C[C@@H](OC)[C@H](O[Si](C7=CC=CC=C7)(C(C)(C)C)C8=CC=CC=C8)CC6)O)O1" ],
-							"solution" : 0 },
+							"solution" : 0,
+							"template":false},
 
 					{ "equation": "CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C(OC)CC(C)C3=C(C(O)=O)OC(C)(C)O3)\\C)C[C@@H](OCC4=CC=C(OC)C=C4)CO2)C[C@@H]([C@H](C)[C@H](/C(C)=C/[C@@H]5C[C@H](OC)[C@@H](O[Si](C6=CC=CC=C6)(C(C)(C)C)C7=CC=CC=C7)CC5)OC([C@H]8CCCCN8C(OC(C)(C)C)=O)=O)O1" ,
                             "condition" : "TESOTf, 2,6-lutidine, CH2Cl2, 0 °C, 2 h" ,
 							"possibilities" : ["CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C(OC)CC(C)C3=C(C(O)=O)OC(C)(C)O3)\\C)C[C@@H](OCC4=CC=C(OC)C=C4)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]5C[C@@H](OC)[C@H](O[Si](C6=CC=CC=C6)(C(C)(C)C)C7=CC=CC=C7)CC5)OC([C@@H]8CCCCN8)=O)O1" ,
 											   "CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C(OC)CC(C)C3=C(C(O)=O)OC(C)(C)O3)\\C)C[C@@H](OCC4=CC=C(OC)C=C4)CO2)C[C@@H]([C@H](C)[C@H](/C(C)=C/[C@@H]5C[C@H](OC)[C@@H](O[Si](C6=CC=CC=C6)(C(C)(C)C)C7=CC=CC=C7)CC5)OC([C@@H]8CCCCN8C(OC(C)(C)C)=O)=O)O1" ],
-							"solution" : 0 },
+							"solution" : 0,
+							"template":false},
 
 					{ "equation": "CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C(OC)CC(C)C3=C(C(O)=O)OC(C)(C)O3)\\C)C[C@@H](OCC4=CC=C(OC)C=C4)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]5C[C@@H](OC)[C@H](O[Si](C6=CC=CC=C6)(C(C)(C)C)C7=CC=CC=C7)CC5)OC([C@@H]8CCCCN8)=O)O1.ClC1=[N+](C)C=CC=C1.[I-]" ,
                             "type_reaction ": "Mukaiyama lactonization",
 							"condition" : "Et3N, CH2Cl2, rt, 12 h" ,
 							"possibilities" : ["CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O)C(OC)CC(C)C3=C(C(O)=O)OC(C)(C)O3)\\C)C[C@@H](OCC4=CC=C(OC)C=C4)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]5C[C@@H](OC)[C@H](O[Si](C6=CC=CC=C6)(C(C)(C)C)C7=CC=CC=C7)CC5)OC([C@H]8CCCCN8)=O)O1" ,
 											   "CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C(OC)CC(C)C3=C(OC(C)(C)O3)C4=O)\\C)C[C@@H](OCC5=CC=C(OC)C=C5)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]6C[C@@H](OC)[C@H](O[Si](C7=CC=CC=C7)(C(C)(C)C)C8=CC=CC=C8)CC6)OC([C@H]9N4CCCC9)=O)O1" ],
-							"solution" : 1 },
+							"solution" : 1,
+							"template":false},
 
 					{ "equation": "CC1(C)O[C@@]2([C@@H](/C=C(CC(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C(OC)CC(C)C3=C(OC(C)(C)O3)C4=O)\\C)C[C@@H](OCC5=CC=C(OC)C=C5)CO2)C[C@@H]([C@@H](C)[C@@H](/C(C)=C/[C@H]6C[C@@H](OC)[C@H](O[Si](C7=CC=CC=C7)(C(C)(C)C)C8=CC=CC=C8)CC6)OC([C@H]9N4CCCC9)=O)O1" ,
                             "condition" : "DDQ, CH2Cl2/H2O, rt, 50 min" ,
@@ -159,19 +166,22 @@
                             "condition" : "C8K-ZnCl2-AgOAc, THF, 0 °C, 1 h" ,
 							"possibilities" : ["C[C@H]1[C@@H](/C(C)=C/[C@H]2C[C@@H](OC)[C@H](O[Si](C3=CC=CC=C3)(C(C)(C)C)C4=CC=CC=C4)CC2)OC([C@H]5N(C(C(OC(C)(C)O6)=C6C(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C(OC)CC(C)C/C(C)=C/[C@@H](CC=CO7)C87C[C@@H]1OC(C)(C)O8)=O)CCCC5)=O" ,
 											   "C/C([C@@H](OC([C@H]1N(C(C(OC(C)(C)O2)=C2C(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C3OC)=O)CCCC1)=O)[C@H](C)[C@@H](O)CC([C@H](CC=C)/C=C(C)/CC(C)C3)=O)=C\\[C@H]4C[C@@H](OC)[C@H](O[Si](C5=CC=CC=C5)(C(C)(C)C)C6=CC=CC=C6)CC4" ],
-							"solution" : 1 },
+							"solution" : 1 ,
+							"template":false},
 
 					{ "equation": "C/C([C@@H](OC([C@H]1N(C(C(OC(C)(C)O2)=C2C(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C3OC)=O)CCCC1)=O)[C@H](C)[C@@H](O)CC([C@H](CC=C)/C=C(C)/CC(C)C3)=O)=C\\[C@H]4C[C@@H](OC)[C@H](O[Si](C5=CC=CC=C5)(C(C)(C)C)C6=CC=CC=C6)CC4.CC1(C)OO1" ,
                             "condition" : "acetone, –26 °C, 2 h" ,
 							"possibilities" : ["C/C([C@@H](OC([C@H]1N(C(C(OC(C)(C)O2)=C2C(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C3OC)=O)CCCC1)=O)[C@H](C)[C@@H](O)CC([C@H](CC4OC4)/C=C(C)/CC(C)C3)=O)=C\\[C@H]5C[C@@H](OC)[C@H](O[Si](C6=CC=CC=C6)(C(C)(C)C)C7=CC=CC=C7)CC5" ,
 											   "C/C([C@@H](OC([C@H]1N(C(C(C(C(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C2OC)=O)=O)=O)CCCC1)=O)[C@H](C)[C@@H](O)CC([C@H](CC=C)/C=C(C)/CC(C)C2)=O)=C\\[C@H]3C[C@@H](OC)[C@H](O[Si](C4=CC=CC=C4)(C(C)(C)C)C5=CC=CC=C5)CC3" ],
-							"solution" : 1 },
+							"solution" : 1 ,
+							"template":false},
 
 					{ "equation": "C/C([C@@H](OC([C@H]1N(C(C(C(C(C)CC(OC)C(O[Si](C)(C)C(C)(C)C)C2OC)=O)=O)=O)CCCC1)=O)[C@H](C)[C@@H](O)CC([C@H](CC=C)/C=C(C)/CC(C)C2)=O)=C\\[C@H]3C[C@@H](OC)[C@H](O[Si](C4=CC=CC=C4)(C(C)(C)C)C5=CC=CC=C5)CC3" ,
                             "condition" : "aq. HF, CH3CN, rt, 10 h" ,
 							"possibilities" : ["O[C@H]1[C@H](O)CC[C@@H](/C=C([C@@H](OC([C@H]2N(C3=O)CCCC2)=O)[C@H](C)[C@@H](O)CC([C@H](CC=C)/C=C(C)/C[C@H](C)C[C@H](O)[C@@H](O4)[C@@H](O)C[C@@H](C)[C@]4(O)C3=O)=O)\\C)C1" ,
 											   "O[C@H]1[C@H](OC)C[C@H](/C=C([C@@H](OC([C@H]2N(C3=O)CCCC2)=O)[C@H](C)[C@@H](O)CC([C@H](CC=C)/C=C(C)/C[C@H](C)C[C@H](OC)[C@@H](O4)[C@@H](OC)C[C@@H](C)[C@]4(O)C3=O)=O)\\C)CC1" ],
-							"solution" : 1}
+							"solution" : 1,
+							"template":false}
 
               ]
 }
