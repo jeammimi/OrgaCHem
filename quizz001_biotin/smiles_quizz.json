@@ -55,7 +55,7 @@
                 "possibilities" : ["O=C1N[C@H]2[C@H](CS[C@H]2CCCCC)N1",
                                    "O=C1N(CC2=CC=CC=C2)[C@H]3[C@H](CSC3C(Br)CCCC)N1" ],
              "solution" : 0,
-             "3D": true},
+             "template": false},
              { "equation": "O=C1N[C@H]2[C@H](CS[C@H]2CCCCC)N1" ,
                  "condition" : "microbial oxidation" ,
                 "possibilities" : ["O=C1N[C@H]2[C@H](CS[C@H]2CCCCCO)N1",
