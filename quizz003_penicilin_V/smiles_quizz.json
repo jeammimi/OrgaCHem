@@ -32,6 +32,7 @@
                                "condition" : "NaOH, Dioxane, H2O, r.t, 33 h" ,
                               "possibilities" : ["O=C(N1[C@H](C1=O)[C@]2([H])N[C@@H](C(O)=O)C(C)(C)S2)COC3=CC=CC=C3" ,
                                                  "O=C(N[C@H]1[C@@]([H])(SC(C)(C)[C@@H]2C(O)=O)N2C1=O)COC3=CC=CC=C3" ],
-                              "solution" : 1 } 
+                              "solution" : 1,
+                              "template": false} 
                ]
 }
