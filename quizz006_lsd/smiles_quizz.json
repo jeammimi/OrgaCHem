@@ -26,13 +26,15 @@
                                "condition" : "AlCl3, CS2, reflux, 60 min" ,
                               "possibilities" : ["O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3C(CC4)C2" ,
                                                  "O=C1C2=C3C(NCC3CC1)=CC=C2" ],
-                              "solution" : 0 },
+                              "solution" : 0,
+		  	      "template": false},
                               
                   { "equation": "O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3C(CC4)C2" ,
                               "condition" : "PyrHBr3, hv, AcOH, 40-60 °C, 30 min" ,
                               "possibilities" : ["O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3[C@@](CC4Br)([H])C2" ,
                                                  "O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3C(C=C4)C2" ],
-                              "solution" : 0 },
+                              "solution" : 0,
+		  	      "template" : "O=C(C1=CC=CC=C1)N"},
                               
                   { "equation": "O=C(C1=CC=CC=C1)N2C3=CC=CC(C4=O)=C3[C@@](CC4Br)([H])C2.CC1(OCCO1)CNC" ,
                               "condition" : "PhH, reflux, 21 h" ,
