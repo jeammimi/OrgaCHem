@@ -1,6 +1,6 @@
 { "quizz_title": "Cubane",
   "quizz_info_1":  "Cubane's fun shape pushes the boundaries of normal bonding rules! Before it was synthetized in the 60's it was believed that this type of molecule would be too unstable to exist. It turned out that is a stable high energy molecule. It’s derivative octanitrocubane is a high explosive the likes of T.N.T. Possible applications for this type of compounds include fuel storage and energy transport.",
-  "quizz_info_2":  "For more details on cubane and its synthesis check out the following references: Eaton, P.E., JACS, 1964, 962–964 and 3157-3158. Eaton, P.E. Synthesis, 1995, 501-502. Steps 1 to 7: Bliese, M. and Tsanaktsidis, J. Aust. J. Chem. 1997, 50, 189.",
+  "quizz_info_2":  "For more details on cubane and its synthesis check out the following references: First time synthetized : Eaton, P.E., JACS, 1964, 962–964 and 3157-3158. Steps 1 to 6: Bliese, M. and Tsanaktsidis, J. Aust. J. Chem. 1997, 50, 189. Steps 7 to 8: Eaton, P.E. Synthesis, 1995, 501-502.",
   "cards" : [
               { "equation": "O=C1CCCC1.OCCO" ,
                 "type_reaction" : "", 
