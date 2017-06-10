@@ -30,7 +30,7 @@
                 "possibilities" : ["O=C1C2(Br)C3C45C1CC2C3C(Br)4C5=O",
                                    "O=C1C2(Br)C3C5C1C4C2C3C(Br)4C5=O" ],
                 "solution" : 1 ,
-                "template":false},
+                "3D":true},
              { "equation": "O=C1C2(Br)C3C5C1C4C2C3C(Br)4C5=O" ,
                "type_reaction" : "Favorskii rearrangement",
                  "condition" : "25% aqueous NaOH, Reflux, 5 h" ,
