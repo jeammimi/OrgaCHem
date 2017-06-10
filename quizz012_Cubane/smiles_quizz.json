@@ -55,7 +55,7 @@
                 "solution" : 1 ,
                 "3D":true},
     
-             { "equation": "ClC(C15C3C2C1C4C(C(Cl)=O)2C3C45)=O.S=C6N(O[Na])C=CC=C6" ,
+             { "equation": "S=C6N(O[Na])C=CC=C6.ClC(C15C3C2C1C4C(C(Cl)=O)2C3C45)=O" ,
                "type_reaction" : "Barton decarboxylation",
                  "condition" : "THF, t-BuSH, DMAP, 50°C, 90 min" ,
                 "possibilities" : ["ClC(C15C3C2C1C4C2C3C45)=O",
