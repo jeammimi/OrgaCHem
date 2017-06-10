@@ -61,6 +61,7 @@
                 "possibilities" : ["ClC(C15C3C2C1C4C2C3C45)=O",
                                    "C15C3C2C1C4C2C3C45" ],
                 "solution" : 1,
-                "3D":true}
+                "3D":true,
+                "n3Dequation":false}
     ]
 }
