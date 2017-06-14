@@ -1,6 +1,6 @@
 ﻿{ "quizz_title": "LSD",
    "quizz_info_1":"Lysergic Acid Diethylamine (LSD) is a psychedelic drug first synthesized by A. Hoffman in 1938. Its psychological effects were discovered accidentally in 1943, while Hoffman was purifying the product. NASA intoxicated spiders with different drugs to see if they could still build an effective web. All of the drugs reduced web regularity except for small doses of LSD, which actually increased it.",
-   "quizz_info_2":"For more details on the synthesis described here and for a review concerning LSD, see: J. Am. Chem. Soc. 1956, 3087-3114; U.S. Patent No. 2,736,728.; CNS Neuroscience & Therapeutics 2008, 14, 295–314.",
+   "quizz_info_2":"For more details on the synthesis described here and for a review concerning LSD, see: J. Am. Chem. Soc. 1956, 3087-3114; U.S. Patent No. 2,736,728.; CNS Neuroscience & Therapeutics 2008, 14, 295–314. For more information about your brain on LSD, see: https://youtu.be/wG5JyorwYPo",
  "cards" : [
                 { "equation": "O=C(O)CCC1=CNC2=CC=CC=C21" ,
                               "condition" : "H2, Ni (Raney), NaOH, 200-270 atm, rt, 20-30 h" ,
