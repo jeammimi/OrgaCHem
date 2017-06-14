@@ -1,6 +1,6 @@
 { "quizz_title": "Caffeine",
    "quizz_info_1":"Wanna stay awake? Let's get some caffeine. It can be found in coffee plants, in tea bush and, in small amounts, in cocoa beans. Coffee is the second most traded commodity after oil. The best way to drink it? Black as midnight in a moonless night",
-   "quizz_info_2":"For more details on the synthesis see: Synth. Commun. 2003, 33, 3291-3297. Advice on how to drink your coffee coming from Agent Dale Cooper (Twin Peaks)",
+   "quizz_info_2":"For more details on the synthesis see: Synth. Commun. 2003, 33, 3291-3297. Advice on how to drink your coffee -The best way to drink it? Black as midnight in a moonless night- coming from Agent Dale Cooper (Twin Peaks)",
  "cards" : [
                 { "equation": "O=C(C=CN1)NC1=O" ,
                               "condition" : "NaH, CH3I, DMSO, rt, overnight" ,
