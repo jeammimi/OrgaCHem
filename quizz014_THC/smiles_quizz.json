@@ -3,84 +3,94 @@
    "quizz_info_2":"For more details on the synthesis see: J . Org. Chem. 2002, 37, 8771-8782.",
  "cards" : [
                 { "equation": "C=C1CC[C@H]2C(C)(C)[C@@H]1C2" ,
-							  "type_reaction" : "ozonolysis", 
+							  "type_reaction" : "ozonolysis",
                               "condition" : "O3, MeOH, –78 °C, 2.5 h" ,
                               "possibilities" : ["CC1(C)[C@H]2C(CO)(O)CC[C@@H]1C2" ,
                                                  "O=C1CC[C@H]2C(C)(C)[C@@H]1C2" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "O=C1CC[C@H]2C(C)(C)[C@@H]1C2" ,
                               "condition" : "Zn(OAc)2, BF3•Et2O, Ac2O, 0 °C, 3 h" ,
                               "possibilities" : ["CC1(C)[C@H]2C(OC(C)=O)=CC[C@@H]1C2" ,
                                                  "CC(C)(OC(C)=O)[C@@H]1CCC(OC(C)=O)=CC1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template":false},
+
 				{ "equation": "CC(C)(OC(C)=O)[C@@H]1CCC(OC(C)=O)=CC1" ,
                               "condition" : "Pd(OAc)2, 1,2-Bis(diphenylphosphino)ethane, Bu3SnOMe, allyl ethyl carbonate, CH3CN, 80 °C, 5 h" ,
                               "possibilities" : ["CC(C)(OC(C)=O)[C@@H]1CCC(OC)=CC1" ,
                                                  "O=C1C=C[C@H](C(C)(OC(C)=O)C)CC1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                              "template":false},
+
 				{ "equation": "O=C1C=C[C@H](C(C)(OC(C)=O)C)CC1" ,
                               "condition" : "DIBAL-H, THF, –78 °C, 1.5 h" ,
                               "possibilities" : ["O=C1CCC(C(C)(O)C)CC1" ,
                                                  "OC1C=C[C@H](C(C)(O)C)CC1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template":false},
+
 				{ "equation": "OC1C=C[C@H](C(C)(O)C)CC1" ,
                               "condition" : "PCC, celite, CH2Cl2, rt, 2 h" ,
                               "possibilities" : ["CC1(C)[C@@H]2CCC=C[C@@H]2O1" ,
                                                  "O=C1C=C[C@H](C(C)(O)C)CC1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template":false },
+
 				{ "equation": "O=C1C=C[C@H](C(C)(O)C)CC1" ,
                               "condition" : "TESCl, imidazole, DMF, rt, overnight" ,
                               "possibilities" : ["CC1(C)[C@@H]2CCC(O[Si](CC)(CC)CC)=C[C@@H]2O1" ,
                                                  "O=C1C=C[C@H](C(C)(O[Si](CC)(CC)CC)C)CC1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template":false },
+
 				{ "equation": "O=C1C=C[C@H](C(C)(O[Si](CC)(CC)CC)C)CC1" ,
                               "condition" : "I2, pyridine, CCl4, rt, overnight" ,
                               "possibilities" : ["O=C1[C@H](I)[C@@H](I)[C@H](C(C)(O[Si](CC)(CC)CC)C)CC1" ,
                                                  "O=C1C(I)=C[C@H](C(C)(O[Si](CC)(CC)CC)C)CC1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template":false },
+
 				{ "equation": "O=C1C(I)=C[C@H](C(C)(O[Si](CC)(CC)CC)C)CC1" ,
                               "condition" : "Ar2CuCNLi, BF3•Et2O, Et2O, –78 °C, 2 h" ,
                               "possibilities" : ["O[C@]1(C2=C(OC)C=C(CCCCC)C=C2OC)C(I)=C[C@H](C(C)(O[Si](CC)(CC)CC)C)CC1" ,
                                                  "O=C1C(I)[C@@H](C2=C(OC)C=C(CCCCC)C=C2OC)[C@H](C(C)(O[Si](CC)(CC)CC)C)CC1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template":false },
+
 				{ "equation": "O=C1C(I)[C@@H](C2=C(OC)C=C(CCCCC)C=C2OC)[C@H](C(C)(O[Si](CC)(CC)CC)C)CC1" ,
                               "condition" : "EtMgBr, THF, 0 °C, 10 min then, ClP(O)(OEt)2, 0 °C, 2 h" ,
                               "possibilities" : ["CC(C)(O[Si](CC)(CC)CC)[C@@H]1CC[C@@](OP(OCC)(OCC)=O)(CC)C(I)[C@H]1C2=C(OC)C=C(CCCCC)C=C2OC" ,
                                                  "CC(C)(O[Si](CC)(CC)CC)[C@@H]1CCC(OP(OCC)(OCC)=O)=C[C@H]1C2=C(OC)C=C(CCCCC)C=C2OC" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template":false },
+
 				{ "equation": "CC(C)(O[Si](CC)(CC)CC)[C@@H]1CCC(OP(OCC)(OCC)=O)=C[C@H]1C2=C(OC)C=C(CCCCC)C=C2OC" ,
                               "condition" : "MeMgCl, Ni(acac)2, THF, rt, overnight" ,
                               "possibilities" : ["O=C1C[C@@H](C2=C(OC)C=C(CCCCC)C=C2OC)[C@H](C(C)(O[Si](CC)(CC)CC)C)CC1" ,
                                                  "CC1=C[C@@H](C2=C(OC)C=C(CCCCC)C=C2OC)[C@H](C(C)(O[Si](CC)(CC)CC)C)CC1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template":false },
+
 				{ "equation": "CC1=C[C@@H](C2=C(OC)C=C(CCCCC)C=C2OC)[C@H](C(C)(O[Si](CC)(CC)CC)C)CC1" ,
                               "condition" : "NaSEt, DMF, 140 °C, 12 h" ,
                               "possibilities" : ["CC1=C[C@@H](C2=C(O)C=C(CCCCC)C=C2O)[C@H](C(C)(O)C)CC1" ,
                                                  "CC1=C[C@@H](C2=C(O)C=C(CCCCC)C=C2OC)[C@H](C(C)(O)C)CC1" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "CC1=C[C@@H](C2=C(O)C=C(CCCCC)C=C2OC)[C@H](C(C)(O)C)CC1" ,
                               "condition" : "ZnBr2, MgSO4, CH2Cl2, rt, 12 h" ,
                               "possibilities" : ["CC(CC/1)=C[C@@H](C2=C(O)C=C(CCCCC)C=C2OC)C1=C(C)/C" ,
                                                  "CC1=C[C@@H]2[C@H](C(C)(C)OC3=C2C(OC)=CC(CCCCC)=C3)CC1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template":false},
+
 				{ "equation": "CC1=C[C@@H]2[C@H](C(C)(C)OC3=C2C(OC)=CC(CCCCC)=C3)CC1" ,
                               "condition" : "NaSEt, DMF, 120 °C, 8 h" ,
                               "possibilities" : ["CC1=C[C@@H]2[C@H](C(C)(C)OC3=C2C(SCC)=CC(CCCCC)=C3)CC1" ,
                                                  "CC1=C[C@@H]2[C@H](C(C)(C)OC3=C2C(O)=CC(CCCCC)=C3)CC1" ],
                               "solution" : 1 }
-                              
+
 
               ]
 }
