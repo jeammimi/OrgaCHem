@@ -1,0 +1,102 @@
+{ "quizz_title": "Epibatidine",
+   "quizz_info_1":"Epibatidine was extracted from a multi-colored tiny frog 'Phantasmal poison frog'. It is 200 stronger than morphine in blocking pains in animal. Interestingly, bred in captivity, the frogs don't form epibatidine.",
+   "quizz_info_2":"For more details on the synthesis see: Synlett 1999, 1405-1406. For more information about epibatidine, see chapter 21 of 'Molecules That Amaze Us' from Paul May and Simon Cotton.",
+ "cards" : [
+                { "equation": "O[C@@H]1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](OC(C)=O)C=C1" ,
+                              "condition" : "Pyridinium dichromate, CH2Cl2" ,
+                              "possibilities" : ["O=C1C=CC([C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]21)=O" ,
+                                                 "O=C1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](OC(C)=O)C=C1" ],
+                              "solution" : 1 },
+                              
+				{ "equation": "O=C1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](OC(C)=O)C=C1" ,
+                              "condition" : "lipase PS, phosphate buffer, rt, 21 h" ,
+                              "possibilities" : ["O[C@H]1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](OC(C)=O)C=C1" ,
+                                                 "O[C@@H]1C=CC([C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]21)=O" ],
+                              "solution" : 1 },
+                
+				{ "equation": "O[C@@H]1C=CC([C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]21)=O" ,
+                              "condition" : "TBSCl, imidazole, DMF" ,
+                              "possibilities" : ["O[C@@H]1CC=C(O[Si](C)(C)C(C)(C)C)[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]21" ,
+                                                 "O=C1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](O[Si](C)(C)C(C)(C)C)C=C1" ],
+                              "solution" : 1 },
+                
+				{ "equation": "O=C1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](O[Si](C)(C)C(C)(C)C)C=C1.BrC1=CN=C(OC)C=C1" ,
+                              "condition" : "lithium 2-thienylcyanocuprate, BF3•OEt2, Et2O/THF, –78 °C" ,
+                              "possibilities" : ["O[C@]1(C2=CN=C(OC)C=C2)[C@@H]3[C@@H]4C=C[C@@H](C4)[C@@H]3[C@H](O[Si](C)(C)C(C)(C)C)C=C1" ,
+                                                 "O=C1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C4=CN=C(OC)C=C4)C1" ],
+                              "solution" : 1 },
+                
+				{ "equation": "O=C1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C4=CN=C(OC)C=C4)C1" ,
+                              "condition" : "NaBH4, MeOH" ,
+                              "possibilities" : ["O[C@H]1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C4=CN=C(OC)C=C4)C1" ,
+                                                 "O[C@@H]1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C4=CN=C(OC)C=C4)C1" ],
+                              "solution" : 1 },
+                
+				{ "equation": "O[C@@H]1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C4=CN=C(OC)C=C4)C1" ,
+                              "condition" : "NaHCO3, Ph2O, reflux" ,
+                              "possibilities" : ["C[Si](O[C@@H]1[C@@H](C2=CN=C(OC)C=C2)C=CC=C1)(C)C(C)(C)C" ,
+                                                 "O[C@@H]1C=C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C2=CN=C(OC)C=C2)C1" ],
+                              "solution" : 1 },
+                
+				{ "equation": "O[C@@H]1C=C[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C2=CN=C(OC)C=C2)C1" ,
+                              "condition" : "H2, PtO2, EtOAc" ,
+                              "possibilities" : ["O[C@@H]1CC[C@H](O[Si](C)(C)C(C)(C)C)[C@@H]([C@H]2CNC(OC)CC2)C1" ,
+                                                 "O[C@@H]1CC[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C2=CN=C(OC)C=C2)C1" ],
+                              "solution" : 1 },
+                
+				{ "equation": "O[C@@H]1CC[C@H](O[Si](C)(C)C(C)(C)C)[C@@H](C2=CN=C(OC)C=C2)C1" ,
+                              "condition" : "MsCl, pyridine, DMAP, CH2Cl2, rt" ,
+                              "possibilities" : ["C[Si](O[C@@H]1[C@@H](C2=CN=C(OC)C=C2)C=CCC1)(C)C(C)(C)C" ,
+                                                 "C[Si](O[C@@H]1[C@@H](C2=CN=C(OC)C=C2)C[C@H](OS(C)(=O)=O)CC1)(C)C(C)(C)C" ],
+                              "solution" : 1 },
+                
+				{ "equation": "C[Si](O[C@@H]1[C@@H](C2=CN=C(OC)C=C2)C[C@H](OS(C)(=O)=O)CC1)(C)C(C)(C)C" ,
+                              "condition" : "NaN3, DMF" ,
+                              "possibilities" : ["C[Si](O[C@@H]1[C@@H](C2=CN=C(OC)C=C2)C[C@H](N=[N+]=[N-])CC1)(C)C(C)(C)C" ,
+                                                 "C[Si](O[C@@H]1[C@@H](C2=CN=C(OC)C=C2)C[C@@H](N=[N+]=[N-])CC1)(C)C(C)(C)C" ],
+                              "solution" : 1 },
+                
+				{ "equation": "C[Si](O[C@@H]1[C@@H](C2=CN=C(OC)C=C2)C[C@@H](N=[N+]=[N-])CC1)(C)C(C)(C)C" ,
+                              "condition" : "TBAF, THF" ,
+                              "possibilities" : ["O=C1[C@@H](C2=CN=C(OC)C=C2)C[C@@H](N=[N+]=[N-])CC1" ,
+                                                 "O[C@@H]1[C@@H](C2=CN=C(OC)C=C2)C[C@@H](N=[N+]=[N-])CC1" ],
+                              "solution" : 1 },
+                
+				{ "equation": "O[C@@H]1[C@@H](C2=CN=C(OC)C=C2)C[C@@H](N=[N+]=[N-])CC1" ,
+                              "condition" : "MsCl, pyridine, DMAP, CH2Cl2, rt" ,
+                              "possibilities" : ["[N-]=[N+]=N[C@H]1CC=C[C@@H](C2=CN=C(OC)C=C2)C1" ,
+                                                 "CS(O[C@@H]1[C@@H](C2=CN=C(OC)C=C2)C[C@@H](N=[N+]=[N-])CC1)(=O)=O" ],
+                              "solution" : 1 },
+                
+				{ "equation": "CS(O[C@@H]1[C@@H](C2=CN=C(OC)C=C2)C[C@@H](N=[N+]=[N-])CC1)(=O)=O" ,
+                              "condition" : "Pd/C (10%), H2, EtOH" ,
+                              "possibilities" : ["N[C@H]1CC[C@H](OS(C)(=O)=O)[C@@H]([C@H]2CNC(OC)CC2)C1" ,
+                                                 "N[C@H]1CC[C@H](OS(C)(=O)=O)[C@@H](C2=CN=C(OC)C=C2)C1" ],
+                              "solution" : 1 },
+							  
+                { "equation": "N[C@H]1CC[C@H](OS(C)(=O)=O)[C@@H](C2=CN=C(OC)C=C2)C1" ,
+                              "condition" : "MeCN, reflux, 10 h" ,
+                              "possibilities" : [""O=C1C=CC=C2[C@H]3C[C@@H](N)CC[C@H]3CN21 ,
+                                                 "COC(C=C1)=NC=C1[C@H]2C[C@@H]3CC[C@H]2N3" ],
+                              "solution" : 1 },
+                
+				{ "equation": "COC(C=C1)=NC=C1[C@H]2C[C@@H]3CC[C@H]2N3" ,
+                              "condition" : "Boc2O, 1M NaOH, dioxane" ,
+                              "possibilities" : ["O=C(C=C1)N(C=C1[C@H]2C[C@@H]3CC[C@H]2N3C(OC(C)(C)C)=O)C(OC(C)(C)C)=O" ,
+                                                 "CC(OC(N1[C@@H]2CC[C@H]1C[C@@H]2C3=CN=C(OC)C=C3)=O)(C)C" ],
+                              "solution" : 1 },
+                
+				{ "equation": "CC(OC(N1[C@@H]2CC[C@H]1C[C@@H]2C3=CN=C(OC)C=C3)=O)(C)C" ,
+                              "condition" : "POCl3, DMF, 0 °C to 95 °C" ,
+                              "possibilities" : ["ClC1=CC(OC)=NC=C1[C@H]2C[C@@H]3CC[C@H]2N3C(OC(C)(C)C)=O" ,
+                                                 "COC(C=C1)=NC=C1[C@H]2C[C@@H]3CC[C@H]2N3C=O" ],
+                              "solution" : 1 },
+                
+				{ "equation": "COC(C=C1)=NC=C1[C@H]2C[C@@H]3CC[C@H]2N3C=O" ,
+                              "condition" : "2N HCl, THF" ,
+                              "possibilities" : ["O=C(Cl)N1[C@@H]2CC[C@H]1C[C@@H]2C3=CN=C(OC)C=C3" ,
+                                                 "COC(C=C1)=NC=C1[C@H]2C[C@@H]3CC[C@H]2N3" ],
+                              "solution" : 1 }
+                
+              ]
+}
