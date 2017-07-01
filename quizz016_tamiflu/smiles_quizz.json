@@ -1,0 +1,55 @@
+{ "quizz_title": "Tamiflu",
+   "quizz_info_1":"Tamiflu is the trade name for (-)-oseltamivir, which is used to treat and prevent flu, but resistance against it has increased over the years. It has been approuved by the FDA since 1999. ",
+   "quizz_info_2":"For more details on the synthesis see: Chem. Eur. J. 2011, 17, 3630-3643.",
+ "cards" : [
+                { "equation": "O=C1[C@@H]2C[C@H](O1)C=CC2" ,
+                              "condition" : "[PdCl(C3H5)]2, (R,R)-Trost ligand, TMS-phthalimide, THF, 40 °C; then TsOH•H2O, EtOH, reflux" ,
+                              "possibilities" : ["O[C@@H]1C=CC[C@H](C(N2C(C(C=CC=C3)=C3C2=O)=O)=O)C1" ,
+                                                 "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3C=CC[C@H](C(OCC)=O)C3" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3C=CC[C@H](C(OCC)=O)C3" ,
+                              "condition" : "KHMDS, then PhSSO2Ph, THF, –78 °C to rt, 6 h, then overnight" ,
+                              "possibilities" : ["O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3C=CCC(C(OCC)=O)(S(=O)(C4=CC=CC=C4)=O)C3" ,
+                                                 "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3C=CCC(C(OCC)=O)(SC4=CC=CC=C4)C3" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3C=CCC(C(OCC)=O)(SC4=CC=CC=C4)C3" ,
+                              "condition" : "m-CPBA, NaHCO3, then DBU, toluene, 0 °C, 2 h, then 60 °C, 5 h" ,
+                              "possibilities" : ["O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3C=CCC(C(OCC)=O)=C3" ,
+                                                 "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3C=CC=C(C(OCC)=O)C3" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3C=CC=C(C(OCC)=O)C3.O=S(CC[Si](C)(C)C)(N)=O" ,
+                              "condition" : "Rh2(esp)2, PhI(O2CtBu)2, MgO, PhCl, 0 °C to rt" ,
+                              "possibilities" : ["O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3C=C[C@@H](NS(CC[Si](C)(C)C)(=O)=O)[C@H](C(OCC)=O)C3" ,
+                                                 "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H]4[C@@H](N4S(CC[Si](C)(C)C)(=O)=O)C=C(C(OCC)=O)C3" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H]4[C@@H](N4S(CC[Si](C)(C)C)(=O)=O)C=C(C(OCC)=O)C3" ,
+                              "condition" : "BF3•Et2O, 3-pentanol, 75 °C, 15 min" ,
+                              "possibilities" : ["O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H](NS(CC[Si](C)(C)C)(=O)=O)C=C[C@](OC(CC)CC)(C(OCC)=O)C3" ,
+                                                 "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H](NS(CC[Si](C)(C)C)(=O)=O)[C@H](OC(CC)CC)C=C(C(OCC)=O)C3" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H](NS(CC[Si](C)(C)C)(=O)=O)[C@H](OC(CC)CC)C=C(C(OCC)=O)C3" ,
+                              "condition" : "DMAP, pyridine, Ac2O, microwave, 150 °C, 1 h" ,
+                              "possibilities" : ["O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H](NS(CC[Si](C)(C)C)(=O)=O)[C@H](OC(CC)CC)C=C(C(OC(C)=O)=O)C3" ,
+                                                 "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H](N(C(C)=O)S(CC[Si](C)(C)C)(=O)=O)[C@H](OC(CC)CC)C=C(C(OCC)=O)C3" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H](N(C(C)=O)S(CC[Si](C)(C)C)(=O)=O)[C@H](OC(CC)CC)C=C(C(OCC)=O)C3" ,
+                              "condition" : "TBAF, THF, rt, 30 min" ,
+                              "possibilities" : ["O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H](N4C(C)=O)[C@H](OC(CC)CC)[C@@H]4[C@H](C(OCC)=O)C3" ,
+                                                 "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H](NC(C)=O)[C@H](OC(CC)CC)C=C(C(OCC)=O)C3" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H](NC(C)=O)[C@H](OC(CC)CC)C=C(C(OCC)=O)C3" ,
+                              "condition" : "NH2NH2, EtOH, 68 °C, 10 h" ,
+                              "possibilities" : ["O=C(C(C=CC=C1)=C1C2=O)N2[C@@H]3[C@@H](NC(C)=O)[C@H](OC(CC)CC)C=C(C(N)=O)C3" ,
+                                                 "N[C@@H]1[C@@H](NC(C)=O)[C@H](OC(CC)CC)C=C(C(OCC)=O)C1" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
