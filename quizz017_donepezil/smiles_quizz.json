@@ -1,0 +1,31 @@
+{ "quizz_title": "Donepezil",
+   "quizz_info_1":"Donepezil, marketed under the trade name Aricept, is used in the palliative treatment of Alzeimer's disease. Though there is no proof that it can alter the course of the disease, it can provide a modest benefit on cognition, behavior, and activities of the daily living ",
+   "quizz_info_2":"For more details on the synthesis see: Chem. Eur. J. 2014, 20, 11336-11339.",
+ "cards" : [
+                { "equation": "OC(C1=CC(OC)=C(OC)C=C1I)=O" ,
+                              "condition" : "MeMgBr, THF, –30 °C, 5 min; then i-PrMgCl, –30 °C, 1h; then CuCN•2LiCl, –40 °C to –30 °C, 10 min; then allyl bromide, –30 °C to rt, overnight" ,
+                              "possibilities" : ["O=C(OCC=C)C1=CC(OC)=C(OC)C=C1CC=C" ,
+                                                 "OC(C1=CC(OC)=C(OC)C=C1CC=C)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC(C1=CC(OC)=C(OC)C=C1CC=C)=O" ,
+                              "condition" : "Pd(OAc)2, P(o-tol)3, Ac2O, THF, 45 °C, 18 h; then Bu3N, DMF, 4-bromopyridine, 100 °C, 24 h" ,
+                              "possibilities" : ["COC1=C(OC)C=C(C(C2=CC=NC=C2)=CC3)C3=C1" ,
+                                                 "O=C(C1=CC(OC)=C(OC)C=C1C/2)C2=C\C3=CC=NC=C3" ],
+                              "solution" : 1 },
+				
+				{ "equation": "O=C(C1=CC(OC)=C(OC)C=C1C/2)C2=C\C3=CC=NC=C3" ,
+                              "condition" : "BnBr, CH3CN, reflux, 24 h" ,
+                              "possibilities" : ["BrC(C1=CC=NC=C1)C2=C(OCC3=CC=CC=C3)C4=CC(OC)=C(OC)C=C4C2" ,
+                                                 "O=C(C1=CC(OC)=C(OC)C=C1C/2)C2=C\C3=CC=[N+](CC4=CC=CC=C4)C=C3.[Br-]" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C1=CC(OC)=C(OC)C=C1C/2)C2=C\C3=CC=[N+](CC4=CC=CC=C4)C=C3.[Br-]" ,
+                              "condition" : "PtO2, H2, MeOH, 23 °C, 24 h" ,
+                              "possibilities" : ["O=C1C(CC2=CC=[N+](CC3=CC=CC=C3)C=C2)CC4=CC(OC)=C(OC)C=C41.[Br-]" ,
+                                                 "O=C1C(CC2CCN(CC3=CC=CC=C3)CC2)CC4=CC(OC)=C(OC)C=C41" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
