@@ -29,4 +29,19 @@
                 "possibilities" : ["BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2CC#N",
                                    "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2COC(C)C" ],
                 "solution" : 0 },
+    
+              { "equation": "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2CC#N.CC3=CC=C(S(O)(=O)=O)C=C3" ,
+                "type_reaction" : "aldehyde deprotection-dimethyl acetal removal",
+                 "condition" : "THF, H2O, r.t., 4 h" ,
+                "possibilities" : ["BrC1=C(C([H])=O)C=CC(OC)=C1O[C@H]2CCCC=C2CC#N",
+                                   "BrC1=C(C([H])=O)C=CC(OC)=C1O[C@H]2CCCC=C2CCN" ],
+                "solution" : 0 },
+    
+              { "equation": "BrC1=C(C([H])=O)C=CC(OC)=C1O[C@H]2CCCC=C2CC#N.P(C4=CC=CC=C4)(C5=CC=CC=C5)CCCP(C6=CC=CC=C6)C3=CC=CC=C3" ,
+                "type_reaction" : " Heck coupling",
+                 "condition" : "Pd(OAc)2, Ag2CO3, Toluene, 107°C, 24 h" ,
+                "possibilities" : ["O=C([H])C1=CC=C(OC)C2=C1[C@@]3(CC#N)[C@@](CCC=C3)([H])O2",
+                                   "O=C([H])C1=CC=C(OC)C2=C1C(CCC3)C(CC#N)=C3O2" ],
+                "solution" : 0 },
+    
 
