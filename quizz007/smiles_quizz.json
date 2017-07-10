@@ -10,12 +10,14 @@
                 "solution" : 0 },
     
              { "equation": "BrC1=C(C([H])=O)C=CC(OC)=C1O[C@H]2CCCC=C2C(OC)=O.COC(OC)OC.CC3=CC=C(S(O)(=O)=O)C=C3" ,
-                 "condition" : "MeOH, 50°C, 4 h" ,
-                "possibilities" : ["BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2C(OC)=O",
+               "type_reaction" : "Aldehyde protection-dimethyl acetal formation",
+               "condition" : "MeOH, 50°C, 4 h" ,
+               "possibilities" : ["BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2C(OC)=O",
                                    "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2C(OC)OC" ],
                 "solution" : 0 },
     
-                 { "equation": "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2C(OC)=O" ,
+              { "equation": "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2C(OC)=O" ,
+                "type_reaction" : "Ester reduction",
                  "condition" : "i-Bu2AlH, Toluene, -78°C, 1 h" ,
                 "possibilities" : ["BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2CO",
                                    "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2C(O)OC" ],
