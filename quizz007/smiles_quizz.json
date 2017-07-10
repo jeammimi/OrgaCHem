@@ -1,6 +1,6 @@
 { "quizz_title": "Morphine",
-  "quizz_info_1":  " ",
-  "quizz_info_2":  " ",
+  "quizz_info_1":  "Morphine, well known for its illicit recreational uses, it’s also legally sold under many trade names for medicinal purposes to treat acute and chronic pain. It’s in the worlds health organization (WHO) list as one of the essential medicines as an anesthetic for preoperatory medication and sedation for short-term procedures and It’s synthesis it is still a challenge for scientists, to reduce the number of steps to access it.",
+  "quizz_info_2":  "References for the synthesis here in: Trost, B.M., Weiping, T. JACS, 2002, 124, 14542. For the last step: Rice, K.C, J. Med. Chem. 1977, 20, 164. WHO's 2017 list of essential medicines",
   "cards" : [
               { "equation": "OC1=C(OC)C=CC(C([H])=O)=C1Br.O=C(OC)C2=CCCCC2OC(OCC(Cl)(Cl)Cl)=O.O=C(N[C@@H]([C@]6=CC=CC=C6)[C@H]([C@]7=CC=CC=C7)NC(C5=C(P(C9=CC=CC=C9)C8=CC=CC=C8)C=CC=C5)=O)C3=CC=CC=C3P(C%10=CC=CC=C%10)C4=CC=CC=C4" ,
                 "type_reaction" : "palladium-catalyzed Trost asymmetric allylic alkylation", 
