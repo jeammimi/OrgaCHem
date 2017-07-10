@@ -22,3 +22,11 @@
                 "possibilities" : ["BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2CO",
                                    "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2C(O)OC" ],
                 "solution" : 0 },
+    
+              { "equation": "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2CO.CC(C)(O)C#N" ,
+                "type_reaction" : "Mitsunobu",
+                 "condition" : "DIAD, Ph3P, Et2O, -20°C" ,
+                "possibilities" : ["BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2CC#N",
+                                   "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2COC(C)C" ],
+                "solution" : 0 },
+
