@@ -65,13 +65,26 @@
                                    "COC1=CC=C3C2=C1O[C@](CCC4)([H])[C@](CC#N)2[C@]4([H])CC3" ],
                 "solution" : 0 },
         
-              { "equation": "" ,
-                "type_reaction" : "Heck coupling",
-                 "condition" : "15% Pd(OAc)2, Ag2CO3, Toluene, 107°C, 4 h" ,
-                "possibilities" : ["COC1=CC=C3C2=C1O[C@](CC=C4)([H])[C@](CC#N)2[C@]4([H])C=C3",
-                                   "COC1=CC=C3C2=C1O[C@](CCC4)([H])[C@](CC#N)2[C@]4([H])CC3" ],
+              { "equation": "COC1=CC=C3C2=C1O[C@](CC=C4)([H])[C@](CC#N)2[C@]4([H])C=C3.O=C6OI(OC(C)=O)(OC(C)=O)(OC(C)=O)C5=CC=CC=C56" ,
+                "type_reaction" : "Alkene oxydation",
+                 "condition" : "SeO2, Dioxane, sand, 75°C to r.t." ,
+                "possibilities" : ["COC1=CC=C3C2=C1O[C@](C(C=C4)=O)([H])[C@](CC#N)2[C@]4([H])C=C3",
+                                   "COC1=CC=C3C2=C1O[C@](C(C(O)C4O)=O)([H])[C@](CC#N)2[C@]4([H])C=C3" ],
                 "solution" : 0 },
     
+              { "equation": "COC1=CC=C3C2=C1O[C@](C(C=C4)=O)([H])[C@](CC#N)2[C@]4([H])C=C3" ,
+                "type_reaction" : "",
+                 "condition" : "One pot: i-Bu2AlH, CH2Cl2-Et2O, -78° to 0°C, 3 h. Then NH4Br, MeNH2, MeOH, 0° to r.t., 2 h. Then NaBH4, 0° to r.t., overnight" ,
+                "possibilities" : ["COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4)([H])[C@](CCNC)2[C@]4([H])C=C3",
+                                   "COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4)([H])[C@](CC([H])=N)2[C@]4([H])C=C3" ],
+                "solution" : 0 },
+    
+              { "equation": "COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4)([H])[C@](CCNC)2[C@]4([H])C=C3" ,
+                "type_reaction" : "",
+                 "condition" : "THF, LDA, hv, r.t., 10 h" ,
+                "possibilities" : ["COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4)([H])[C@](CCN5C)2[C@]4([H])C5C3",
+                                   "COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4N(C)CC5)([H])[C@]52[C@]4([H])C=C3" ],
+                "solution" : 0 },
     
     
 
