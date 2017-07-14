@@ -3,88 +3,92 @@
   "quizz_info_2":  "References for the synthesis here in: Trost, B.M., Weiping, T. JACS, 2002, 124, 14542. For the last step: Rice, K.C, J. Med. Chem. 1977, 20, 164. WHO's 2017 list of essential medicines",
   "cards" : [
               { "equation": "OC1=C(OC)C=CC(C([H])=O)=C1Br.O=C(OC)C2=CCCCC2OC(OCC(Cl)(Cl)Cl)=O.O=C(N[C@@H]([C@]6=CC=CC=C6)[C@H]([C@]7=CC=CC=C7)NC(C5=C(P(C9=CC=CC=C9)C8=CC=CC=C8)C=CC=C5)=O)C3=CC=CC=C3P(C%10=CC=CC=C%10)C4=CC=CC=C4" ,
-                "type_reaction" : "palladium-catalyzed Trost asymmetric allylic alkylation", 
+                "type_reaction" : "palladium-catalyzed Trost asymmetric allylic alkylation",
                  "condition" : "[PdCl(C3H5)]2, Et3N, CH2Cl2, r.t." ,
                 "possibilities" : ["BrC1=C(C([H])=O)C=CC(OC)=C1O[C@H]2CCCC=C2C(OC)=O",
                                    "OC1=C(OC)C=CC(C(OC2CCCC=C2C(O)=O)=O)=C1Br" ],
-                "solution" : 0 },
-    
+                "solution" : 0},
+
              { "equation": "BrC1=C(C([H])=O)C=CC(OC)=C1O[C@H]2CCCC=C2C(OC)=O.COC(OC)OC.CC3=CC=C(S(O)(=O)=O)C=C3" ,
                "type_reaction" : "Aldehyde protection-dimethyl acetal formation",
                "condition" : "MeOH, 50°C, 4 h" ,
                "possibilities" : ["BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2C(OC)=O",
                                    "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2C(OC)OC" ],
                 "solution" : 0 },
-    
+
               { "equation": "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2C(OC)=O" ,
                 "type_reaction" : "Ester reduction",
                  "condition" : "i-Bu2AlH, Toluene, -78°C, 1 h" ,
                 "possibilities" : ["BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2CO",
                                    "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2C(O)OC" ],
                 "solution" : 0 },
-    
+
               { "equation": "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2CO.CC(C)(O)C#N" ,
                 "type_reaction" : "Mitsunobu",
                  "condition" : "DIAD, Ph3P, Et2O, -20°C" ,
                 "possibilities" : ["BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2CC#N",
                                    "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2COC(C)C" ],
                 "solution" : 0 },
-    
+
               { "equation": "BrC1=C(C(OC)OC)C=CC(OC)=C1O[C@H]2CCCC=C2CC#N.CC3=CC=C(S(O)(=O)=O)C=C3" ,
                 "type_reaction" : "aldehyde deprotection-dimethyl acetal removal",
                  "condition" : "THF, H2O, r.t., 4 h" ,
                 "possibilities" : ["BrC1=C(C([H])=O)C=CC(OC)=C1O[C@H]2CCCC=C2CC#N",
                                    "BrC1=C(C([H])=O)C=CC(OC)=C1O[C@H]2CCCC=C2CCN" ],
                 "solution" : 0 },
-    
+
               { "equation": "BrC1=C(C([H])=O)C=CC(OC)=C1O[C@H]2CCCC=C2CC#N.P(C4=CC=CC=C4)(C5=CC=CC=C5)CCCP(C6=CC=CC=C6)C3=CC=CC=C3" ,
                 "type_reaction" : " Heck coupling",
                  "condition" : "Pd(OAc)2, Ag2CO3, Toluene, 107°C, 24 h" ,
                 "possibilities" : ["O=C([H])C1=CC=C(OC)C2=C1[C@@]3(CC#N)[C@@](CCC=C3)([H])O2",
                                    "O=C([H])C1=CC=C(OC)C2=C1C(CCC3)C(CC#N)=C3O2" ],
-                "solution" : 0 },
-        
+                "solution" : 0,
+              "template" : false },
+
               { "equation": "O=C([H])C1=CC=C(OC)C2=C1[C@@]3(CC#N)[C@@](CCC=C3)([H])O2.P(C5=CC=CC=C5)(C6=CC=CC=C6)C4=CC=CC=C4" ,
                 "type_reaction" : "Corey-Fuchs",
                  "condition" : "CBr4, CH2Cl2, 0°C, 10 min" ,
                 "possibilities" : ["COC1=CC=C(/C=C(Br)\\Br)C2=C1O[C@]3([H])[C@](CC#N)2C=CCC3",
                                    "O=C([H])C1=CC=C(OC)C2=C1[C@@]3(CC#N)[C@@](CCC(Br)C3Br)([H])O2" ],
-                "solution" : 0 },
-        
+                "solution" : 0,
+              "template" : false },
+
               { "equation": "COC1=CC=C(/C=C(Br)\\Br)C2=C1O[C@]3([H])[C@](CC#N)2C=CCC3" ,
                 "type_reaction" : "Stille coupling",
                  "condition" : "5% Pd(Ph3)4, n-Bu3SnH, Toluene, r.t., 20 min" ,
                 "possibilities" : ["COC1=CC=C(/C=C\\Br)C2=C1O[C@]3([H])[C@](CC#N)2C=CCC3",
                                    "COC1=CC=C(/C=C\\CCCC)C2=C1O[C@]3([H])[C@](CC#N)2C=CCC3" ],
                 "solution" : 0 },
-        
+
               { "equation": "COC1=CC=C(/C=C\\Br)C2=C1O[C@]3([H])[C@](CC#N)2C=CCC3.P(C5=CC=CC=C5)(C6=CC=CC=C6)CCCP(C7=CC=CC=C7)C4=CC=CC=C4" ,
                 "type_reaction" : "Heck coupling",
                  "condition" : "15% Pd(OAc)2, Ag2CO3, Toluene, 107°C, 4 h" ,
                 "possibilities" : ["COC1=CC=C3C2=C1O[C@](CC=C4)([H])[C@](CC#N)2[C@]4([H])C=C3",
                                    "COC1=CC=C3C2=C1O[C@](CCC4)([H])[C@](CC#N)2[C@]4([H])CC3" ],
-                "solution" : 0 },
-        
+                "solution" : 0,
+              "template" : false },
+
               { "equation": "COC1=CC=C3C2=C1O[C@](CC=C4)([H])[C@](CC#N)2[C@]4([H])C=C3.O=C6OI(OC(C)=O)(OC(C)=O)(OC(C)=O)C5=CC=CC=C56" ,
                 "type_reaction" : "Alkene oxydation",
                  "condition" : "SeO2, Dioxane, sand, 75°C to r.t." ,
                 "possibilities" : ["COC1=CC=C3C2=C1O[C@](C(C=C4)=O)([H])[C@](CC#N)2[C@]4([H])C=C3",
                                    "COC1=CC=C3C2=C1O[C@](C(C(O)C4O)=O)([H])[C@](CC#N)2[C@]4([H])C=C3" ],
-                "solution" : 0 },
-    
+                "solution" : 0,
+              "template" : false },
+
               { "equation": "COC1=CC=C3C2=C1O[C@](C(C=C4)=O)([H])[C@](CC#N)2[C@]4([H])C=C3" ,
                 "type_reaction" : "",
                  "condition" : "One pot: i-Bu2AlH, CH2Cl2-Et2O, -78° to 0°C, 3 h. Then NH4Br, MeNH2, MeOH, 0° to r.t., 2 h. Then NaBH4, 0° to r.t., overnight" ,
                 "possibilities" : ["COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4)([H])[C@](CCNC)2[C@]4([H])C=C3",
                                    "COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4)([H])[C@](CC([H])=N)2[C@]4([H])C=C3" ],
-                "solution" : 0 },
-    
+                "solution" : 0,
+              "template":false },
+
               { "equation": "COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4)([H])[C@](CCNC)2[C@]4([H])C=C3" ,
                 "type_reaction" : "",
                  "condition" : "THF, LDA, hv, r.t., 10 h" ,
                 "possibilities" : ["COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4)([H])[C@](CCN5C)2[C@]4([H])C5C3",
                                    "COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4N(C)CC5)([H])[C@]52[C@]4([H])C=C3" ],
-                "solution" : 0 },
-    
-    
-
+                "solution" : 0}
+    ]
+  }
