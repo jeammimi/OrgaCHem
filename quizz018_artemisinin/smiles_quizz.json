@@ -1,0 +1,61 @@
+{ "quizz_title": "Artemisinin",
+   "quizz_info_1":"Artemisinin is used as a antimalarial drug isolated for the first time in 1952 from Artemesia annua. It was discovered by Tu Youyou, who was awarded half of the Nobel Prize in Medicine in 2015. Due to its very short supply and its success, development of an efficient synthesis is still needed. ",
+   "quizz_info_2":"For more details on the synthesis see: J. Am. Chem. Soc. 1992, 114, 974-979. For more information about artemisinin, see chapter 4 of 'Molecules That Amaze Us' from Paul May and Simon Cotton.",
+ "cards" : [
+                { "equation": "O=C1C[C@H](C)CC/C1=C(C)/C" ,
+                              "condition" : "alkaline H2O2, THF" ,
+                              "possibilities" : ["O=C1C(O)[C@H](C)CC/C1=C(C)/C" ,
+                                                 "O=C1C[C@H](C)CCC1(O2)C2(C)C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C1C[C@H](C)CCC1(O2)C2(C)C" ,
+                              "condition" : "NaSPh, THF, reflux, 24 h" ,
+                              "possibilities" : ["O=C1C[C@H](C)CC=C1C(C)(SC2=CC=CC=C2)C" ,
+                                                 "O=C1C[C@H](C)CCC1SC2=CC=CC=C2" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C1C[C@H](C)CCC1SC2=CC=CC=C2" ,
+                              "condition" : "m-CPBA, CH2Cl2, –78 °C" ,
+                              "possibilities" : ["OC1(O2)C2[C@H](C)CCC1SC3=CC=CC=C3" ,
+                                                 "O=C1C[C@H](C)CCC1S(C2=CC=CC=C2)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C1C[C@H](C)CCC1S(C2=CC=CC=C2)=O.CC1(C)COC(C)(CCBr)OC1" ,
+                              "condition" : "1) LDA, hexamethylphosphoramide, THF, –35 °C, 3 h; then brominated compound above, –35 °C, 1h then, to rt, 1 h; 2) Al(Hg) amalgam, wet THF, rt to 35 °C, 2 h" ,
+                              "possibilities" : ["C[C@@H]1CCC(CCC2(OCC(C)(C)CO2)C)C(C1)=O" ,
+                                                 "O=C1[C@@H](CCC2(OCC(C)(C)CO2)C)[C@H](C)CCC1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C1[C@@H](CCC2(OCC(C)(C)CO2)C)[C@H](C)CCC1" ,
+                              "condition" : "TsNHNH2, neat, 1 mmHg" ,
+                              "possibilities" : ["C[C@@H]1CCC2C([C@H]1CCC3(OCC(C)(C)CO3)C)=NN2" ,
+                                                 "C[C@@H]1CCC/C([C@H]1CCC2(OCC(C)(C)CO2)C)=N\NS(C3=CC=C(C)C=C3)(=O)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C[C@@H]1CCC/C([C@H]1CCC2(OCC(C)(C)CO2)C)=N\NS(C3=CC=C(C)C=C3)(=O)=O" ,
+                              "condition" : "BuLi, TMEDA, rt, 90 min; then DMF, 0 °C, 30 min" ,
+                              "possibilities" : ["C[C@@H]1CCCC(C=O)[C@H]1CCC2(OCC(C)(C)CO2)C" ,
+                                                 "C[C@@H]1CCC=C(C=O)[C@H]1CCC2(OCC(C)(C)CO2)C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C[C@@H]1CCC=C(C=O)[C@H]1CCC2(OCC(C)(C)CO2)C" ,
+                              "condition" : "Al(TMS)3•Et2O, EO, –78 °C, 10 min; then Ac2O, DMAP, rt, 16 h" ,
+                              "possibilities" : ["C[C@@H]1CCC=C(COC(C)=O)[C@H]1CCC2(OCC(C)(C)CO2)C" ,
+                                                 "C[C@@H]1CCC=C([C@H]([Si](C)(C)C)OC(C)=O)[C@H]1CCC2(OCC(C)(C)CO2)C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C[C@@H]1CCC=C([C@H]([Si](C)(C)C)OC(C)=O)[C@H]1CCC2(OCC(C)(C)CO2)C" ,
+                              "condition" : "Lithium diethylamide, THF, –78 °C to 45 °C, 18 h; then LDA, 0 °C to 45 °C, 3 h; then MeI, –78 °C to rt, 1 h" ,
+                              "possibilities" : ["C[C@@H]1CC[C@@H]2C([C@H]1CCC3(OCC(C)(C)CO3)C)=COC([C@H]2C)=O" ,
+                                                 "C[C@@H]1CC[C@@H]([C@](C)([H])C(O)=O)/C([C@H]1CCC2(OCC(C)(C)CO2)C)=C/[Si](C)(C)C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C[C@@H]1CC[C@@H]([C@](C)([H])C(O)=O)/C([C@H]1CCC2(OCC(C)(C)CO2)C)=C/[Si](C)(C)C" ,
+                              "condition" : "O3/O2, CH2Cl2, –78 °C, 2 min; then  tert-butylhydroxytoluene, SiO2, 15% aq. H2SO4, rt, overnight" ,
+                              "possibilities" : ["C[C@@H]1CC[C@]([C@H]2C)([H])[C@]([C@H]1CC3)(O)[C@](OC2=O)([H])OC3=C" ,
+                                                 "C[C@@H]1CC[C@]2([H])[C@]34[C@H]1CC[C@](OO4)(C)O[C@@]3([H])OC([C@@H]2C)=O" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
