@@ -1,0 +1,32 @@
+{ "quizz_title": "Ventolin",
+   "quizz_info_1":"Salbutemol, also known as albuterol, is mostly known among asmathic people under its marketed name: Ventolin. It is used to treat asthma. It is sold under as a racemic mixture. The (R)-enantiomer is the phrmacologically active enantiomer. The (S)-enantiomer has a slow metabolism, which can lead to accumulation in the lungs and cause airway hyperreactivity and inflammation.",
+   "quizz_info_2":"For more details on the synthesis see: Synthesis 1988, 966-968.",
+ "cards" : [
+                { "equation": "OC1=C(C=O)C=CC=C1.ClC(CCl)=O" ,
+							  "type_reaction" : "Friedel-Craft acylation"
+                              "condition" : "AlCl3, CH2Cl2, reflux, 16 h" ,
+                              "possibilities" : ["O=C(CCl)OC1=C(C=O)C=CC=C1" ,
+                                                 "OC1=C(C=O)C=C(C(CCl)=O)C=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC1=C(C=O)C=C(C(CCl)=O)C=C1" ,
+                              "condition" : "t-BuNH2, CH2Cl2, rt, 18 h" ,
+                              "possibilities" : ["OC1=C(C=O)C=C(C(CNC(C)(C)C)=O)C=C1" ,
+                                                 "OC1=C(/C=N/C(C)(C)C)C=C(C(CCl)=O)C=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC1=C(/C=N/C(C)(C)C)C=C(C(CCl)=O)C=C1" ,
+                              "condition" : "t-BuNH2, i-PrOH, reflux, 2 h; then 12M HCl, reflux 18 h" ,
+                              "possibilities" : ["OC1=C(C=O)C=C(/C(CCl)=N\C(C)(C)C)C=C1" ,
+                                                 "OC1=C(C=O)C=C(C(C[NH2+]C(C)(C)C)=O)C=C1.[Cl-]" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC1=C(C=O)C=C(C(C[NH2+]C(C)(C)C)=O)C=C1.[Cl-]" ,
+                              "condition" : "NaOMe, MeOH, 0 °C, 5 min; then H2, 5% Pd/C, rt, 10 h" ,
+                              "possibilities" : ["COC1=C(COC)C=C(C(CNC(C)(C)C)OC)C=C1" ,
+                                                 "OC1=C(CO)C=C(C(CNC(C)(C)C)O)C=C1" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
