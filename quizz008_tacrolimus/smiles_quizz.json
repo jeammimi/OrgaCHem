@@ -1,6 +1,7 @@
 { "quizz_title": "Tacrolimus",
    "quizz_info_1":"Tacrolimus, or FK506, is an immunodepressive drug discovered in 1987  used to lower the risk of organ rejection after a transplant. Commercialized under the name Prograf by Astellas, it's among the top 200 pharmaceutical products by US retail sales in 2012.",
    "quizz_info_2":"For more details on this synthesis see: Tetrahedron 1997, 53, 13221-13256 and Tetrahedron 1997, 53, 13257-13284",
+   "type" : ["Medicinal"],
  "cards" : [
                 { "equation": "CO[C@H]1[C@H]2[C@H](O2)[C@@H](COCC3=CC=CC=C3)O1" ,
                               "condition" : "MeMgCl, CuBr•SMe2, THF, rt, 56 h" ,

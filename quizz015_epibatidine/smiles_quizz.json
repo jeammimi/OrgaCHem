@@ -1,7 +1,8 @@
 { "quizz_title": "Epibatidine",
    "quizz_info_1":"Epibatidine was extracted from a multi-colored tiny frog 'Phantasmal poison frog'. It is 200 stronger than morphine in blocking pains in animal. Interestingly, bred in captivity, the frogs don't form epibatidine.",
    "quizz_info_2":"For more details on the synthesis see: Synlett 1999, 1405-1406. For more information about epibatidine, see chapter 21 of 'Molecules That Amaze Us' from Paul May and Simon Cotton.",
- "cards" : [
+   "type" : ["Medicinal"],
+"cards" : [
                 { "equation": "O[C@@H]1[C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]2[C@H](OC(C)=O)C=C1" ,
                               "condition" : "Pyridinium dichromate, CH2Cl2" ,
                               "possibilities" : ["O=C1C=CC([C@@H]2[C@@H]3C=C[C@@H](C3)[C@@H]21)=O" ,

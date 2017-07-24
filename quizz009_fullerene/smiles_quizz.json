@@ -1,6 +1,7 @@
 { "quizz_title": "Bucky-Ball",
    "quizz_info_1":"Bucky-Ball, or Buckminsterfullerene, is a C60 fullerene discovered in 1985. It was named after Richard Buckminster Fuller who popularized geodesic domes in the 1960's",
    "quizz_info_2":"For more details on the synthesis see: Science 2002, 295, 1500.",
+   "type" : ["Geometrical"],
  "cards" : [
                 { "equation": "BrC1=CC=C(Cl)C=C1" ,
 							"type_reaction" : "Grignard Reaction",
@@ -62,7 +63,7 @@
                                                  "C12=CC=CC3=C1C(C4=C3C5=C(C6=C4C7=C(C6=CC8=CC=C(C=CC=C9)C9=C8%10)C%10=CC=C7)C%11=C(C5=CC%12=CC=C(C=CC=C%13)C%13=C%12%14)C%14=CC=C%11)=CC%15=CC=C(C=CC=C%16)C%16=C%152" ],
                               "solution" : 0,
 			      "3D" : true}
-                              
+
 
               ]
 }

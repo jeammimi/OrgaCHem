@@ -1,6 +1,7 @@
 { "quizz_title": "Artemisinin",
    "quizz_info_1":"Artemisinin is used as a antimalarial drug isolated for the first time in 1952 from Artemesia annua. It was discovered by Tu Youyou, who was awarded half of the Nobel Prize in Medicine in 2015. Due to its very short supply and its success, development of an efficient synthesis is still needed. ",
    "quizz_info_2":"For more details on the synthesis see: J. Am. Chem. Soc. 1992, 114, 974-979. For more information about artemisinin, see chapter 4 of 'Molecules That Amaze Us' from Paul May and Simon Cotton.",
+   "type" : ["Medicinal"],
  "cards" : [
                 { "equation": "O=C1C[C@H](C)CC/C1=C(C)/C" ,
                               "condition" : "alkaline H2O2, THF" ,

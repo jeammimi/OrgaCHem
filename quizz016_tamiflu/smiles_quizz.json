@@ -1,7 +1,8 @@
 { "quizz_title": "Tamiflu",
    "quizz_info_1":"Tamiflu is the trade name for (-)-oseltamivir, which is used to treat and prevent flu, but resistance against it has increased over the years. It has been approuved by the FDA since 1999. ",
    "quizz_info_2":"For more details on the synthesis see: Chem. Eur. J. 2011, 17, 3630-3643.",
- "cards" : [
+   "type" : ["Medicinal"],
+  "cards" : [
                 { "equation": "O=C1[C@@H]2C[C@H](O1)C=CC2" ,
                               "condition" : "[PdCl(C3H5)]2, (R,R)-Trost ligand, TMS-phthalimide, THF, 40 °C; then TsOH•H2O, EtOH, reflux" ,
                               "possibilities" : ["O[C@@H]1C=CC[C@H](C(N2C(C(C=CC=C3)=C3C2=O)=O)=O)C1" ,

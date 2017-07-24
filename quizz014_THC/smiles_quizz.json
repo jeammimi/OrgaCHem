@@ -1,6 +1,8 @@
 { "quizz_title": "THC",
    "quizz_info_1":"Delta-9-THC, or tetrahydrocannabinol, is the main psychoactive compound in Marijuana. As a medical drug, it can help reduce tremors in people who suffer Parkinson's disease. However the use of cannabis for recreational purposes has been illegal in most countries since the start of the 20th century. Wanna get high? Towlie (South Park)",
    "quizz_info_2":"For more details on the synthesis see: J . Org. Chem. 2002, 37, 8771-8782.",
+   "type": ["Medicinal","Recreational"],
+
  "cards" : [
                 { "equation": "C=C1CC[C@H]2C(C)(C)[C@@H]1C2" ,
 							  "type_reaction" : "ozonolysis",

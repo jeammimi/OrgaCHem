@@ -1,80 +1,81 @@
 { "quizz_title": "Quinine",
    "quizz_info_1":"Quinine is a natural alkaloid that is best known for its use as an anti-malaria drug. Its story started with the use of the quina-quina tree to treat malaria fever. The story of its total synthesis is fascinating!",
    "quizz_info_2":"For more details on the synthesis and the fascinating story behind the total synthesis see: Woodward, R.B and Doering, W.E.,JACS, 1945, 67, 860-874 and Seeman, J.I., Angew. Chem. Int. Ed. 2007, 46, 1378 – 1413",
+   "type" : ["Medicinal"],
  "cards" : [
                 { "equation": "NCC(OCC)OCC.[H]C(C1=CC(O)=CC=C1)=O" ,
                               "condition" : "100°C, 30 min" ,
                               "possibilities" : ["OC1=CC=CC(C(O)NCC(OCC)OCC)=C1" ,
                                                  "OC1=CC=CC(/C=N\\CC(OCC)OCC)=C1" ],
                               "solution" : 1 },
-                              
+
                 { "equation": "OC1=CC=CC(/C=N\\CC(OCC)OCC)=C1" ,
                                "condition" : "H2SO4, H2O, 0°C to r.t., 48 h" ,
                               "possibilities" : ["OC1=CC=CC(C([H])NCC(OCC)OCC)=C1" ,
                                                  "OC1=CC=C2C(C=NC=C2)=C1" ],
                               "solution" : 1 },
-                              
+
                  { "equation": "OC1=CC=C2C(C=NC=C2)=C1.[H]C([H])=O.C3CCCCN3" ,
                               "condition" : "EtOH, H2O, 100°C, 6 h" ,
                               "possibilities" : ["OC1=CC=C2C(C=NC=C2)=C1CN3CCCCC3" ,
                                                  "C12=CC=C(OCN3CCCCC3)C=C1C=NC=C2" ],
                               "solution" : 0 },
-                              
+
                   { "equation": "OC1=CC=C2C(C=NC=C2)=C1CN3CCCCC3" ,
                                "condition" : "NaOMe, MeOH, 200°C, 16 h" ,
                               "possibilities" : ["COC1=CC=C2C(C=NC=C2)=C1CN3CCCCC3" ,
                                                  "OC1=CC=C2C(C=NC=C2)=C1C" ],
                               "solution" : 1 },
-                              
+
                   { "equation": "OC1=CC=C2C(C=NC=C2)=C1C" ,
                               "condition" : "H2, PtO2, 4 atm, AcOH, RT, 18 h" ,
                               "possibilities" : ["OC1=CC=C2C(CNCC2)=C1C" ,
                                                  "CC1=C(C=NC=C2)C2=CC=C1OC(C)=O" ],
                               "solution" : 0 },
-                              
+
                   { "equation": "OC1=CC=C2C(CNCC2)=C1C.CC(OC(C)=O)=O" ,
                               "condition" : "MeOH, 40-50 °C" ,
                               "possibilities" : ["OC1=CC=C2C(CN(C(C)=O)CC2)=C1C" ,
                                                  "CC1=C(CN(C(C)=O)CC2)C2=CC=C1OC(C)=O" ],
                               "solution" : 0 },
-                              
+
                   { "equation": "OC1=CC=C2C(CN(C(C)=O)CC2)=C1C" ,
                               "condition" : "H2, Ni (Raney), 200 atm, EtOH, 150 °C, 16 h" ,
                               "possibilities" : ["OC1CCC2C(CN(C(C)=O)CC2)C1C" ,
                                                  "OC1=CC=C2C(CN(C(O)C)CC2)=C1C" ],
                               "solution" : 0 },
-                              
+
                   { "equation": "OC1CCC2C(CN(C(C)=O)CC2)C1C" ,
                               "condition" : "CrO3, AcOH, H2O, 0 to 50 °C" ,
                               "possibilities" : ["O=C1CCC2C(CN(C(C)=O)CC2)C1C" ,
                                                  "OC1CCC2C(CN(C(O)=O)CC2)C1C" ],
                               "solution" : 0 },
-                              
+
                    { "equation": "O=C1CCC2C(CN(C(C)=O)CC2)C1C.O=NOCC" ,
                               "condition" : "NaOEt/EtOH, 0 °C, 18 h" ,
                               "possibilities" : ["O=C1CCC2C(CN(C(CN=O)=O)CC2)C1C" ,
                                                  "C/C([C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O)=N\\O" ],
                               "solution" : 1,
                               "template": false},
-                              
+
                    { "equation": "C/C([C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O)=N\\O" ,
                               "condition" : "H2/PtO2, 3 atm, AcOH, r.t, 40 h" ,
                               "possibilities" : ["N[C@H](C)[C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O" ,
                                                  "N[C@H](C)[C@@H](CN(C(O)C)CC1)[C@@H]1CCC(OCC)=O" ],
-                              "solution" : 0 }, 
-                              
+                              "solution" : 0 },
+
                    { "equation": "N[C@H](C)[C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O" ,
                               "condition" : "MeI, K2CO3, EtOH, reflux, 48 h" ,
                               "possibilities" : ["N[C@H](C)[C@@H](CN(C(OC)(C)C)CC1)[C@@H]1CCC(OCC)=O" ,
                                                  "C[C@H]([C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O)[N+](C)(C)C" ],
-                              "solution" : 1 },   
-                              
+                              "solution" : 1 },
+
                    { "equation": "C[C@H]([C@@H](CN(C(C)=O)CC1)[C@@H]1CCC(OCC)=O)[N+](C)(C)C" ,
                               "condition" : "NaOH, H2O, 180 °C, 60 min" ,
                               "possibilities" : ["C[C@H]([C@@H](CNCC1)[C@@H]1CCC(O)=O)[N+](C)(C)C" ,
                                                  "C=C[C@@H](CNCC1)[C@@H]1CCC(O)=O" ],
                               "solution" : 1 },
-                                                         
+
                    { "equation": "C=C[C@@H](CNCC1)[C@@H]1CCC(O)=O" ,
                               "condition" : "HCl, EtOH, reflux" ,
                               "possibilities" : ["C=C[C@@H](CNCC1)[C@@H]1CCC(OCC)=O" ,
