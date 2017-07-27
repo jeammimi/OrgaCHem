@@ -1,0 +1,10 @@
+{ "quizz_title": "Mauveine",
+  "quizz_info_1": "Mauveine was the first industrially produced colorant. Both, the story of its accidental discovery, as well as, the story of the elucidation of its structure are just fascinating! William Perkin was only 18 years old when he turned the black gooey product he had obtained in his failed attempt to synthetize quinine, in to, a patent that would make a fortune and give the world industrial access to the synthetic color purple.",
+  "quizz_info_2": "At the time (1850’s), the chemical structure of mauveine was not known until 1994 when the original sample was analyzed using modern technology. For more details on this fascinating story see references: Meth-Cohn, O. J. Chem. Soc. Perkin Trans. 1, 1994, pages 5-7 and Sausa, M.M., et al. Chem. Eur. J., 2008, 14, pages 8507-8513.",
+  "type" : ["Colorants"],
+   "cards" : [
+                { "equation": "O=C1N(C(C([H])=O)C(OC(C)(C)C)=O)C(C2=CC=CC=C21)=O.[NH3+][C@@H](C(O)=O)C(C)(S)C.[Cl-]" ,
+                              "condition" : "NaOAc, EtOH, H2O, r.t, 10h" ,
+                              "possibilities" : ["O=C1N([C@@H]([C@]2(SC(C)(C)[C@H](C(O)=O)N2)[H])C(OC(C)(C)C)=O)C(C3=CC=CC=C31)=O" ,
+                                                 "O=C1N(C(C([H])=O)C(N[C@@H](C(O)=O)C(C)(S)C)=O)C(C2=CC=CC=C21)=O" ],
+"solution" : 0 },
