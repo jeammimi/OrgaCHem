@@ -1,0 +1,55 @@
+{ "quizz_title": "Misoprostol",
+   "quizz_info_1":"Misoprostol is used to start labor or cause an abortion. In the latter case, it is used in conjuction with two other drugs : mifepristone or methotrexate. Though misoprostol was not created for medical abortions, women in Brazil discovered this side effect and started using it to end pregnancies back in the early 80s.",
+   "quizz_info_2":"For more details on the synthesis see: J. Med. Chem. 1977, 20, 1152-1159.",
+ "cards" : [
+                { "equation": "O=C(CCCCCCCC(O)=O)OC" ,
+                              "condition" : "imidazole, SOCl2, THF; then lithium monomethyl malonate, HMPA, MeMgBr, THF, rt, 2 h" ,
+                              "possibilities" : ["O=C(C(C(O)=O)C(OC)=O)CCCCCCCC(OC)=O" ,
+                                                 "O=C(CC(OC)=O)CCCCCCCC(OC)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(CC(OC)=O)CCCCCCCC(OC)=O" ,
+                              "condition" : "NaOH, MeOH/H2O, rt, overnight" ,
+                              "possibilities" : ["O=C(C)CCCCCCC" ,
+                                                 "O=C(C)CCCCCCCC(O)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C)CCCCCCCC(O)=O" ,
+                              "condition" : "K, dimethyloxalate, t-BuOH, reflux, 2 h" ,
+                              "possibilities" : ["O=C(CC(OC)=O)C1C(C(OC)=O)CCCCC1" ,
+                                                 "O=C(C1C(C(OC)=O)=O)C(CCCCCCC(O)=O)C(C1=O)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C1C(C(OC)=O)=O)C(CCCCCCC(O)=O)C(C1=O)=O" ,
+                              "condition" : "2N HCl, reflux, 2 h" ,
+                              "possibilities" : ["O=C(C1C([H])=O)C(CCCCCCC(O)=O)C(C1=O)=O" ,
+                                                 "O=C(C1)C(CCCCCCC(O)=O)C(C1=O)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C1)C(CCCCCCC(O)=O)C(C1=O)=O" ,
+                              "condition" : "H2, 5% Pd/C, i-PrOH/H2O, rt" ,
+                              "possibilities" : ["OC1C(O)CC(O2)C1CCCCCCC2=O" ,
+                                                 "O=C1C(CCCCCCC(O)=O)C(C(O)C1)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C1C(CCCCCCC(O)=O)C(C(O)C1)=O" ,
+                              "condition" : "acetone dimethyl acetal, 1% HCl in MeOH, MeOH, rt, 48 h; then Et2O, rt, 48 h" ,
+                              "possibilities" : ["O=C1C(OC)C(CCCCCCC(OC)=O)=C(OC)C1" ,
+                                                 "O=C1C(O)CC(OC)=C1CCCCCCC(OC)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C1C(O)CC(OC)=C1CCCCCCC(OC)=O" ,
+                              "condition" : "RedAl, toluene, –70 °C, 3 h then, 0 °C, 15 min" ,
+                              "possibilities" : ["OC1C(O)CC(OC)=C1CCCCCCCO" ,
+                                                 "O=C1C(CCCCCCC(OC)=O)=CC(O)C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C1C(CCCCCCC(OC)=O)=CC(O)C1.CCCCC(O[Si](CC)(CC)CC)(C)C/C=C/[Al](CC(C)C)CC(C)C" ,
+                              "condition" : "1 ) [Al]-complex (see above), Et2O, –60 °C, 2 h; 2) AcOH/H2O/THF, rt, overnight" ,
+                              "possibilities" : ["O[C@@H]1C=C(CCCCCC2)[C@@](OC2=O)(/C=C/CC(O)(C)CCCC)C1" ,
+                                                 "O=C1[C@H](CCCCCCC(OC)=O)[C@@H](/C=C/CC(O)(C)CCCC)[C@@H](O)C1" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
