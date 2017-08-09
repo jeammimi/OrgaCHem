@@ -1,6 +1,6 @@
 { "quizz_title": "Desloratadine",
    "quizz_info_1":"Are you sneezing because of hay fever? Then you need some desloratadine. You can also use loratadine but desloratadine is the active metabolite. It has an half-life of 21-24h, hence the once-daily dosing.",
-   "quizz_info_2":"For more details on the synthesis see: J. Med. Chem. 1991, 34, 457-461 and J. Org. Chem. 1989, 54, 2242-2244. For more information about desloratadine see: Allergy 2001, 56, 7-13. For more information about allergies see: https://youtu.be/vFZlxQU0Pyk",
+   "quizz_info_2":"For more details on the synthesis, see: J. Med. Chem. 1991, 34, 457-461 and J. Org. Chem. 1989, 54, 2242-2244. For more information about desloratadine see: Allergy 2001, 56, 7-13. For more information about allergies, see: https://youtu.be/vFZlxQU0Pyk",
  "cards" : [
                 { "equation": "N#CC1=NC=CC=C1C" ,
                               "condition" : "H2SO4, t-BuOH, 70 °C, 1.25 h" ,
