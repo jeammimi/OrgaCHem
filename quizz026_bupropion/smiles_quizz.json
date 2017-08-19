@@ -1,0 +1,56 @@
+{ "quizz_title": "Bupropion",
+   "quizz_info_1":"Over 7000 chemicals are released each time a cigarette is lit. This helps to understand why there are so many diseases related to smoking. But stopping smoking is difficult due to the addictive effect of nicotine. To help this addiction treatment, bupropion has been developed. It’s also used as an antidepressant. It was withdrawn from market in 1986 due to significant incidence of epileptic seizures at the originally recommended dosage. It has been reintroduced since 1989 using a different formulation.",
+   "quizz_info_2":"For more details on the synthesis, see: Tet. Lett. 2008, 49, 3744-3748. For more details on what happens when you stop smoking, see: https://youtu.be/o3I0mJ2RfU0",
+ "cards" : [
+                { "equation": "ClC1=CC(C=O)=CC=C1.C=CC(OC)=O" ,
+                              "condition" : "DABCO, ultrasound" ,
+							  "type_reaction" : "Morita–Baylis–Hillman Reaction", 
+                              "possibilities" : ["O=C(OC)CCC1=CC(C=O)=CC=C1" ,
+                                                 "OC(C(C(OC)=O)=C)C1=CC=CC(Cl)=C1" ],
+                              "solution" : 1 },
+                
+				{ "equation": "OC(C(C(OC)=O)=C)C1=CC=CC(Cl)=C1" ,
+                              "condition" : "TBSCl, imidazole, DMF" ,
+                              "possibilities" : ["C/C(C(OC)=O)=C\C1=CC=CC(Cl)=C1" ,
+                                                 "C=C(C(OC)=O)C(O[Si](C)(C)C(C)(C)C)C1=CC=CC(Cl)=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C=C(C(OC)=O)C(O[Si](C)(C)C(C)(C)C)C1=CC=CC(Cl)=C1" ,
+                              "condition" : "LiOH, CH3CN:H2O (1:1), 50-60 °C, 2 h to 4 h" ,
+                              "possibilities" : ["ClC1=CC(/C=C(CO)/C(OC)=O)=CC=C1" ,
+                                                 "C=C(C(O)=O)C(O[Si](C)(C)C(C)(C)C)C1=CC=CC(Cl)=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C=C(C(O)=O)C(O[Si](C)(C)C(C)(C)C)C1=CC=CC(Cl)=C1" ,
+                              "condition" : "1) ClCO2Et, 5 °C, 5 min; 2) NaN3, rt, 2 h; 3) toluene, reflux, 2 h; 4) H2O, reflux, 12 h" ,
+							  "type_reaction" : "Curtius rearrangement", 
+                              "possibilities" : ["ClC1=CC(C(O[Si](C)(C)C(C)(C)C)C(CN=[N+]=[N-])C(O)=O)=CC=C1" ,
+                                                 "CC(C(O[Si](C)(C)C(C)(C)C)C1=CC=CC(Cl)=C1)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC(C(O[Si](C)(C)C(C)(C)C)C1=CC=CC(Cl)=C1)=O" ,
+                              "condition" : "NaBH4, MeOH, rt" ,
+                              "possibilities" : ["C[C@@H](OC)[C@H](O[Si](C)(C)C(C)(C)C)C1=CC=CC(Cl)=C1" ,
+                                                 "C[C@@H](O)[C@H](O[Si](C)(C)C(C)(C)C)C1=CC=CC(Cl)=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C[C@@H](O)[C@H](O[Si](C)(C)C(C)(C)C)C1=CC=CC(Cl)=C1" ,
+                              "condition" : "TBAF, THF, rt, 2 h" ,
+                              "possibilities" : ["ClC1=CC([C@@H]2[C@H](C)O2)=CC=C1" ,
+                                                 "O[C@@H]([C@H](O)C)C1=CC=CC(Cl)=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O[C@@H]([C@H](O)C)C1=CC=CC(Cl)=C1" ,
+                              "condition" : "IBX, DMSO, rt, 30 h" ,
+                              "possibilities" : ["OC(C(C)=O)C1=CC=CC(Cl)=C1" ,
+                                                 "O=C(C(O)C)C1=CC=CC(Cl)=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C(O)C)C1=CC=CC(Cl)=C1" ,
+                              "condition" : "1) Tf2O, 2,6-lutidine, CH2Cl2, –40 °C, 30 min; 2) t-BuNH2, 12 h" ,
+                              "possibilities" : ["ClC1=CC([C@@H]2[C@@H](C)N2C(C)(C)C)=CC=C1" ,
+                                                 "O=C(C(C)NC(C)(C)C)C1=CC=CC(Cl)=C1" ],
+                              "solution" : 1 }
+
+              ]
+}
