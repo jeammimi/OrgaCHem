@@ -1,0 +1,43 @@
+{ "quizz_title": "Psilocybin",
+   "quizz_info_1":"Psilocybin mushrooms, also known as shrooms, may have been used for over 9000 years. They cause hallucinations, often referred as “trip”, due to the psilocybin in them. 2 to 3 grams of dried shrooms are enough for a good trip while the use of 5 grams is nicknamed the "Hero trip". They are not addictive and may be used as an antidepressant. The recent discovery of the biosynthesis of psilocybin set the stage for its possible commercial production. The song “Mushrooms” from Eminem is about a girl having a bad trip on shrooms.",
+   "quizz_info_2":"For more details on the synthesis, see: Synthesis 1999, 935-938 and Tetrahedron 1993, 49, 11155-11168. For the discovery of psilocybin’s biosynthesis, see: Angew. Chem. Int. Ed. 2017, DOI: 10.1002/anie.201705489. For more information about their antidepressant effect, see: J. Psychopharmacol. 2016, 30, 1181-1197. For more information about your brain on shrooms, see: https://youtu.be/F5kqThVON18",
+ "cards" : [
+                { "equation": "OC1=C2C(NC=C2)=CC=C1" ,
+                              "condition" : "BnBr, K2CO3, acetone, rt, 20 h" ,
+                              "possibilities" : ["OC1=C2C(N(CC3=CC=CC=C3)C=C2)=CC=C1" ,
+                                                 "C12=CC=CC(OCC3=CC=CC=C3)=C1C=CN2" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C12=CC=CC(OCC3=CC=CC=C3)=C1C=CN2" ,
+                              "condition" : "(COCl)2, Et2O, 5-10 °C, 3 h; then Me2NH, 6 h" ,
+                              "possibilities" : ["O=C(C(N(C)C)=O)N1C2=CC=CC(OCC3=CC=CC=C3)=C2C=C1" ,
+                                                 "O=C(C(N(C)C)=O)C1=CNC2=CC=CC(OCC3=CC=CC=C3)=C21" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C(N(C)C)=O)C1=CNC2=CC=CC(OCC3=CC=CC=C3)=C21" ,
+                              "condition" : "LiAlH4, THF/dioxane, 70 °C, 4 h, then reflux, 16 h" ,
+                              "possibilities" : ["OCC1=CNC2=CC=CC(OCC3=CC=CC=C3)=C21" ,
+                                                 "CN(CCC1=CNC2=CC=CC(OCC3=CC=CC=C3)=C21)C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CN(CCC1=CNC2=CC=CC(OCC3=CC=CC=C3)=C21)C" ,
+                              "condition" : "H2 60 psi, Pd/C 10%, EtOH, rt, 2 h" ,
+                              "possibilities" : ["CN(CCC1CNC2=CC=CC(OCC3=CC=CC=C3)=C21)C" ,
+                                                 "OC1=C2C(NC=C2CCN(C)C)=CC=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC1=C2C(NC=C2CCN(C)C)=CC=C1" ,
+                              "condition" : "Diisopropylamine, n-BuLi, THF, –78 °C, 3 min; then tetra-O-benzylpyrophosphate, –10 °C, 1.5 h" ,
+                              "possibilities" : ["OC1=C2C(N(P(O)(OCC3=CC=CC=C3)=O)C=C2CCN(C)C)=CC=C1" ,
+                                                 "OP(OC1=C2C(NC=C2CCN(C)C)=CC=C1)(OCC3=CC=CC=C3)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OP(OC1=C2C(NC=C2CCN(C)C)=CC=C1)(OCC3=CC=CC=C3)=O" ,
+                              "condition" : "H2 60 psi, Pd/C 10%, MeOH, rt, 3 h" ,
+                              "possibilities" : ["O=P1(O)C(CN2)(CCN(C)C)C3=C2C=CC=C3O1" ,
+                                                 "OP(OC1=C2C(NC=C2CCN(C)C)=CC=C1)(O)=O" ],
+                              "solution" : 1 }
+                             
+
+              ]
+}
