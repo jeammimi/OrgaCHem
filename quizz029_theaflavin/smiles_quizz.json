@@ -1,0 +1,31 @@
+{ "quizz_title": "Theaflavin",
+   "quizz_info_1":"Contrary to popular belief, tea doesn’t contain « theine », the so-called equivalent of caffeine found in coffee. It contains in fact caffeine. However, the main constituents of tea are theaflavin and other polyphenols. Most of the black tea polyphenols are produced by enzymatic oxidation of green tea catechins. A 2001 study showed that theaflavins in black tea and catechins in green tea are equally effective antioxidants.",
+   "quizz_info_2":"For more details on the synthesis, see: Synthesis 2013, 479-482. For more informations about the antioxidant power of theaflavins compared to green tea’s catechins, see: J. Nutr. 2001, 131, 2248-2251. For oxidation of catechins to theaflavins, see: Food Sci. Technol. Res. 2003, 9, 128-133.",
+ "cards" : [
+                { "equation": "O[C@@H]1CC2=C(O)C=C(O)C=C2O[C@@H]1C3=CC=C(O)C(O)=C3" ,
+                              "condition" : "boric acid, aq. NaOH, NsCl, toluene, pH 9.0 buffer" ,
+                              "possibilities" : ["O[C@@H]1CC2=C(OS(C3=CC=C([N+]([O-])=O)C=C3)(=O)=O)C=C(OS(C4=CC=C([N+]([O-])=O)C=C4)(=O)=O)C=C2O[C@@H]1C5=CC=C(OS(C6=CC=C([N+]([O-])=O)C=C6)(=O)=O)C(OS(C7=CC=C([N+]([O-])=O)C=C7)(=O)=O)=C5" ,
+                                                 "O[C@@H]1CC2=C(OS(C3=CC=C([N+]([O-])=O)C=C3)(=O)=O)C=C(OS(C4=CC=C([N+]([O-])=O)C=C4)(=O)=O)C=C2O[C@@H]1C5=CC=C(O)C(O)=C5" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O[C@@H]1CC2=C(OS(C3=CC=C([N+]([O-])=O)C=C3)(=O)=O)C=C(OS(C4=CC=C([N+]([O-])=O)C=C4)(=O)=O)C=C2O[C@@H]1C5=CC=C(O)C(O)=C5" ,
+                              "condition" : "Pb(OAc)2, MeCN, 0 °C, 10 min" ,
+                              "possibilities" : ["O=C1C(CC2O[C@@H]3CC4=C(OS(C5=CC=C([N+]([O-])=O)C=C5)(=O)=O)C=C(OS(C6=CC=C([N+]([O-])=O)C=C6)(=O)=O)C=C4O[C@@H]3C2=C1)=O" ,
+                                                 "O[C@@H]1CC2=C(OS(C3=CC=C([N+]([O-])=O)C=C3)(=O)=O)C=C(OS(C4=CC=C([N+]([O-])=O)C=C4)(=O)=O)C=C2O[C@@H]1C(C=CC5=O)=CC5=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O[C@@H]1CC2=C(OS(C3=CC=C([N+]([O-])=O)C=C3)(=O)=O)C=C(OS(C4=CC=C([N+]([O-])=O)C=C4)(=O)=O)C=C2O[C@@H]1C(C=CC5=O)=CC5=O.O[C@@H]1CC2=C(OS(C3=CC=C([N+]([O-])=O)C=C3)(=O)=O)C=C(OS(C4=CC=C([N+]([O-])=O)C=C4)(=O)=O)C=C2O[C@@H]1C5=CC(O)=C(O)C(O)=C5" ,
+                              "condition" : "3Å MS, MeCN/CH2Cl2, 0 °C, 20 min; then H2O, rt, 5 min" ,
+                              "possibilities" : ["O[C@@H]1CC2=C(OS(C3=CC=C([N+]([O-])=O)C=C3)(=O)=O)C=C(OS(C4=CC=C([N+]([O-])=O)C=C4)(=O)=O)C=C2O[C@@H]1C5=CC6=C(OC(C(O)=CC([C@@H]7[C@H](O)CC(C(OS(C8=CC=C([N+]([O-])=O)C=C8)(=O)=O)=CC(OS(C9=CC=C([N+]([O-])=O)C=C9)(=O)=O)=C%10)=C%10O7)=C%11)=C%11O6)C=C5" ,
+                                                 "O[C@@H]1CC2=C(OS(C3=CC=C([N+]([O-])=O)C=C3)(=O)=O)C=C(OS(C4=CC=C([N+]([O-])=O)C=C4)(=O)=O)C=C2O[C@@H]1C5=C6C(C(C=CC([C@@H]7[C@H](O)CC(C(OS(C8=CC=C([N+]([O-])=O)C=C8)(=O)=O)=CC(OS(C9=CC=C([N+]([O-])=O)C=C9)(=O)=O)=C%10)=C%10O7)=C6)=O)=C(O)C(O)=C5" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O[C@@H]1CC2=C(OS(C3=CC=C([N+]([O-])=O)C=C3)(=O)=O)C=C(OS(C4=CC=C([N+]([O-])=O)C=C4)(=O)=O)C=C2O[C@@H]1C5=C6C(C(C=CC([C@@H]7[C@H](O)CC(C(OS(C8=CC=C([N+]([O-])=O)C=C8)(=O)=O)=CC(OS(C9=CC=C([N+]([O-])=O)C=C9)(=O)=O)=C%10)=C%10O7)=C6)=O)=C(O)C(O)=C5" ,
+                              "condition" : "PhSH, Cs2CO3, MeCN/DMF, 0 °C, 2 h" ,
+                              "possibilities" : ["O[C@@H]1CC2=C(OS(C3=CC=C([N+]([O-])=O)C=C3)(=O)=O)C=C(OS(C4=CC=C([N+]([O-])=O)C=C4)(=O)=O)C=C2O[C@@H]1C(C=C(O)C5=O)=C6C5=C(SC7=CC=CC=C7)C=CC([C@@H]8[C@H](O)CC(C(OS(C9=CC=C([N+]([O-])=O)C=C9)(=O)=O)=CC(OS(C%10=CC=C([N+]([O-])=O)C=C%10)(=O)=O)=C%11)=C%11O8)=C6" ,
+                                                 "O[C@@H]1CC2=C(O)C=C(O)C=C2O[C@@H]1C3=C4C(C(C=CC([C@@H]5[C@H](O)CC(C(O)=CC(O)=C6)=C6O5)=C4)=O)=C(O)C(O)=C3" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
