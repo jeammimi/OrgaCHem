@@ -1,0 +1,24 @@
+{ "quizz_title": "Thyroxine",
+   "quizz_info_1":"Thyroxine is a tyrosine-based hormone used in case of hypothyroidism (not enough thyroid hormones are produced from the thyroid gland) as these hormones are mainly responsible for the regulation of the metabolism. Mid-2017, Levothyrox (thyroxine’s trade name), one of the most commonly prescribed drugs in France, is at the center of a controversy as thousands of people using the new formula, released in March 2017, complain of serious side effects.",
+   "quizz_info_2":"For more information about the synthesis, see: Tetrahedron Lett. 1997, 38, 6965-6968. For more information about the controversy of Levothyrox in France, see: https://www.thelocal.fr/20170824/france-levothyrox-controversy-thryoid-treatment-thousands-of-patients-side-effects",
+ "cards" : [
+                { "equation": "IC1=CC(C=O)=CC(I)=C1O" ,
+                              "condition" : "NaBH4 (exces), MeOH" ,
+                              "possibilities" : ["IC1=CC(COC)=CC(I)=C1O" ,
+                                                 "IC1=CC(CO)=CC(I)=C1O" ],
+                              "solution" : 1 },
+                              
+				{ "equation": "IC1=CC(CO)=CC(I)=C1O" ,
+                              "condition" : "NaBiO3 (2 equiv), AcOEt/AcOH/H2O (10:8:1), rt, 4 h" ,
+                              "possibilities" : ["IC1=CC(C=C(I)C1=O)=O" ,
+                                                 "IC1=CC2(CO2)C=C(I)C1=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "IC1=CC2(CO2)C=C(I)C1=O.IC3=CC(CC(N)C([O-])=O)=CC(I)=C3O" ,
+                              "condition" : "pH 8 borate buffer, NaOH, DMF, rt, overnight" ,
+                              "possibilities" : ["IC1=CC(CC2NCC3(C=C(I)C(C(I)=C3)=O)OC2=O)=CC(I)=C1O" ,
+                                                 "IC1=CC(OC2=C(I)C=C(CC(N)C(O)=O)C=C2I)=CC(I)=C1O" ],
+                              "solution" : 1 },
+
+              ]
+}
