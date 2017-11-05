@@ -1,0 +1,49 @@
+{ "quizz_title": "Whisky Lactone",
+   "quizz_info_1":"Whiskey contains hundreds of different compounds. They differ depending on the ingredients and the methods used during the whisky preparation (type of malt, wood barrel). Whisky lactone can exist in two forms: the cis and trans diastereomers, both found in the oak barrel Whisky is aged in. The cis isomer has a strong spicy flavor while the trans isomer has a woody coconut flavor. Interestingly, extending the alkyl chain of one carbon gives cognac lactone, which gives the distinctive flavor of Cognac, a French brandy.",
+   "quizz_info_2":"For more information about this synthesis, see: J. Org. Chem. 2014, 79, 976-983. Form ore information about oak lactones in alcoholic beverages, see: Food Reviews International 1996, 12, 105 – 130. For more information about the chemistry of Whiskey, see: http://www.compoundchem.com/2015/03/31/whisky/",
+ "cards" : [
+                { "equation": "OCC[C@@H](C)CC/C=C(C)/C" ,
+                              "condition" : "salicylic acid (cat.), SeO2, t-BuOH, CH2Cl2, rt, 120 h" ,
+                              "possibilities" : ["OCC[C@@H](C)C[C@@H](O)/C=C(C)/C" ,
+                                                 "OC/C(C)=C/CC[C@H](C)CCO" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC/C(C)=C/CC[C@H](C)CCO" ,
+                              "condition" : "Ac2O, Et3N, DMAP, CH2Cl2, 1.5 h, 0 °C" ,
+                              "possibilities" : ["OC/C(C)=C/CC[C@H](C)CCOC(C)=O" ,
+                                                 "O=C(OC/C(C)=C/CC[C@H](C)CCOC(C)=O)C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(OC/C(C)=C/CC[C@H](C)CCOC(C)=O)C" ,
+                              "condition" : "ZnCl2, Pd(PPh3)4, AllyllMgCl, THF, rt, 1.5 h" ,
+                              "possibilities" : ["CC([C@H]1CC[C@H](C)CCO1)=C" ,
+                                                 "OCC[C@@H](C)C/C=C/C(C)=C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OCC[C@@H](C)C/C=C/C(C)=C" ,
+                              "condition" : "CuOTf, 2,2'-bipyridine, TEMPO, 1-methylimidazole, CH3CN, O2, 50 °C, 2 h; then MacMillan's catalyst, N-chlorosuccinimide, –28 °C, 24 h; then NaBH4, CH3CN/MeOH, 0 °C, 30 min" ,
+                              "possibilities" : ["C=C(C)/C=C/C[C@H](C)[C@@H]1CO1" ,
+                                                 "OC[C@@H](Cl)[C@@H](C)C/C=C/C(C)=C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC[C@@H](Cl)[C@@H](C)C/C=C/C(C)=C" ,
+                              "condition" : "NaOH, H2O/CH3CN/EtOH, rt, 2 h" ,
+                              "possibilities" : ["C=C(C)/C=C/C[C@H](C)[C@H]1CO1" ,
+                                                 "C=C(C)/C=C/C[C@H](C)[C@@H]1CO1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C=C(C)/C=C/C[C@H](C)[C@@H]1CO1" ,
+                              "condition" : "CuCN, n-PrMgBr, THF, –78 to 0 °C, 7 h" ,
+                              "possibilities" : ["C=C(C)/C=C/C[C@H](C)[C@H](CCC)CO" ,
+                                                 "C=C(C)/C=C/C[C@H](C)[C@@H](O)CCCC" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C=C(C)/C=C/C[C@H](C)[C@@H](O)CCCC" ,
+                              "condition" : "1) O3, MeOH, –78 °C, then NaBH4, 1 h; 2) CuOTf, 2,2'-bipyridine, TEMPO, 1-methylimidazole, CH3CN, O2, 50 °C, 2 h" ,
+                              "possibilities" : ["C=C1O[C@@H](CCCC)[C@@H](C)CC=C1" ,
+                                                 "O=C1O[C@@H](CCCC)[C@@H](C)C1" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
