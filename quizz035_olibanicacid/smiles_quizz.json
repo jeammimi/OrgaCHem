@@ -1,0 +1,43 @@
+{ "quizz_title": "Olibanic Acid",
+   "quizz_info_1":"Frankincense is one of the gift from the three wise men in the Christmas story. Its primary use is as incense, but it can also be used in perfumery. Though boswellic acids make up around 30% of the resin, they don’t contribute to its aroma. A 2016 study showed that, even though several compounds contribute to it, the distinctive aroma of frankincense is due to cis- and (+)-trans-olibanic acids present in trace amounts. Frankincense is edible. Ancient cultures chewed it like gum, and used it to treat digestive ailments and to boost the immune system. It was also used to make eyeliner. The name frankincense is derived from an old French phrase. “Fran encens” means “high quality incense”.",
+   "quizz_info_2":"For more details on this synthesis and information about the olibanic acids, see: Angew. Chem. Int. Ed. 2016, 55, 13719-13723.",
+ "cards" : [
+                { "equation": "C#CCO" ,
+                              "condition" : " 3,4-dihydropyran, Amberlyst 15, petroleum ether, rt, 7 h" ,
+                              "possibilities" : ["OCC#CC1CCCOC1" ,
+                                                 "C#CCOC1OCCCC1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C#CCOC1OCCCC1" ,
+                              "condition" : " NaH, DMSO, THF, rt, 15 h;  then 1-bromooctane, rt, 29 h" ,
+                              "possibilities" : ["C#CCCCCCCCCC" ,
+                                                 "CCCCCCCCC#CCOC1OCCCC1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CCCCCCCCC#CCOC1OCCCC1" ,
+                              "condition" : "Amberlyst 15, MeOH, 45 °C, 40 h" ,
+                              "possibilities" : ["COCC#CCCCCCCCC" ,
+                                                 "OCC#CCCCCCCCC" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OCC#CCCCCCCCC" ,
+                              "condition" : "LiAlH4, THF, reflux, 2 h" ,
+                              "possibilities" : ["OCCCCCCCCCCC" ,
+                                                 "OC/C=C/CCCCCCCC" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC/C=C/CCCCCCCC.CCCCB1O[C@@H](C(N(C)C)=O)[C@H](C(N(C)C)=O)O1" ,
+                              "condition" : "CH2Cl2, –15 °C; then Zn(CH2I)2-DME, CH2Cl2, –15 °C-rt, 15 h" ,
+                              "possibilities" : ["CCCCCCCCCC1COC1" ,
+                                                 "OC[C@@H]1[C@@H](CCCCCCCC)C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC[C@@H]1[C@@H](CCCCCCCC)C1" ,
+                              "condition" : "CrO3, aq. H2SO4, acetone, rt, 20 h" ,
+                              "possibilities" : ["O=C[C@@H]1[C@@H](CCCCCCCC)C1" ,
+                                                 "O=C(O)[C@@H]1[C@@H](CCCCCCCC)C1" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
