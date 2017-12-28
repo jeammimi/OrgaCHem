@@ -1,0 +1,31 @@
+{ "quizz_title": "Chrysanthemin",
+   "quizz_info_1":"Chrysanthemin is one of the many anthocyanins. Anthocyanins are at the origin of the color of purple red cabbage and the red color of poinsettias, which are often sold around Christmas. They are also found in red wine and are known to have antioxidant properties. They are water soluble pigments being reddish at pH<3, being colorless at pH 3-4, violet at pH 4-7, blue at pH 7-8 and yellow green at ph>8, making them very useful as pH indicators. This change of color depending on the pH is due to changes in the form of the molecule (hydration, proton transfer). ",
+   "quizz_info_2":"For more details on this synthesis, see: patent WO2006134352. For more information about the chemistry of poinsettias, see: http://www.compoundchem.com/2013/12/16/poisonous-poinsettia-ph-indicators/ ; For more information about the chemistry of red cabbage, see: http://www.compoundchem.com/2017/05/18/red-cabbage/ ; For more information about the structure change at different pH, see: J. Agric. Food Chem. 1999, 47, 67−70.",
+ "cards" : [
+                { "equation": "OC1=C(O)C=CC(C(CCl)=O)=C1.ClC(Cl)(C2=CC=CC=C2)C3=CC=CC=C3" ,
+                              "condition" : "toluene, reflux, 24 h" ,
+                              "possibilities" : ["O=C(C(C1=CC=CC=C1)C2=CC=CC=C2)C3=CC(OC(C4=CC=CC=C4)(C5=CC=CC=C5)O6)=C6C=C3" ,
+                                                 "O=C(CCl)C1=CC(OC(C2=CC=CC=C2)(C3=CC=CC=C3)O4)=C4C=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(CCl)C1=CC(OC(C2=CC=CC=C2)(C3=CC=CC=C3)O4)=C4C=C1" ,
+                              "condition" : "NaI, CH3CN, rt, overnight" ,
+                              "possibilities" : ["O=C(CCl)C1=C(I)C(OC(C2=CC=CC=C2)(C3=CC=CC=C3)O4)=C4C=C1" ,
+                                                 "O=C(CI)C1=CC(OC(C2=CC=CC=C2)(C3=CC=CC=C3)O4)=C4C=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(CI)C1=CC(OC(C2=CC=CC=C2)(C3=CC=CC=C3)O4)=C4C=C1.O[C@H]1[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](COC(C)=O)O1" ,
+                              "condition" : "NaH, CH2Cl2, rt, overnight" ,
+                              "possibilities" : ["O=C(CO[C@H]1[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@H](COC(C)=O)O1)C2=CC(OC(C3=CC=CC=C3)(C4=CC=CC=C4)O5)=C5C=C2" ,
+                                                 "O=C(CO[C@H]1[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](COC(C)=O)O1)C2=CC(OC(C3=CC=CC=C3)(C4=CC=CC=C4)O5)=C5C=C2" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(CO[C@H]1[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](COC(C)=O)O1)C2=CC(OC(C3=CC=CC=C3)(C4=CC=CC=C4)O5)=C5C=C2.OC1=CC(OC(C)=O)=CC(OC(C)=O)=C1C=O" ,
+                              "condition" : "1) HCl, EtOAc, rt, overnight; 2) 2M NaOH, then 2M HCl" ,
+                              "possibilities" : ["OC1=C(O)C=CC(C2=C(O)C=C(C(O)=CC(O)=C3)C3=[O+]2)=C1.[Cl-]" ,
+                                                 "OC1=C(O)C=CC(C2=C(O[C@@H]3[C@@H](O)[C@H](O)[C@@H](O)[C@H](CO)O3)C=C(C(O)=CC(O)=C4)C4=[O+]2)=C1.[Cl-]" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
