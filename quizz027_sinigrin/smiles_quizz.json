@@ -1,0 +1,31 @@
+{ "quizz_title": "Sinigrin",
+   "quizz_info_1":"Brussels sprouts are native to northern Europe and got their name from the fact that they were widely cultivated around Brussels in the 16th Century. They were introduced in America in the 1800s. They have great nutritional properties as an 80g serving of sprouts contains four times more vitamin C than an orange. Brussels sprout, as long as Broccoli, contain sinigrin, which may help prevent colon and stomach cancer. When the tissues of the sprouts are damaged, sinigrin decomposed and leads to isocyanates which contributes to the bitterness of the sprouts.",
+   "quizz_info_2":"For more details on this synthesis, see: J. Carbohydrate Chemistry 1996, 15, 109-113. For more information about the therapeutic benefits of sinigrin, see: Molecules 2016, 21, 416",
+ "cards" : [
+                { "equation": "C=CCC[N+]([O-])=O" ,
+                              "condition" : "1) MeONa, MeOH, rt, 5 min; 2) HCl, Et3N, Et2O, –70 °C, 1 h" ,
+                              "possibilities" : ["ClCC1CC1[N+]([O-])=O" ,
+                                                 "C=CCC(Cl)=NO" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C=CCC(Cl)=NO.S[C@H]1[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](COC(C)=O)O1" ,
+                              "condition" : "Et3N, Et2O, –40-15 °C, 30 min" ,
+                              "possibilities" : ["O=C(CC=C)S[C@H]1[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](COC(C)=O)O1" ,
+                                                 "C=CCC(S[C@H]1[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](COC(C)=O)O1)=NO" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C=CCC(S[C@H]1[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](COC(C)=O)O1)=NO" ,
+                              "condition" : "SO3•py, pyridine, rt, 48 h; then sat. aq. KHCO3" ,
+                              "possibilities" : ["O[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1SC(CC=C)=NOS(=O)(O[K])=O" ,
+                                                 "C=CCC(S[C@H]1[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](COC(C)=O)O1)=NOS(=O)(O[K])=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C=CCC(S[C@H]1[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](COC(C)=O)O1)=NOS(=O)(O[K])=O" ,
+                              "condition" : "NH3 in MeOH, MeOH" ,
+                              "possibilities" : ["O=C(O[C@@H]1[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](COC(C)=O)O[C@H]1SC(CCCOC)=NOS(=O)(O[K])=O)C" ,
+                                                 "O[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1SC(CC=C)=NOS(=O)(O[K])=O" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
