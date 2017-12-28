@@ -1,0 +1,32 @@
+{ "quizz_title": "5CB",
+   "quizz_info_1":"5CB, discovered by George Gray, has revolutionized the world we live in. It was the first liquid crystal to display a bright and clear color display at room temperature. This discovery led to the display screens which are now found in our homes (televisions, clock radios, e-readers, phones, etc). Liquid crystals are a matter of states which has both the properties of liquids (it may flow like water) and solids (the molecules can be oriented like in a diamonds).",
+   "quizz_info_2":"For more details on this synthesis, see: Mol. Cryst. Liq. Cryst. 1980, 58, 251-259. For more information about how liquid crystals displays work, see: https://www.youtube.com/watch?v=0B79dGR19Tg",
+ "cards" : [
+                { "equation": "C1(C2=CC=CC=C2)=CC=CC=C1" ,
+                              "condition" : "AlCl3, n-BuCOCl, hexane, 45 °C, 2 h" ,
+							  "type_reaction" : "Friedel-Craft Acylation",
+                              "possibilities" : ["O=C(CCCC)C1=CC(C2=CC=CC=C2)=CC=C1" ,
+                                                 "O=C(CCCC)C(C=C1)=CC=C1C2=CC=CC=C2" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(CCCC)C(C=C1)=CC=C1C2=CC=CC=C2" ,
+                              "condition" : "H2N-NH2•H2O, KOH, ethylene glycol, 130 °C, 3 h, then 220 °C" ,
+                              "possibilities" : ["N=C(CCCC)C(C=C1)=CC=C1C2=CC=CC=C2" ,
+                                                 "CCCCCC(C=C1)=CC=C1C2=CC=CC=C2" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CCCCCC(C=C1)=CC=C1C2=CC=CC=C2" ,
+                              "condition" : "HIO3, I2, CCl4, conc. H2SO4, acetic acid/H2O, 80 °C, 10 h" ,
+                              "possibilities" : ["IC1=CC(C2=CC=CC=C2)=CC=C1CCCCC" ,
+                                                 "IC(C=C1)=CC=C1C2=CC=C(CCCCC)C=C2" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "IC(C=C1)=CC=C1C2=CC=C(CCCCC)C=C2" ,
+                              "condition" : "CuCN, DMF, reflux, 6 h" ,
+                              "possibilities" : ["CCCCCC(C=C1)=CC=C1C2=CC=C(C(C=C3)=CC=C3C4=CC=C(CCCCC)C=C4)C=C2" ,
+                                                 "CCCCCC(C=C1)=CC=C1C2=CC=C(C#N)C=C2" ],
+                              "solution" : 1 },
+                              
+
+              ]
+}
