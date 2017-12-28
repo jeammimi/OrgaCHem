@@ -1,0 +1,37 @@
+{ "quizz_title": "Gingerol",
+   "quizz_info_1":"Gingerol gives fresh ginger its pungency. When heated, gingerol decomposes to give zingerone, which gives the typical sweet and spicy flavor of gingerbread. Shogaol is another decomposition product obtained by heating gingerol leading to the elimination of its alcohol to give the corresponding unsaturated ketone. Shogaol has an anti coughing effect and gingerol has anti-inflammatory properties. The court of Queen Elizabeth I has been credited for the invention of gingerbread man which were served to important visitors.",
+   "quizz_info_2":"For more details on this synthesis, see: Tetrahedron: Asymmetry 2011, 22, 2124-2133. For more information about the chemistry of ginger, see: http://www.compoundchem.com/2014/11/27/ginger/",
+ "cards" : [
+                { "equation": "O=CC1=CC(OC)=C(OCC2=CC=CC=C2)C=C1" ,
+                              "condition" : "PPh3, CBr4, CH2Cl2, 0 °C-rt, 30 min" ,
+                              "possibilities" : ["OC(C(Br)(Br)Br)C1=CC(OC)=C(OCC2=CC=CC=C2)C=C1" ,
+                                                 "Br/C(Br)=C/C1=CC(OC)=C(OCC2=CC=CC=C2)C=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "Br/C(Br)=C/C1=CC(OC)=C(OCC2=CC=CC=C2)C=C1" ,
+                              "condition" : "EtMgBr, THF, 0 °C-rt, 1 h" ,
+                              "possibilities" : ["BrC(Br)C(CC)C1=CC(OC)=C(OCC2=CC=CC=C2)C=C1" ,
+                                                 "C#CC1=CC(OC)=C(OCC2=CC=CC=C2)C=C1" ],
+                              "solution" : 1 },
+						
+				{ "equation": "C#CC1=CC(OC)=C(OCC2=CC=CC=C2)C=C1.CCCCC[C@H](O[Si](C)(C)C(C)(C)C)CC=O" ,
+                              "condition" : "1) n-BuLi, THF, –78 °C-rt, 5 h; 2) IBX, DMSO, CH2Cl2, 0 °C-rt, 2 h" ,
+                              "possibilities" : ["CCCCCC(C[C@H](O[Si](C)(C)C(C)(C)C)C#CC1=CC(OC)=C(OCC2=CC=CC=C2)C=C1)=O" ,
+                                                 "O=C(C[C@@H](O[Si](C)(C)C(C)(C)C)CCCCC)C#CC1=CC(OC)=C(OCC2=CC=CC=C2)C=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(C[C@@H](O[Si](C)(C)C(C)(C)C)CCCCC)C#CC1=CC(OC)=C(OCC2=CC=CC=C2)C=C1" ,
+                              "condition" : "Pd(OH)2, H2, benzene, rt, 5 h" ,
+                              "possibilities" : ["O=C(C[C@@H](O[Si](C)(C)C(C)(C)C)CCCCC)CCC1=CC(OC)=C(OCC2=CC=CC=C2)C=C1" ,
+                                                 "OC1=C(OC)C=C(CCC(C[C@@H](O[Si](C)(C)C(C)(C)C)CCCCC)=O)C=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC1=C(OC)C=C(CCC(C[C@@H](O[Si](C)(C)C(C)(C)C)CCCCC)=O)C=C1" ,
+                              "condition" : "TBAF, THF, 0 °C-rt, 6 h" ,
+                              "possibilities" : ["OC1=C(OC)C=C(CCC(/C=C/CCCCC)=O)C=C1" ,
+                                                 "OC1=C(OC)C=C(CCC(C[C@@H](O)CCCCC)=O)C=C1" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
