@@ -7,37 +7,38 @@
                               "possibilities" : ["OCC#CC1CCCOC1" ,
                                                  "C#CCOC1OCCCC1" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "C#CCOC1OCCCC1" ,
                               "condition" : " NaH, DMSO, THF, rt, 15 h;  then 1-bromooctane, rt, 29 h" ,
                               "possibilities" : ["C#CCCCCCCCCC" ,
                                                  "CCCCCCCCC#CCOC1OCCCC1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                              "template":false},
+
 				{ "equation": "CCCCCCCCC#CCOC1OCCCC1" ,
                               "condition" : "Amberlyst 15, MeOH, 45 °C, 40 h" ,
                               "possibilities" : ["COCC#CCCCCCCCC" ,
                                                  "OCC#CCCCCCCCC" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "OCC#CCCCCCCCC" ,
                               "condition" : "LiAlH4, THF, reflux, 2 h" ,
                               "possibilities" : ["OCCCCCCCCCCC" ,
                                                  "OC/C=C/CCCCCCCC" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "OC/C=C/CCCCCCCC.CCCCB1O[C@@H](C(N(C)C)=O)[C@H](C(N(C)C)=O)O1" ,
                               "condition" : "CH2Cl2, –15 °C; then Zn(CH2I)2-DME, CH2Cl2, –15 °C-rt, 15 h" ,
                               "possibilities" : ["CCCCCCCCCC1COC1" ,
                                                  "OC[C@@H]1[C@@H](CCCCCCCC)C1" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "OC[C@@H]1[C@@H](CCCCCCCC)C1" ,
                               "condition" : "CrO3, aq. H2SO4, acetone, rt, 20 h" ,
                               "possibilities" : ["O=C[C@@H]1[C@@H](CCCCCCCC)C1" ,
                                                  "O=C(O)[C@@H]1[C@@H](CCCCCCCC)C1" ],
                               "solution" : 1 }
-                              
+
 
               ]
 }

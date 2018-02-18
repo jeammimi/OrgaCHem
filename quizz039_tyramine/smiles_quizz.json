@@ -1,13 +1,14 @@
 { "quizz_title": "Tyramine",
    "quizz_info_1":"You may have already kissed under the mistletoe during Christmas holidays. But It’s not recommended to eat it. Its berries contain tyramine in a toxic dose. However, tyramine has also therapeutic uses as treatment for arthritis, high blood pressure, etc. It is found in red wine, most of the cheeses, chocolate among others. Though tyramine is cheap and can be obtained by decarboxylation of tyrosine, here is another approach toward this molecule",
    "quizz_info_2":"For more details on this synthesis, see: Synlett 2011, 2025-2028. For more information about mistletoe, see: https://www.thoughtco.com/is-mistletoe-really-poisonous-606132",
+   "type" : ["Medicinal"],
  "cards" : [
                 { "equation": "OC1=CC=C(CC#N)C=C1" ,
                               "condition" : "Pd(OH)2/C 20%, H2, THF, rt, 18 h" ,
                               "possibilities" : ["OC1=CC=C(CC)C=C1" ,
                                                  "OC1=CC=C(CCN)C=C1" ],
                               "solution" : 1 }
-                              
+
 
               ]
 }

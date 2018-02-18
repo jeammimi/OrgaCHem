@@ -1,6 +1,7 @@
 { "quizz_title": "Apiole",
    "quizz_info_1":"Apiole is the active ingredient in parsley. It has been used for the treatment of menstrual disorders. Hippocrates documented that parsley was used to induce abortion. According to legend, parsley sprang up where the blood of the Greek hero Archemorus, whose name means “Forerunner of Death”, was spilled when he was eaten by serpents. It is mentioned as one of the plants in the gardens of Charlemagne and Catherine de Medici. It is supposed that Medici was responsible for popularizing parsley in Europe when she brought it back to France from its native Italy.",
    "quizz_info_2":"For more details about the synthesis, see: Synlett 2003, 1431-1434; and J. Org. Chem. 2016, 81, 3127-3135. For more information about herbal infusions used for induced abortion, see: Journal of Toxicology: Clinical Toxicology 2003, 41, 235-239. ",
+   "type" : ["Medicinal"],
  "cards" : [
                 { "equation": "O=C1C2=C(C(OC)=CC=C2OC)C(C3=CC=CC=C31)=O" ,
                               "condition" : "NaBO3•4H2O, TFA, rt, 75 min" ,

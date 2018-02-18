@@ -1,25 +1,26 @@
 { "quizz_title": "Glimepiride",
    "quizz_info_1":"Glimepiride is an antidiabetic drug. It belongs to the family of sulfonylureas which are widely used to manage diabetes. They were discovered by chance in 1942 when a French group discovered that p-amino-sulfonamide-isopropyl-thiodiazole had antibacterial effects on typhoid fever. There are three generations of sulfonylureas. Each generation has a better binding to sulfonylureas receptors. By binding less to potassium channels in the myocardium compared to other sulfonylureas, glimepiride gives less angina pain, etc (ie preservation of ischemic preconditioning). ",
    "quizz_info_2":"For more details on the synthesis, see: Synlett 2017, 2495-2498. For more details on the discovery of sulfonylureas’ antibacterial effect, see: Montpellier Med. 1942, 21–22, 441-444. For more details on glimepiride and ischemic preconditioning, see: European Heart Journal 1999, 20, 439–446 and Circulation 2001, 103, 3111-3116.",
+   "type" : ["Medicinal"],
  "cards" : [
                 { "equation": "O=C1NCC(C)=C1CC" ,
                               "condition" : "diphenyl carbonate, NaH, DMF, 0 °C to rt, 6.5 h" ,
                               "possibilities" : ["O=C1N(C(N2CC(C)=C(CC)C2=O)=O)CC(C)=C1CC" ,
                                                  "O=C1N(C(OC2=CC=CC=C2)=O)CC(C)=C1CC" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "O=C1N(C(OC2=CC=CC=C2)=O)CC(C)=C1CC.NCCC1=CC=C(S(=O)(N)=O)C=C1" ,
                               "condition" : "THF, rt, overnight" ,
                               "possibilities" : ["O=C1N(C(NS(C2=CC=C(CCN)C=C2)(=O)=O)=O)CC(C)=C1CC" ,
                                                  "O=C1N(C(NCCC2=CC=C(S(=O)(N)=O)C=C2)=O)CC(C)=C1CC" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "O=C1N(C(NCCC2=CC=C(S(=O)(N)=O)C=C2)=O)CC(C)=C1CC.O=C(OC1=CC=CC=C1)N[C@H]2CC[C@H](C)CC2" ,
                               "condition" : "DBU, MeCN, reflux, 5 h" ,
                               "possibilities" : ["O=C1N(C(N(C(N[C@@H]2CC[C@@H](C)CC2)=O)CCC3=CC=C(S(=O)(N)=O)C=C3)=O)CC(C)=C1CC" ,
                                                  "O=C1N(C(NCCC2=CC=C(S(NC(N[C@@H]3CC[C@@H](C)CC3)=O)(=O)=O)C=C2)=O)CC(C)=C1CC" ],
-                              "solution" : 1 },
-                              
+                              "solution" : 1 }
+
 
               ]
 }

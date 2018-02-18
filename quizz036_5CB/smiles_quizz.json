@@ -25,7 +25,8 @@
                               "condition" : "CuCN, DMF, reflux, 6 h" ,
                               "possibilities" : ["CCCCCC(C=C1)=CC=C1C2=CC=C(C(C=C3)=CC=C3C4=CC=C(CCCCC)C=C4)C=C2" ,
                                                  "CCCCCC(C=C1)=CC=C1C2=CC=C(C#N)C=C2" ],
-                              "solution" : 1 }
+                              "solution" : 1,
+                              "template": false}
 
 
               ]

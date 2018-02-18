@@ -6,8 +6,9 @@
                               "condition" : "SOCl2, CHCl3, rt" ,
                               "possibilities" : ["C1COCCS1" ,
                                                  "ClCCSCCCl" ],
-                              "solution" : 1 },
-                              
+                              "solution" : 1,
+                              "template":false }
+
 
               ]
 }
