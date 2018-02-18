@@ -1,31 +1,32 @@
 { "quizz_title": "Adrenaline",
    "quizz_info_1":"Remember the scene in Pulp Fiction where Vincent Vega shot Mia Wallace with a syringe and a LONG needle after her heroin overdose? Well he gave her a shot of adrenaline, also known as epinephrine. It is released naturally by our two adrenal glands and is known to increase heart rate. Fun thing is: you don’t have to control it. It kicks in when it figures you could use some.",
    "quizz_info_2":"For more details on the synthesis and the titanium catalyst used, see: Tetrahedron Lett. 1997, 38, 927-930. For more details about the Hofmann rearrangement using PhI(OAc)2, see: J. Org. Chem. 1993, 58, 2478-2482. For more information about adrenaline science, see:  https://youtu.be/GilWRuk81tk",
+"type" : ["Vital"],
  "cards" : [
                 { "equation": "COC1=C(OC)C=CC(C=O)=C1.C=C(O[Si](C)(C)C)OCC2=CC=CC=C2" ,
                               "condition" : "1) Chiral titanium(IV) complex; 2) 10% TFA, THF" ,
                               "possibilities" : ["COC1=C(OC)C=CC(/C=C/C(OCC2=CC=CC=C2)=O)=C1" ,
                                                  "O[C@@H](CC(OCC1=CC=CC=C1)=O)C2=CC(OC)=C(OC)C=C2" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "O[C@@H](CC(OCC1=CC=CC=C1)=O)C2=CC(OC)=C(OC)C=C2" ,
                               "condition" : "1) TBSCl, imidazole, DMF; 2) NaOH (aq), MeOH" ,
                               "possibilities" : ["O[C@@H](C(OCC1=CC=CC=C1)=O)[C@H](O[Si](C)(C)C(C)(C)C)C2=CC(OC)=C(OC)C=C2" ,
                                                  "COC1=C(OC)C=CC([C@@H](O[Si](C)(C)C(C)(C)C)CC(O)=O)=C1" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "COC1=C(OC)C=CC([C@@H](O[Si](C)(C)C(C)(C)C)CC(O)=O)=C1" ,
                               "condition" : "1) SOCl2, then NH4OH; 2) PhI(OAc)2, KOH; 3) LiAlH4, THF, reflux" ,
                               "possibilities" : ["O[C@@H](CCN)C1=CC(OC)=C(OC)C=C1" ,
                                                  "O[C@@H](CNC)C1=CC(OC)=C(OC)C=C1" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "O[C@@H](CNC)C1=CC(OC)=C(OC)C=C1" ,
                               "condition" : "BBr3" ,
                               "possibilities" : ["Br[C@H](CNC)C1=CC(OC)=C(OC)C=C1" ,
                                                  "OC1=C(O)C=CC([C@@H](O)CNC)=C1" ],
                               "solution" : 1 }
-                              
+
 
               ]
 }

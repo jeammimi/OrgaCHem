@@ -1,19 +1,22 @@
 { "quizz_title": "Valium",
-   "quizz_info_1":"Diazepam, better known by the trade name Valium, is a benzodiazepine having a sedative and anxiolytic effect. It was used to replace barbiturates, which were too addictive. The 1966 song "Mother’s Little Helper" from the Rolling Stones is a paean to Valium launched 3 years earlier",
+   "quizz_info_1":"Diazepam, better known by the trade name Valium, is a benzodiazepine having a sedative and anxiolytic effect. It was used to replace barbiturates, which were too addictive. The 1966 song 'Mother’s Little Helper' from the Rolling Stones is a paean to Valium launched 3 years earlier",
    "quizz_info_2":"For more details on the synthesis see: Med. Chem. Res. 2016, 25, 1538-1550.",
+   "type" : ["Medicinal"],
  "cards" : [
                 { "equation": "O=C(C1=CC=CC=C1)C2=C(N)C=CC(Cl)=C2" ,
                               "condition" : "1) chloroacetyl chloride, neat; 2) NH4OH/K2CO3, neat, rt, 3 h" ,
                               "possibilities" : ["O=C(C1=CC=CC=C1)C2=C(N3C(C3)=O)C=CC(Cl)=C2" ,
                                                  "O=C1CN=C(C2=CC=CC=C2)C3=C(C=CC(Cl)=C3)N1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                              "template" : false },
+
 				{ "equation": "O=C1CN=C(C2=CC=CC=C2)C3=C(C=CC(Cl)=C3)N1" ,
                               "condition" : "Me2SO4, K2CO3, neat, rt, 2 h" ,
                               "possibilities" : ["O=C1CNC(C)(C2=CC=CC=C2)C3=C(C=CC(Cl)=C3)N1C" ,
                                                  "O=C1CN=C(C2=CC=CC=C2)C3=C(C=CC(Cl)=C3)N1C(C)=O" ],
-                              "solution" : 1 }
-                              
+                              "solution" : 1,
+                            "template" : false }
+
 
               ]
 }

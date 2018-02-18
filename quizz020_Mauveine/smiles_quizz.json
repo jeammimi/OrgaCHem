@@ -1,18 +1,18 @@
 { "quizz_title": "Mauveine",
   "quizz_info_1": "Mauveine was the first industrially produced colorant. Both, the story of its accidental discovery, as well as, the story of the elucidation of its structure are just fascinating! William Perkin was only 18 years old when he turned the black gooey product he had obtained in his failed attempt to synthetize quinine, in to, a patent that would make a fortune and give the world industrial access to the synthetic color purple.",
   "quizz_info_2": "At the time (1850’s), the chemical structure of mauveine was not known until 1994 when the original sample was analyzed using modern technology. For more details on this fascinating story see references: Meth-Cohn, O. J. Chem. Soc. Perkin Trans. 1, 1994, pages 5-7 and Sausa, M.M., et al. Chem. Eur. J., 2008, 14, pages 8507-8513.",
-  "type" : ["Colorants"],
+  "type" : ["Dye"],
    "cards" : [
                 { "equation": "CC1=CC=C(N)C=C1.NC2=C(C)C=CC=C2" ,
                               "condition" : "Aniline (2equiv.), K2Cr2O7,H2SO4" ,
                               "possibilities" : ["NC1=C(C)C=C2C([N+](C4=CC=CC=C4)=C(C=C(NC5=CC=C(C)C=C5)C=C3)C3=N2)=C1" ,
                                                  "NC1=C(C)C=C2C([N+](C4=CC=C(C)C=C4)=C(C=C(NC5=CC=C(C)C=C5)C(C)=C3)C3=N2)=C1" ],
                               "solution" : 0 },
-     
+
                 { "equation": "NC1=CC=CC=C1.CC2=CC=C(N)C=C2" ,
                               "condition" : "o-toluidine (2equiv.), K2Cr2O7, H2SO4" ,
                               "possibilities" : ["NC1=C(C)C=C2C([N+](C4=CC=CC=C4)=C(C=C(NC5=CC=C(C)C=C5)C=C3C)C3=N2)=C1" ,
                                                  "NC1=CC=C2C([N+](C4=CC=CC=C4)=C(C=C(NC5=CC=CC=C5)C=C3)C3=N2)=C1" ],
-                              "solution" : 0 },
+                              "solution" : 0 }
                ]
 }

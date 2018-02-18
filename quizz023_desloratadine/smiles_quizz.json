@@ -1,48 +1,52 @@
 { "quizz_title": "Desloratadine",
    "quizz_info_1":"Are you sneezing because of hay fever? Then you need some desloratadine. You can also use loratadine but desloratadine is the active metabolite. It has an half-life of 21-24h, hence the once-daily dosing.",
    "quizz_info_2":"For more details on the synthesis, see: J. Med. Chem. 1991, 34, 457-461 and J. Org. Chem. 1989, 54, 2242-2244. For more information about desloratadine see: Allergy 2001, 56, 7-13. For more information about allergies, see: https://youtu.be/vFZlxQU0Pyk",
+   "type" : ["Medicinal"],
  "cards" : [
                 { "equation": "N#CC1=NC=CC=C1C" ,
                               "condition" : "H2SO4, t-BuOH, 70 °C, 1.25 h" ,
                               "possibilities" : ["CC(C)(C)OC1C(C)=C(C#N)NC=C1" ,
                                                  "O=C(NC(C)(C)C)C1=NC=CC=C1C" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "O=C(NC(C)(C)C)C1=NC=CC=C1C" ,
                               "condition" : "n-BuLi, NaBr, THF, –40 °C, 10 min; then m-chlorobenzyl chloride, –40 °C, 30 min" ,
                               "possibilities" : ["O=C(N(CC1=CC(Cl)=CC=C1)C(C)(C)C)C2=NC=CC=C2C" ,
                                                  "O=C(NC(C)(C)C)C1=NC=CC=C1CCC2=CC(Cl)=CC=C2" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "O=C(NC(C)(C)C)C1=NC=CC=C1CCC2=CC(Cl)=CC=C2" ,
                               "condition" : "POCl3, reflux, 3 h" ,
                               "possibilities" : ["O=C(NC(C)(C)C)C1=NC(Cl)=CC=C1CCC2=CC(Cl)=CC=C2" ,
                                                  "ClC1=CC=CC(CCC2=CC=CN=C2C#N)=C1" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "ClC1=CC=CC(CCC2=CC=CN=C2C#N)=C1" ,
                               "condition" : "(N-methylpiperidyl)magnesium chloride, THF, 40-50 °C, 1 h; then 2N HCl, rt, 1 h" ,
                               "possibilities" : ["ClC1=CC=CC(CCC2=C(C(N)=O)NC=CC2C3CCN(C)CC3)=C1" ,
                                                  "ClC1=CC=CC(CCC2=CC=CN=C2C(C3CCN(C)CC3)=O)=C1" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template" : false},
+
 				{ "equation": "ClC1=CC=CC(CCC2=CC=CN=C2C(C3CCN(C)CC3)=O)=C1" ,
                               "condition" : "BF3, HF, –35 °C, 1 h" ,
                               "possibilities" : ["ClC1=CC=CC2=C1O/C(C3=C(C=CC=N3)CC2)=C4CCN(C)CC/4" ,
                                                  "ClC1=CC2=C(C=C1)/C(C3=C(C=CC=N3)CC2)=C4CCN(C)CC/4" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template" : false},
+
 				{ "equation": "ClC1=CC2=C(C=C1)/C(C3=C(C=CC=N3)CC2)=C4CCN(C)CC/4" ,
                               "condition" : "ClCO2Et, Et3N, toluene, reflux" ,
                               "possibilities" : ["ClC1=CC2=C(C=C1)/C(C3=C(C=CC=N3)C=C2)=C4CCN(C)CC/4" ,
                                                  "ClC1=CC2=C(C=C1)/C(C3=C(C=CC=N3)CC2)=C4CCN(C(OCC)=O)CC/4" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                            "template" : false},
+
 				{ "equation": "ClC1=CC2=C(C=C1)/C(C3=C(C=CC=N3)CC2)=C4CCN(C(OCC)=O)CC/4" ,
                               "condition" : "KOH, H2O, reflux" ,
                               "possibilities" : ["ClC1=CC2=C(C=C1)/C(C3=C(C(O)=CC=N3)CC2)=C4CCN(C(OCC)=O)CC/4" ,
                                                  "ClC1=CC2=C(C=C1)/C(C3=C(C=CC=N3)CC2)=C4CCNCC/4" ],
-                              "solution" : 1 }						  
+                              "solution" : 1 }
 
               ]
 }

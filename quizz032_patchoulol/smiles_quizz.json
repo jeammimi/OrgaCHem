@@ -6,62 +6,73 @@
                               "condition" : "LDA, THF, 0 °C; then MeI" ,
                               "possibilities" : ["O=C1C(C)(C)C=C[C@@H](C=C)C1" ,
                                                  "O=C1C(C)=CC[C@@H](C(C)=C)C1C" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                             "template":false,
+                              "3D":false },
+
 				{ "equation": "O=C1C(C)=CC[C@@H](C(C)=C)C1C" ,
                               "condition" : "LiHMDS, hexane, –10 °C, 45 min; then methyl acrylate, rt, 4 h; then MeI, HMPA, 0 °C to rt, 12 h" ,
                               "possibilities" : ["CC1=C(OC)[C@@]2(C)C[C@@H](C(OC)=O)[C@@H]1C[C@H]2C(C)=C" ,
                                                  "CC1(C)[C@@H](C[C@H]2C(C)=C)[C@H](C(OC)=O)C[C@]2(C)C1=O" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1 ,
+                             "template":false },
+
 				{ "equation": "CC1(C)[C@@H](C[C@H]2C(C)=C)[C@H](C(OC)=O)C[C@]2(C)C1=O" ,
                               "condition" : "10% NaOH, MeOH, reflux, 8 h" ,
                               "possibilities" : ["C[C@]1(C)[C@H](C[C@H]2C(C)=C)C(C3)C[C@]2(C)[C@]1(OC)OC3=O" ,
                                                  "CC1(C)[C@@H](C[C@H]2C(C)=C)[C@H](C(O)=O)C[C@]2(C)C1=O" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                             "template":false  },
+
 				{ "equation": "CC1(C)[C@@H](C[C@H]2C(C)=C)[C@H](C(O)=O)C[C@]2(C)C1=O" ,
                               "condition" : "(COCl)2, benzene, rt, 2 h" ,
                               "possibilities" : ["Cl[C@H](C[C@@]1(C)[C@H](C(C)=C)C2)[C@H]2C(C)(C)C1=O" ,
                                                  "CC1(C)[C@@H](C[C@H]2C(C)=C)[C@H](C(Cl)=O)C[C@]2(C)C1=O" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                             "template":false  },
+
 				{ "equation": "CC1(C)[C@@H](C[C@H]2C(C)=C)[C@H](C(Cl)=O)C[C@]2(C)C1=O.S=C1C=CC=CN1O[Na]" ,
                               "condition" : "DMAP, benzene, reflux, 1 h; then Bu3SnH, AIBN, reflux, 5 h" ,
                               "possibilities" : ["C[C@]1(C)[C@H](C[C@H]2C(C)=C)[C@H]3C[C@]2(C)[C@@H]1OC3=O" ,
                                                  "CC1(C)[C@@H](C[C@H]2C(C)=C)CC[C@]2(C)C1=O" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                             "template":false  },
+
 				{ "equation": "CC1(C)[C@@H](C[C@H]2C(C)=C)CC[C@]2(C)C1=O" ,
                               "condition" : "O3/O2, NaHCO3, MeOH/CH2Cl2 (1:4), –70 °C; then Me2S, rt, 10 h" ,
                               "possibilities" : ["CC1(C)[C@@H](C[C@H]2C(CO)(O)C)CC[C@]2(C)C1=O" ,
                                                  "CC1(C)[C@@H](C[C@H]2C(C)=O)CC[C@]2(C)C1=O" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                             "template":false  },
+
 				{ "equation": "CC1(C)[C@@H](C[C@H]2C(C)=O)CC[C@]2(C)C1=O.C=C[Mg]Br" ,
                               "condition" : "THF, 0 °C, 1 h" ,
                               "possibilities" : ["CC1(C)[C@@H](C[C@H]2C(C)=O)CC[C@]2(C)[C@]1(O)C=C" ,
                                                  "CC1(C)[C@@H](C[C@H]2C(O)(C=C)C)CC[C@]2(C)C1=O" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                             "template":false  },
+
 				{ "equation": "CC1(C)[C@@H](C[C@H]2C(O)(C=C)C)CC[C@]2(C)C1=O" ,
                               "condition" : "MOMCl, DIPEA, DMF, rt, 16 h" ,
                               "possibilities" : ["CC1(C)[C@@H](C[C@H]2C(C=C)=C)CC[C@]2(C)C1=O" ,
                                                  "CC1(C)[C@@H](C[C@H]2C(C=C)(OCOC)C)CC[C@]2(C)C1=O" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                             "template":false  },
+
 				{ "equation": "CC1(C)[C@@H](C[C@H]2C(C=C)(OCOC)C)CC[C@]2(C)C1=O" ,
                               "condition" : "Na, THF, reflux, 16 h" ,
                               "possibilities" : ["CC1(C)[C@H](C[C@H]2C3)CC[C@]2(C)[C@@]14C3=CCCO4" ,
                                                  "CC1(C)[C@H](C[C@H]2C(C)=CC3)CC[C@]2(C)[C@]13O" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1 ,
+                             "template":false },
+
 				{ "equation": "CC1(C)[C@H](C[C@H]2C(C)=CC3)CC[C@]2(C)[C@]13O" ,
                               "condition" : "H2, 5% Pd/C, MeOH, rt, 12 h" ,
                               "possibilities" : ["CC1(C)[C@H]2CC[C@]3(C)C1=CC[C@H](C)[C@@H]3C2" ,
                                                  "CC1(C)[C@H](C[C@H]2[C@@H](C)CC3)CC[C@]2(C)[C@]13O" ],
-                              "solution" : 1 }
-                              
+                              "solution" : 1 ,
+                             "template":false }
+
 
               ]
 }

@@ -1,57 +1,61 @@
 { "quizz_title": "Atorvastatin",
    "quizz_info_1":"Atorvastatin, marketed under the name Lipitor among others, has become THE best-selling drug in history. It is used as a cholesterol-lowering medicine. Interestingly, one should avoid drinking grapefruit juice while taking atorvastatin (or other statins). Statins are metabolized in the intestines by an enzyme (CYP3A4) thus reducing the amount of statins in the bloodstream. This same enzyme is inhibited by furanocoumarins present in high concentration in grapefruit juice. This inhibition leads to an increase of statins in the bloodstream, making it more powerful or even toxic in some cases.",
    "quizz_info_2":"For more information about the synthesis, see: Chem. Eur. J. 2013, 19, 3802-3806. For more information about grapefruit juice and statins, see: Am. J. Med. 2016, 129, 26-29.",
+   "type" : ["Medicinal"],
  "cards" : [
                 { "equation": "S=C(C)N(CC=C)CC=C.[H]C(CCOC(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)=O" ,
                               "condition" : "Mesitylcopper (6 mol %), (R,R)-Ph-BPE (6 mol %), 2,2,5,7,8-pentamethylchroman-6-ol (6 mol %), THF/DMF (1;1), –40 °C, 24 h" ,
                               "possibilities" : ["S=C(C[C@@H]1CCO1)N(CC=C)CC=C" ,
                                                  "S=C(C[C@@H](O)CCOC(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)N(CC=C)CC=C" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "S=C(C[C@@H](O)CCOC(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)N(CC=C)CC=C" ,
                               "condition" : "LiAlH4, THF, –78 °C to rt, 3.5 h" ,
                               "possibilities" : ["SCC[C@@H](O)CCOC(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3" ,
                                                  "C=CCN(CC=C)CC[C@@H](O)CCOC(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "C=CCN(CC=C)CC[C@@H](O)CCOC(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3" ,
                               "condition" : "2N HCl/EtOH, CH2Cl2, 0 °C to rt, 1 h" ,
                               "possibilities" : ["OC1CCNCC1" ,
                                                  "C=CCN(CC=C)CC[C@@H](O)CCO" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                             "template":false },
+
 				{ "equation": "C=CCN(CC=C)CC[C@@H](O)CCO" ,
-							  "type_reaction" : "Wittig Reaction", 
+							  "type_reaction" : "Wittig Reaction",
                               "condition" : "MnO2, (4-MeOC6H4)3PCHCO2t-Bu, toluene, reflux, 12 h" ,
                               "possibilities" : ["C=CCN(CC=C)CC[C@@H]1CC=CC(O1)=O" ,
                                                  "C=CCN(CC=C)CC[C@@H](O)C/C=C/C(OC(C)(C)C)=O" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "C=CCN(CC=C)CC[C@@H](O)C/C=C/C(OC(C)(C)C)=O" ,
                               "condition" : "PhCHO, t-BuOK, THF, 0 +C, 1.5 h" ,
                               "possibilities" : ["C=CCN(CC=C)CC[C@H]1O[C@@H](C(OC(C)(C)C)=O)[C@H]([C@H](O)C2=CC=CC=C2)C1" ,
                                                  "C=CCN(CC=C)CC[C@@H](O[C@@H](C1=CC=CC=C1)O2)C[C@@H]2CC(OC(C)(C)C)=O" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "C=CCN(CC=C)CC[C@@H](O[C@@H](C1=CC=CC=C1)O2)C[C@@H]2CC(OC(C)(C)C)=O" ,
                               "condition" : "Pd(dba)2 (6 mol %), dppb (6 mol %), thiosalicyclic acid, THF, 60 °C, 12 h" ,
                               "possibilities" : ["O[C@H]1C[C@@H](C(OC(C)(C)C)=O)NCC1" ,
                                                  "NCC[C@@H](O[C@@H](C1=CC=CC=C1)O2)C[C@@H]2CC(OC(C)(C)C)=O" ],
-                              "solution" : 1 },
-							  
+                              "solution" : 1,
+                              "template":false},
+
 				{ "equation": "NCC[C@@H](O[C@@H](C1=CC=CC=C1)O2)C[C@@H]2CC(OC(C)(C)C)=O.O=C(C(C)C)C(CC(NC3=CC=CC=C3)=O)C(C4=CC=CC=C4)C(C5=CC=C(F)C=C5)=O" ,
-							  "type_reaction" : "Paal-Knorr Pyrrole Synthesis", 
+							  "type_reaction" : "Paal-Knorr Pyrrole Synthesis",
                               "condition" : "t-BuCO2H, heptane/toluene/THF, 110 °C, 26 h" ,
                               "possibilities" : ["O=C(C(C)C)C(CC(NC1=CC=CC=C1)=O)/C(C2=CC=CC=C2)=C(NCC[C@@H](O[C@@H](C3=CC=CC=C3)O4)C[C@@H]4CC(OC(C)(C)C)=O)/C5=CC=C(F)C=C5" ,
                                                  "O=C(OC(C)(C)C)C[C@H]1C[C@H](O[C@@H](C2=CC=CC=C2)O1)CCN3C(C4=CC=C(F)C=C4)=C(C5=CC=CC=C5)C(C(NC6=CC=CC=C6)=O)=C3C(C)C" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "O=C(OC(C)(C)C)C[C@H]1C[C@H](O[C@@H](C2=CC=CC=C2)O1)CCN3C(C4=CC=C(F)C=C4)=C(C5=CC=CC=C5)C(C(NC6=CC=CC=C6)=O)=C3C(C)C" ,
                               "condition" : "1) 2N HCl/EtOH, 0 °C to rt, 12 h, 2) 2N NaOH, THF/H2O, 0 °C to rt, 6 h, then 1N HCl" ,
                               "possibilities" : ["O=C(NC1=CC=CC=C1)C2=C(C(C)C)N(C(C3=CC=C(F)C=C3)=C2C4=CC=CC=C4)CC[C@H](C[C@@H](O)C5)OC5=O" ,
                                                  "O[C@@H](C[C@@H](O)CC(O)=O)CCN1C(C2=CC=C(F)C=C2)=C(C3=CC=CC=C3)C(C(NC4=CC=CC=C4)=O)=C1C(C)C" ],
-                              "solution" : 1 }
-                              
+                              "solution" : 1,
+                              "template":false}
+
 
               ]
 }

@@ -91,13 +91,15 @@
                  "condition" : "THF, LDA, hv, r.t., 10 h" ,
                 "possibilities" : ["COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4)([H])[C@](CCN5C)2[C@]4([H])C5C3",
                                    "COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4N(C)CC5)([H])[C@]52[C@]4([H])C=C3" ],
-                "solution" : 0}
-    
+                "solution" : 0,
+               "template":false},
+
               { "equation": "COC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4)([H])[C@](CCN5C)2[C@]4([H])C5C3" ,
                 "type_reaction" : "",
                  "condition" : "a) CHCl3, BBr3, 23-26°C, 15 min, b) NH4OH(conc.), H2O (s),-5°C to 0°C, 30 min" ,
                 "possibilities" : ["OC1=CC=C3C2=C1O[C@]([C@@H](O)C=C4)([H])[C@](CCN5C)2[C@]4([H])C5C3",
                                    "COC1=CC=C3C2=C1O[C@]([C@@H](O)C(N)=C4)([H])[C@](CCN5)2[C@]4([H])C5C3" ],
-                "solution" : 0}
+                "solution" : 0,
+              "template":false}
     ]
   }
