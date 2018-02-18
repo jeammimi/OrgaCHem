@@ -8,25 +8,25 @@
                               "possibilities" : ["O=C(CCCC)C1=CC(C2=CC=CC=C2)=CC=C1" ,
                                                  "O=C(CCCC)C(C=C1)=CC=C1C2=CC=CC=C2" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "O=C(CCCC)C(C=C1)=CC=C1C2=CC=CC=C2" ,
                               "condition" : "H2N-NH2•H2O, KOH, ethylene glycol, 130 °C, 3 h, then 220 °C" ,
                               "possibilities" : ["N=C(CCCC)C(C=C1)=CC=C1C2=CC=CC=C2" ,
                                                  "CCCCCC(C=C1)=CC=C1C2=CC=CC=C2" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "CCCCCC(C=C1)=CC=C1C2=CC=CC=C2" ,
                               "condition" : "HIO3, I2, CCl4, conc. H2SO4, acetic acid/H2O, 80 °C, 10 h" ,
                               "possibilities" : ["IC1=CC(C2=CC=CC=C2)=CC=C1CCCCC" ,
                                                  "IC(C=C1)=CC=C1C2=CC=C(CCCCC)C=C2" ],
                               "solution" : 1 },
-							  
+
 				{ "equation": "IC(C=C1)=CC=C1C2=CC=C(CCCCC)C=C2" ,
                               "condition" : "CuCN, DMF, reflux, 6 h" ,
                               "possibilities" : ["CCCCCC(C=C1)=CC=C1C2=CC=C(C(C=C3)=CC=C3C4=CC=C(CCCCC)C=C4)C=C2" ,
                                                  "CCCCCC(C=C1)=CC=C1C2=CC=C(C#N)C=C2" ],
-                              "solution" : 1 },
-                              
+                              "solution" : 1 }
+
 
               ]
 }
