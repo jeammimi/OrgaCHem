@@ -1,0 +1,13 @@
+{ "quizz_title": "Phenamacril",
+   "quizz_info_1":"Though Ethyl  2-cyano-3-amino-3-phenylacrylate was known since 1900, it only has been commercialized as a fungicide in 2015 under the trade name phenamacril. Interestingly none of the peer-reviewed papers concerning its fungicide activity contains information of the double bond configuration, not even in the IUPAC name, and if this latter has an influence on the fungicide properties of the molecule. Until recently, the (E)-isomer was mostly accepted. In 2017, Wimmer’s group published a paper solving the double bond configuration of 3-amino-2-cyano acrylates.",
+   "quizz_info_2":"For more details on the synthesis, see: J. Chem. Soc., 1943, 388-390. For more details on the Z/E conformation elucidation, see: Eur. J. Org. Chem., 2017, 6408-6412.",
+ "cards" : [
+                { "equation": "NC(C1=CC=CC=C1)=N.O=C(CC#N)OCC" ,
+                              "condition" : "Ethanol, reflux, 8 h" ,
+                              "possibilities" : ["N=C(NC(CC#N)=O)C1=CC=CC=C1" ,
+                                                 "NC(C1=CC=CC=C1)=C(C(OCC)=O)C#N" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
