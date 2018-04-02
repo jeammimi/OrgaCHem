@@ -1,0 +1,43 @@
+{ "quizz_title": "Thujone",
+   "quizz_info_1":"Absinthe, the Green Muse, has been praised as a drink but also condemned by its detractor as a cause of madness. Absinthe can be traced back to the 18th century when French supposedly doctor, Pierre Ordinaire, used wormwood (Artemisia absinthium) as a base for an herbal remedy. The consummation of absinthe was linked to mental illness, blindness, hallucination among others. Thujone. For many years, people assumed that the psychedelic and side effects of absinthe consumption were due to the presence of thujone, a monoterpene, in the drink. However, recent studies propose that most of these effects were caused by alcohol intoxication.",
+   "quizz_info_2":"For more details on the synthesis, see: Chem. Commun., 2016, 52, 11701-11703. For more information about Thujone and absinthism, see: Forensic Sci. Int., 2006, 158, 1. For a book about absinthe, see for instance: Lanier, D. (2004). Absinthe--the cocaine of the nineteenth century: a history of the hallucinogenic drug and its effect on artists and writers in Europe and the United States. McFarland.",
+ "cards" : [
+                { "equation": "C1=CC=CC1" ,
+                              "condition" : "acetone, pyrrolidine, MeOH, 0 °C to rt, 2 h" ,
+                              "possibilities" : ["CC1(C)C2C=CCC2O1" ,
+                                                 "C/C(C)=C1C=CC=C/1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C/C(C)=C1C=CC=C/1" ,
+                              "condition" : "LiAlH4, THF, 0 °C to rt, 16 h" ,
+                              "possibilities" : ["CC(C)C1C=CC=C1" ,
+                                                 "CC(C)C1=CCC=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC(C)C1=CCC=C1" ,
+                              "condition" : "BH3•Me2S, CH2Cl2, 0 °C to rt, 8 h; then H2O2, NaOH, rt, 16 h" ,
+                              "possibilities" : ["CC(C)C1C=CCC1O" ,
+                                                 "CC(C)C1=CCC(O)C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC(C)C1=CCC(O)C1" ,
+                              "condition" : "Et2Zn, CH2I2, CH2Cl2, 0 °C to rt, 16 h" ,
+                              "possibilities" : ["CC(C)C1=CCC(OCI)C1" ,
+                                                 "CC(C)[C@]12C[C@@H](O)C[C@@]1([H])C2" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC(C)[C@]12C[C@@H](O)C[C@@]1([H])C2" ,
+                              "condition" : "IBX, DMSO, rt, 4 h" ,
+                              "possibilities" : ["CC(C)[C@](C1=C2)(C1)CC2=O" ,
+                                                 "CC(C)[C@]([C@@]1([H])C2)(C1)CC2=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC(C)[C@]([C@@]1([H])C2)(C1)CC2=O" ,
+                              "condition" : "MeI, KHMDS, DMPU, THF, –78 °C, 2 h" ,
+                              "possibilities" : ["CC(C)[C@]([C@@]1([H])C2)(C1)[C@@H](C)C2=O" ,
+                                                 "CC(C)[C@]([C@@]1([H])[C@H]2C)(C1)CC2=O" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
