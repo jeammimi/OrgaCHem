@@ -1,0 +1,31 @@
+{ "quizz_title": "Zingiberene",
+   "quizz_info_1":"It’s a ginger spice…not THE Ginger Spice, Geri Halliwell, but the molecule coming from ginger and one of the main volatiles giving ginger its flavor. Wild tomatoes had been found to emit an epimer of zingiberene, epizingiberene, which is toxic to a key pest, hence having a superior herbivore resistance than cultivated tomatoes. ",
+   "quizz_info_2":"For more details on this synthesis, see: Chem. Eur. J. 2010, 16, 7678 – 7682. For more informations about epizingiberene as repellent to whiteflies, see: Phytochem., 2011, 72, 68–73.",
+ "cards" : [
+                { "equation": "C/C(C)=C/CC[C@H](C)CC=O.C=CC(C)=O.COC(C1=CC=CC=C1)(C2=CC=CC=C2)[C@@H]3NCCC3" ,
+                              "condition" : "ethyl 3,4-dihydroxy benzoate (cat.), 4 °C, 48 h" ,
+                              "possibilities" : ["C/C(C)=C\CC[C@H](C)[C@H](CC(C=C)=O)O" ,
+                                                 "C/C(C)=C\CC[C@H](C)[C@@H](CCC(C)=O)C=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C/C(C)=C\CC[C@H](C)[C@@H](CCC(C)=O)C=O" ,
+                              "condition" : "LiOH•H2O, i-PrOH, rt, 24 h" ,
+                              "possibilities" : ["C/C(C)=C\CC[C@@](C)([H])[C@@]1([H])CCC(CC1O)=O" ,
+                                                 "C/C(C)=C\CC[C@@](C)([H])[C@@]1([H])CCC(C=C1)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C/C(C)=C\CC[C@@](C)([H])[C@@]1([H])CCC(C=C1)=O.ClC1=CN=C(N(S(=O)(C(F)(F)F)=O)S(=O)(C(F)(F)F)=O)C=C1" ,
+                              "condition" : "KHMDS, THF, –78 °C, 30 min" ,
+                              "possibilities" : ["C/C(C)=C\CC[C@@](C)([H])[C@@]1([H])CC(C2=CC=C(Cl)C=N2)C(C=C1)=O" ,
+                                                 "C/C(C)=C\CC[C@@](C)([H])[C@@]1([H])CC=C(OS(=O)(C(F)(F)F)=O)C=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C/C(C)=C\CC[C@@](C)([H])[C@@]1([H])CC=C(OS(=O)(C(F)(F)F)=O)C=C1" ,
+                              "condition" : "CuI, MeMgBr, THF, 0 °C, 30 min" ,
+                              "possibilities" : ["C/C(C)=C\CC[C@@](C)([H])[C@@]1([H])[C@H](C)C=CC=C1" ,
+                                                 "C/C(C)=C\CC[C@@](C)([H])[C@@]1([H])CC=C(C)C=C1" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
