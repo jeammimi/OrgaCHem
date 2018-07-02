@@ -1,0 +1,13 @@
+{ "quizz_title": "Crystal Violet",
+   "quizz_info_1":"Crystal violet, also known as Gentian violet, is a dye which was used in Gram's method of classifying bacteria by penetrating their cells and making them appear purple. It is used to dye paper and as a component of navy blue and black inks for printing, ball-point pens, and inkjet printers. It is an antiseptic which is used to treat fungal infections of the skin and it also as weak antibacterial effects. Crystal Violet can also be used as a pH indicator. Being yellow for pH < 0, it becomes blue at pH>1.8. ",
+   "quizz_info_2":"For more details on the synthesis, see: Tetrahedron Letters 2005, 46, 1119-1122.",
+ "cards" : [
+                { "equation": "CN(C1=CC=CC=C1)C.O=CC2=CC=C(N(C)C)C=C2" ,
+                              "condition" : "PhNMe2•HCl, µw, 90 °C, 3 min" ,
+                              "possibilities" : ["CN(C(C=C1)=CC=C1C(C2=CC=C(N(C)C)C=C2)C3=CC=C(N(C)C)C=C3)C" ,
+                                                 "C[N+](C)=C(C=C/1)C=CC1=C(C2=CC=C(N(C)C)C=C2)\C3=CC=C(N(C)C)C=C3.[Cl-]" ],
+                              "solution" : 1 },
+                              
+
+              ]
+}
