@@ -1,0 +1,37 @@
+{ "quizz_title": "Capsaicin",
+   "quizz_info_1":"Capsaicin is the active component of chili peppers. On the Scoville scale used to measure the spiciness of chili peppers, capsaicin is over 9000. It’s more around 16,000,000. Not the hottest pepper ever but it’s in the top positions. Interestingly, before its first synthesis in 1955, the geometry of the double bond was undefined. While capsaicin may burn and irritate the flesh of mammals, birds are completely immune to its effects. More recently, capsaicin has been used topically to treat a number of human pain disorders.",
+   "quizz_info_2":"For more details on this synthesis, see: J. Chem. Soc. 1955, 1025–1027. For more information about capsaicin and its use to treat pain, see: Chem. Soc. Rev. 2008, 37, 1530–1545.",
+ "cards" : [
+                { "equation": "ClC1C(Cl)CCCO1.CC([Mg]Br)C>>" ,
+                              "condition" : "Et2O, 0 °C" ,
+                              "possibilities" : ["ClC1C(C(C)C)CCCO1" ,
+                                                 "ClC1C(C(C)C)OCCC1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "ClC1C(C(C)C)OCCC1" ,
+                              "condition" : "Na, Et2O" ,
+                              "possibilities" : ["CC(C)C1C=CCCO1" ,
+                                                 "CC(C)/C=C/CCCO" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC(C)/C=C/CCCO" ,
+                              "condition" : "PBr3, pyridine, 0 °C, 30 min" ,
+                              "possibilities" : ["BrC1C(C(C)C)OCCC1" ,
+                                                 "CC(C)/C=C/CCCBr" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC(C)/C=C/CCCBr" ,
+                              "condition" : "1) sodium malonate, EtOH, reflux, 2 h; 2) NaOH (aq), reflux, 3 h; 3) 160–180 ° C" ,
+                              "possibilities" : ["CC(C)/C=C/CC/C=C/C(O)=O" ,
+                                                 "CC(C)/C=C/CCCCC(O)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC(C)/C=C/CCCCC(O)=O" ,
+                              "condition" : "1) SOCl2, rt, 18 h, then 100 ° C, 30 min; 2) 4-hydroxy-3-methoxybenzylamine, Et2O, 3 d" ,
+                              "possibilities" : ["O=C(CCCC/C=C/C(C)C)OC1=C(OC)C=C(CN)C=C1" ,
+                                                 "OC1=CC=C(CNC(CCCC/C=C/C(C)C)=O)C=C1OC" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
