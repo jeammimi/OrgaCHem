@@ -1,0 +1,55 @@
+{ "quizz_title": "Candesartan",
+   "quizz_info_1":"Candesartan is mainly use to treat hypertension. As others angiotensin receptor blockers, if candesartan is taken by pregnant women during the second or third trimester, it can cause injury and in some cases, death of the developing fetus. ",
+   "quizz_info_2":"For more details on this synthesis, see:  J. Med. Chem. 1993, 36, 2182-2195.",
+ "cards" : [
+                { "equation": "O=[N+](C1=C(C(O)=O)C(C(O)=O)=CC=C1)[O-]" ,
+                              "condition" : "conc. H2SO4, MeOH, CH(OMe)3" ,
+                              "possibilities" : ["O=[N+](C1=C(C(OC)=O)C(C(O)=O)=CC=C1)[O-]" ,
+                                                 "O=[N+](C1=C(C(O)=O)C(C(OC)=O)=CC=C1)[O-]" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=[N+](C1=C(C(O)=O)C(C(OC)=O)=CC=C1)[O-]" ,
+                              "condition" : "1) SOCl2, DMF (cat), toluene, reflux, 0.5 h; 2) NaN3, acetone/H2O (1:1), 0 °C, 1 h; 3) t-BuOH, reflux, 1.5 h" ,
+                              "possibilities" : ["O=[N+](C1=C(C(OC(C)(C)C)=O)C(C(OC)=O)=CC=C1)[O-]" ,
+                                                 "O=C(OC(C)(C)C)NC1=C([N+]([O-])=O)C=CC=C1C(OC)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(OC(C)(C)C)NC1=C([N+]([O-])=O)C=CC=C1C(OC)=O.BrCC(C=C1)=CC=C1C2=CC=CC=C2C#N" ,
+                              "condition" : "K2CO3, CH3CN, reflux, 4 h" ,
+                              "possibilities" : ["O=C(OC(C)(C)C)N(C(C1=CC=CC=C1C2=CC=C(CBr)C=C2)=N)C3=C([N+]([O-])=O)C=CC=C3C(OC)=O" ,
+                                                 "O=C(OC(C)(C)C)N(CC1=CC=C(C2=CC=CC=C2C#N)C=C1)C3=C([N+]([O-])=O)C=CC=C3C(OC)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(OC(C)(C)C)N(CC1=CC=C(C2=CC=CC=C2C#N)C=C1)C3=C([N+]([O-])=O)C=CC=C3C(OC)=O" ,
+                              "condition" : "HCl (30% in EtOH), EtOAc, rt, 1 h" ,
+                              "possibilities" : ["O=C(OC(C)(C)C)N(CC1=CC=C(C2=CC=CC=C2C#N)C=C1)C3=C([N+]([O-])=O)C=CC=C3C(O)=O" ,
+                                                 "O=[N+](C1=C(NCC2=CC=C(C3=CC=CC=C3C#N)C=C2)C(C(OC)=O)=CC=C1)[O-]" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=[N+](C1=C(NCC2=CC=C(C3=CC=CC=C3C#N)C=C2)C(C(OC)=O)=CC=C1)[O-]" ,
+                              "condition" : "FeCl3•6H2O, C, MeOH/THF (2:1), reflux, 30 min; then H2NNH2•H2O, reflux, 14 h" ,
+                              "possibilities" : ["O=[N+](C1=C(NCC2=CC=C(C3=CC=CC=C3C#N)C=C2)C(C(N)=O)=CC=C1)[O-]" ,
+                                                 "NC1=C(NCC2=CC=C(C3=CC=CC=C3C#N)C=C2)C(C(OC)=O)=CC=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "NC1=C(NCC2=CC=C(C3=CC=CC=C3C#N)C=C2)C(C(OC)=O)=CC=C1" ,
+                              "condition" : "C(OEt)4, AcOH, 80-90 °C, 40 min" ,
+                              "possibilities" : ["NC1=C(N2CC3=CC=C(C4=CC=CC=C4C#N)C=C3)C(C(OC2OCC)=O)=CC=C1" ,
+                                                 "O=C(OC)C1=C(N2CC3=CC=C(C4=CC=CC=C4C#N)C=C3)C(N=C2OCC)=CC=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(OC)C1=C(N2CC3=CC=C(C4=CC=CC=C4C#N)C=C3)C(N=C2OCC)=CC=C1" ,
+                              "condition" : "Me3SnN3, toluene, reflux, 29 h" ,
+                              "possibilities" : ["O=C(OC)C1=C(N2CC3=CC=C(C4=CC=CC=C4C#N)C=C3)C(N=C2N=[N+]=[N-])=CC=C1" ,
+                                                 "O=C(OC)C1=C(N2CC3=CC=C(C4=CC=CC=C4C5=NN=NN5)C=C3)C(N=C2OCC)=CC=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(OC)C1=C(N2CC3=CC=C(C4=CC=CC=C4C5=NN=NN5)C=C3)C(N=C2OCC)=CC=C1" ,
+                              "condition" : "1N NaOH, MeOH, 80-90 °C, 1 h" ,
+                              "possibilities" : ["O=C(OC)C1=C(N2CC3=CC=C(C4=CC=CC=C4C5=NN=NN5)C=C3)C(NC2=O)=CC=C1" ,
+                                                 "OC(C1=C(N2CC3=CC=C(C4=CC=CC=C4C5=NN=NN5)C=C3)C(N=C2OCC)=CC=C1)=O" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
