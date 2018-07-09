@@ -1,0 +1,25 @@
+{ "quizz_title": "trans-4,5-epoxy-(E)-2-decenal",
+   "quizz_info_1":"trans-4,5-epoxy-(E)-2-decenal gives blood its characteristic smell. The (2E,4S,5S)-(–)-enantiomere (here synthesized) smells 20 to 30 more times than its enantiomere. A 2014 study showed that predators were attracted by trans-4,5-epoxy-(E)-2-decenal as much as actual blood.",
+   "quizz_info_2":"For more details on this synthesis, see: Tetrahedron: Asymmetry 2015, 26, 861–867. For more information about the behavioral study of predators with blood and blood odor components, see: PloS one 2014, 9, e112694.",
+ "cards" : [
+                { "equation": "OC/C=C/CCCCC" ,
+                              "condition" : "t-BuOOH, Ti(OiPr)4, (+)-DET, MS 4Å, CH2Cl2, 20 °C, 6 h" ,
+                              "possibilities" : ["O[C@H]([C@H]1CO1)CCCCC" ,
+                                                 "OC[C@H]1[C@@H](O1)CCCCC" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC[C@H]1[C@@H](O1)CCCCC" ,
+                              "condition" : "Dess–Martin periodinane, CH2Cl2, 0 °C, 20 min, then rt, 1 h" ,
+                              "possibilities" : ["CCCCC[C@H](O1)[C@@H]1C(O)=O" ,
+                                                 "CCCCC[C@H](O1)[C@@H]1C=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CCCCC[C@H](O1)[C@@H]1C=O" ,
+                              "condition" : "Ph3P=CHCHO, benzene, 60 °C, 30 min, then rt, ovenright" ,
+                              "possibilities" : ["CCCCC[C@H](O1)[C@@H]1/C=C\C=O" ,
+                                                 "CCCCC[C@H](O1)[C@@H]1/C=C/C=O" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
