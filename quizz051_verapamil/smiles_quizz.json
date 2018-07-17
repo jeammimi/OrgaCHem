@@ -1,0 +1,25 @@
+{ "quizz_title": "Verapamil",
+   "quizz_info_1":"Verapamil is used for the treatment of hypertension. It is on the World Health Organization's List of Essential Medicines. A recent study showed that patients taking regular oral administration of the drug were producing a higher level of their own insulin, thus limiting their need for insulin injections.",
+   "quizz_info_2":"For more details on this synthesis, see: J. Am. Chem. Soc. 2005, 127, 15824–15832. For more information about the use of verapamil for diabete 1 treatment, see: Nature Medicine 2018, doi: 10.1038/s41591-018-0089-4",
+ "cards" : [
+                { "equation": "CC(C)CC#N" ,
+                              "condition" : "LDA, THF, rt, 2 h; then 0 °C; then BrCH2CH2CH(OCH2CH2O), rt, 24 h" ,
+                              "possibilities" : ["CC(C)CC(CCC1OCCO1)=O" ,
+                                                 "CC(C(C#N)CCC1OCCO1)C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC(C(C#N)CCC1OCCO1)C" ,
+                              "condition" : "LDA, Et2O, rt, 2 h; then Pd(OAc)2, PtBu3, ZnCl2, 4-bromoveratrole, THF, rt, 12 h" ,
+                              "possibilities" : ["CC(C(C(C1=CC(OC)=C(OC)C=C1)=O)CCC2OCCO2)C" ,
+                                                 "CC(C(C1=CC(OC)=C(OC)C=C1)(C#N)CCC2OCCO2)C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "CC(C(C1=CC(OC)=C(OC)C=C1)(C#N)CCC2OCCO2)C.COC1=C(OC)C=CC(CCNC)=C1" ,
+                              "condition" : "HCO2H, Pd/C, EtOH, 100 °C, 18 h" ,
+                              "possibilities" : ["CC(C(C(N(C)CCC1=CC=C(OC)C(OC)=C1)=O)(C2=CC(OC)=C(OC)C=C2)CCC3OCCO3)C" ,
+                                                 "CC(C(C1=CC(OC)=C(OC)C=C1)(C#N)CCCN(C)CCC2=CC=C(OC)C(OC)=C2)C" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
