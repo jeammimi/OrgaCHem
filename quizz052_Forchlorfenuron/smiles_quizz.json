@@ -1,0 +1,13 @@
+{ "quizz_title": "Forchlorfenuron",
+   "quizz_info_1":"Forchlorfenuron is a plant growth regulator approved in the US for kiwi fruits, raisins and grapes. In 2011, fields of watermelons exploded when agricultural workers in eastern China mistakenly applied forchlorfenuron too late in the season and during wet conditions, which caused the melons to explode like "landmines".",
+   "quizz_info_2":"For more details on this synthesis, see : Phytochemistry 1978, 17, 1201-1205.",
+ "cards" : [
+                { "equation": "ClC1=NC=CC(N)=C1.O=C=NC2=CC=CC=C2" ,
+                              "condition" : "acetone, rt, 8 h" ,
+                              "possibilities" : ["ClC1=NC=CC(N(C(NC2=CC=CC=C2)=O)C(NC3=CC=CC=C3)=O)=C1" ,
+                                                 "ClC1=NC=CC(NC(NC2=CC=CC=C2)=O)=C1" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
