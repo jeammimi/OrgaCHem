@@ -1,0 +1,57 @@
+{ "quizz_title": "Lycopene",
+   "quizz_info_1":"Lycopene gives red watermelon its pink coloration. It is also found in tomatoes on lower levels. In late 2001, the first clinical intervention trial of prostate cancer patients showed that supplementation with lycopene helped slow growth of prostate cancer.However, even if lycopene has been linked with a range of health benefits, the scientific evidence for the majority of these is currently conflicted or limited.",
+   "quizz_info_2":"For more details on this synthesis, see: Angew. Chem. Int. Ed. 2001, 40, 3627-3629 and Helvetica Chimica Acta 2003, 86, 2620-2628. For more information about lycopene’s health benefits, see: CMAJ 2000, 163, 739-744 and Annu Rev Food Sci Technol 2010, 1, 189–210.",
+ "cards" : [
+                { "equation": "CC1(C=C)CO1" ,
+                              "condition" : "PhSH, CuI (cat), DMF" ,
+                              "possibilities" : ["OC(C=C)(C)CSC1=CC=CC=C1" ,
+                                                 "OC/C(C)=C/CSC1=CC=CC=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "OC/C(C)=C/CSC1=CC=CC=C1" ,
+                              "condition" : "PBr3, Et2O" ,
+                              "possibilities" : ["C=C(C)C(Br)CSC1=CC=CC=C1" ,
+                                                 "BrC/C(C)=C/CSC1=CC=CC=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "BrC/C(C)=C/CSC1=CC=CC=C1.C/C(CC/C=C(C)/C)=C\CS(=O)(C1=CC=CC=C1)=O" ,
+                              "condition" : "n-BuLi, THF, –78 °C ; then bromo-compound, –78°C to r.t., 11 h" ,
+                              "possibilities" : ["C/C(CC/C=C(C)/C)=C\C(C(C(C)=C)CSC1=CC=CC=C1)S(=O)(C2=CC=CC=C2)=O" ,
+                                                 "C/C(CC/C=C(C)/C)=C\C(C/C(C)=C/CSC1=CC=CC=C1)S(=O)(C2=CC=CC=C2)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C/C(CC/C=C(C)/C)=C\C(C/C(C)=C/CSC1=CC=CC=C1)S(=O)(C2=CC=CC=C2)=O" ,
+                              "condition" : "NaOEt, EtOH, reflux, 10 h" ,
+                              "possibilities" : ["C=C(CC/C=C\C)/C=C\C/C(C)=C/CSC1=CC=CC=C1" ,
+                                                 "C/C(CC/C=C(C)\C)=C\C=C\C=C\CSC1=CC=CC=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C/C(CC/C=C(C)\C)=C\C=C\C=C\CSC1=CC=CC=C1" ,
+                              "condition" : "LiNbMoO6 (cat), H2O2, MeOH, 0 °C to r.t., 6 h" ,
+                              "possibilities" : ["C/C(CC/C=C\C)=C\C=C\C=C\CS(C1=CC=CC=C1)=O" ,
+                                                 "C/C(CC/C=C(C)\C)=C\C=C\C=C\CS(=O)(C1=CC=CC=C1)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C/C(CC/C=C(C)\C)=C\C=C\C=C\CS(=O)(C1=CC=CC=C1)=O.ClC/C(C)=C/CS(C/C=C(C)/CCl)(=O)=O" ,
+                              "condition" : "t-BuOK, DMF, –20 °C, 30 min; then dichloro-compound, –20 °C, 1 h" ,
+                              "possibilities" : ["C=C(C)C(C(S(=O)(C1=CC=CC=C1)=O)/C=C/C=C/C=C(C)/CC/C=C(C)/C)CS(CC(C(S(=O)(C2=CC=CC=C2)=O)/C=C/C=C/C=C(C)/CC/C=C(C)\C)C(C)=C)(=O)=O" ,
+                                                 "C/C(CC(S(=O)(C1=CC=CC=C1)=O)/C=C/C=C/C=C(C)/CC/C=C(C)\C)=C\CS(C/C=C(C)/CC(S(=O)(C2=CC=CC=C2)=O)/C=C/C=C/C=C(C)/CC/C=C(C)\C)(=O)=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C/C(CC(S(=O)(C1=CC=CC=C1)=O)/C=C/C=C/C=C(C)/CC/C=C(C)\C)=C\CS(C/C=C(C)/CC(S(=O)(C2=CC=CC=C2)=O)/C=C/C=C/C=C(C)/CC/C=C(C)\C)(=O)=O" ,
+                              "condition" : "KOH, t-BuOH/CCl4, rt, 7 h" ,
+                              "possibilities" : ["CC(/C=C/C=C/C=C/C=C(C)/CC/C=C(C)\C)=C\CS(C/C=C(C)/C=C/C=C/C=C/C=C(C)/CC/C=C(C)\C)(=O)=O" ,
+                                                 "C/C(CC(S(=O)(C1=CC=CC=C1)=O)/C=C/C=C/C=C(C)/CC/C=C(C)\C)=C\C=C\C=C(C)\CC(S(=O)(C2=CC=CC=C2)=O)/C=C/C=C/C=C(C)/CC/C=C(C)\C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C/C(CC(S(=O)(C1=CC=CC=C1)=O)/C=C/C=C/C=C(C)/CC/C=C(C)\C)=C\C=C\C=C(C)\CC(S(=O)(C2=CC=CC=C2)=O)/C=C/C=C/C=C(C)/CC/C=C(C)\C" ,
+                              "condition" : "NaOEt, EtOH, reflux, 12 h" ,
+                              "possibilities" : ["C/C(C/C=C/C=C/C=C/C(C)=C/C/C=C(C)\C)=C\C=C\C=C(C)\C/C=C/C=C/C=C/C(C)=C/C/C=C(C)\C" ,
+                                                 "CC(/C=C/C=C/C=C/C=C(C)/CC/C=C(C)\C)=C\C=C\C=C(C)\C=C\C=C\C=C\C=C(C)\CC/C=C(C)\C" ],
+                              "solution" : 1 }
+							  
+							  
+                              
+
+              ]
+}
