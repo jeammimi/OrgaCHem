@@ -1,0 +1,31 @@
+{ "quizz_title": "Nepetalactone",
+   "quizz_info_1":"Nepetalactone is the active ingredient in « Kitty Crack » (also known under the less terrifying name « catnip »). Around 70% of cats are sensitive to catnip once they’re over the age of three months and react like they’re totally stoned. However no effects on human had been observed. It appears to act biochemically very similarly to feline pheromones, though the exact mechanism through which the response is caused still isn’t precisely known, and does not appear to be addictive or harmful. The sensibility to catnip is hereditary and some cats will exhibit no response to catnip.",
+   "quizz_info_2":"For more details on this synthesis, see: Agric. Biol. Chem. 1988, 52, 2369–2371. For more information about catnip, see: http://www.compoundchem.com/2014/06/08/catnip/ and http://www.chm.bris.ac.uk/motm/nepetalactone/nepetalactoneh.htm",
+ "cards" : [
+                { "equation": "C/C(C)=C/CC[C@H](C)CC=O" ,
+                              "condition" : "SeO2, t-BuO2H, toluene, 20 °C, overnight" ,
+                              "possibilities" : ["C/C(C)=C/C(C=O)C[C@H](C)CC=O" ,
+                                                 "C/C(C=O)=C\CC[C@H](C)CC=O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C/C(C=O)=C\CC[C@H](C)CC=O" ,
+                              "condition" : "N-methylaniline, MS 4Å, Et2O, rt, 16 h" ,
+                              "possibilities" : ["C[C@@H](CCCC(C)=C/1C=O)C1=C/N(C2=CC=CC=C2)C" ,
+                                                 "C[C@@H](CC1)[C@]2([H])[C@@]1([H])C(C)=CO[C@H]2N(C3=CC=CC=C3)C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C[C@@H](CC1)[C@]2([H])[C@@]1([H])C(C)=CO[C@H]2N(C3=CC=CC=C3)C" ,
+                              "condition" : "p-TsOH, THF/H2O, 1 h" ,
+                              "possibilities" : ["C[C@@H](CC1)[C@]2([H])[C@@]1([H])C(C)=CO[C@@H]2N(C3=CC=CC=C3)C" ,
+                                                 "C[C@@H](CC1)[C@]2([H])[C@@]1([H])C(C)=COC2O" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C[C@@H](CC1)[C@]2([H])[C@@]1([H])C(C)=COC2O" ,
+                              "condition" : "Ag2CO3/Celite, benzene, Dean-Stark reflux, 1 h" ,
+                              "possibilities" : ["C[C@@H]1C2=COC=C(C)[C@@]2([H])CC1" ,
+                                                 "C[C@@H](CC1)[C@]2([H])[C@@]1([H])C(C)=COC2=O" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
