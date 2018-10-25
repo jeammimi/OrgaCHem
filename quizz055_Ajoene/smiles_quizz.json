@@ -1,0 +1,37 @@
+{ "quizz_title": "Ajoene",
+   "quizz_info_1":"Allicin is the major component of garlic and gives its arome. It also has some interesting biological properties such as antibiotic and antifungal. However Allicin is not stable and is broken-down into several volatile compounds responsible of the “garlic breath”. Ajoene is another constituent of garlic, is biolically active and is more stable. It has been found to target part of cancer cells.",
+   "quizz_info_2":"For more details on this synthesis, see: Angew. Chem. Int. Ed. 2018, 57, 12290-12293. For more information about ajoene effect on cancer cells, see: Molecular Carcinogenesis 2016, 55, 1213-1228.",
+ "cards" : [
+                { "equation": "BrCCCBr" ,
+                              "condition" : "NaBH4, PhSeSePh, EtOH, 0 °C, 2 h" ,
+                              "possibilities" : ["C1([Se]CCC[Se]C2=CC=CC=C2)=CC=CC=C1" ,
+                                                 "BrCCC[Se]C1=CC=CC=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "BrCCC[Se]C1=CC=CC=C1" ,
+                              "condition" : "1) thiourea, CH3CN, reflux, 2 h; 2) KOH, propargyl bromide" ,
+                              "possibilities" : ["S=C(NCC#C)NCCC[Se]C1=CC=CC=C1" ,
+                                                 "C#CCSCCC[Se]C1=CC=CC=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C#CCSCCC[Se]C1=CC=CC=C1" ,
+                              "condition" : "AcSH, AIBN, toluene, 85 °C" ,
+                              "possibilities" : ["C=C(SC(C)=O)CSCCC[Se]C1=CC=CC=C1" ,
+                                                 "O=C(S/C=C/CSCCC[Se]C1=CC=CC=C1)C" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "O=C(S/C=C/CSCCC[Se]C1=CC=CC=C1)C" ,
+                              "condition" : "1) KOH, degassed MeOH, –40 °C, 45 min; 2) AllylSTs, CH2Cl2, –78 °C, 1 h" ,
+                              "possibilities" : ["C=CCOCCCSC/C=C/SC(C)=O" ,
+                                                 "C=CCSS/C=C/CSCCC[Se]C1=CC=CC=C1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C=CCSS/C=C/CSCCC[Se]C1=CC=CC=C1" ,
+                              "condition" : "H2O2, THF, 0 °C, 1 h, then rt, 2 h" ,
+                              "possibilities" : ["C=CCS(C/C=C/S(SCC=C)=O)(=O)=O" ,
+                                                 "C=CCS(C/C=C/SSCC=C)=O" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
