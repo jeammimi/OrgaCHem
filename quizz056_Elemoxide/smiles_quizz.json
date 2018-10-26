@@ -1,0 +1,31 @@
+{ "quizz_title": "Elemoxide",
+   "quizz_info_1":"Elemoxide is a good flavoring agent smelling a combination of rhubarb, laurel, thyme and florex. However it can only be isolated in low amounts, hence the need of an efficient synthesis for industrial applications.",
+   "quizz_info_2":"For more details on this synthesis, see: Tetrahedron Lett. 2018, 59, 3413-3415.",
+ "cards" : [
+                { "equation": "C[C@]1(C=C)[C@]([H])(C(C)=C)C[C@H](C(C)(C)O)CC1" ,
+                              "condition" : "mCPBA, CH2Cl2, 0 °C, 2 h, then rt, 1 h" ,
+                              "possibilities" : ["C[C@]1(C2CO2)[C@]([H])(C(C)=C)C[C@H](C(C)(C)O)CC1" ,
+                                                 "C[C@]1(C=C)[C@]([H])(C2(C)CO2)C[C@H](C(C)(C)O)CC1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C[C@]1(C=C)[C@]([H])(C2(C)CO2)C[C@H](C(C)(C)O)CC1" ,
+                              "condition" : "LiAlH4, THF, 0 °C to rt" ,
+                              "possibilities" : ["C[C@]1(C=C)[C@]([H])(C(C)CO)C[C@H](C(C)(C)O)CC1" ,
+                                                 "C[C@]1(C=C)[C@]([H])(C(C)(O)C)C[C@H](C(C)(C)O)CC1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C[C@]1(C=C)[C@]([H])(C(C)(O)C)C[C@H](C(C)(C)O)CC1" ,
+                              "condition" : "I2 (cat.), PhSiH3 (cat.), CH2Cl2, rt, 1 h" ,
+                              "possibilities" : ["C[C@]1(CCOC2(C)C)[C@@]2([H])C[C@H](C(C)(C)O)CC1" ,
+                                                 "C[C@]1([C@H](C)OC2(C)C)[C@@]2([H])C[C@H](C(C)(C)O)CC1" ],
+                              "solution" : 1 },
+							  
+				{ "equation": "C[C@]1([C@H](C)OC2(C)C)[C@@]2([H])C[C@H](C(C)(C)O)CC1" ,
+                              "condition" : "CH3CO2H, HClO4, 72 h" ,
+                              "possibilities" : ["C[C@]1([C@H](C)OC2(C)C)[C@@]2([H])C/C(C(C1)=O)=C(C)\C" ,
+                                                 "C[C@]1([C@H](C)OC2(C)C)[C@@]2([H])CC(C(C)C)=CC1" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
