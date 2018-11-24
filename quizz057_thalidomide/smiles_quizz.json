@@ -1,0 +1,17 @@
+{ "quizz_title": "Thalidomide",
+   "quizz_info_1":"Thalidomide is one of the biggest tragedies in pharmaceutical research. The drug was marketed in the 1950s as a sedative/mild sleeping pill and as a remedy against morning sickness in pregnant women. At the end of 1956, a girl was born with no ears. From then, cases of babies with malformed limbs were reported all over the globe but the cause was still unknown. In 1960, the FDA was reviewing thalidomide for drug approval. However, they soon found out a lack of information concerning the drug’s safety during its research. In 1962, after extended research by the FDA, a link was made between thalidomide and birth defects. Thalidomide caused around ten thousands of babies to be born with malformed limbs. Only 50% of them survived.",
+   "quizz_info_2":"For more details on this synthesis, see: Org. Proc. Res. Dev. 1999,  3, 2, 139-140. For more details on thalidomide and its pharmacolocy, see: Clinical Therapeuthics 2003, 25, 342-395.",
+ "cards" : [
+                { "equation": "O=C1N(C(OCC)=O)C(C2=CC=CC=C21)=O.NC(CC[C@H](N)C(O)=O)=O" ,
+                              "condition" : "Na2CO3, H2O, rt, 1 h" ,
+                              "possibilities" : ["O=C1N(C(CC[C@H](N)C(O)=O)=O)C(C2=CC=CC=C21)=O" ,
+                                                 "O=C1N([C@@H](CCC(N)=O)C(O)=O)C(C2=CC=CC=C21)=O" ],
+                              "solution" : 1 },
+                              
+                { "equation": "O=C1N([C@@H](CCC(N)=O)C(O)=O)C(C2=CC=CC=C21)=O" ,
+                              "condition" : "CDI, DMAP, THF, reflux, 16 h" ,
+                              "possibilities" : ["O=C(C1=CC=CC=C1C(N2)=O)NC(C(O)=O)CCC2=O" ,
+                                                 "O=C1N(C2CCC(NC2=O)=O)C(C3=CC=CC=C31)=O" ],
+                              "solution" : 1 }
+              ]
+}
