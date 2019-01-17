@@ -1,0 +1,49 @@
+{ "quizz_title": "Bullvalene",
+   "quizz_info_1":"Bullvalene is a fluxional molecule. It means that it has no permanent C-C bond or that every carbon atom is equally bonded, or not bonded, to every other carbon atoms. The reason is that it undergoes fast Cope rearrangement and has 1,209,600 degenerated interconvertible tautomers. The structure of bullvalene was predicted in 1963 and was first synthesized few months after.",
+   "quizz_info_2":"For more details on this synthesis, see: Tetrahedron Lett. 1963, 13, 2589–2590. For more information on bullvalene, see: J. Chem. Educ. 2001, 78, 924–927; and Synthesis 2019, doi: 10.1055/s-0037-1611637.",
+ "cards" : [
+                { "equation": "O=C(CC(OC)=O)CC(OC)=O.O=C(C=P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3)OC" ,
+                              "condition" : "benzene" ,
+                              "possibilities" : ["O=C(C=C(C1)CC(OC)=O)OC1=O" ,
+                                                 "O=C(C/C(CC(OC)=O)=C/C(OC)=O)OC" ],
+                              "solution" : 1 },
+
+				{ "equation": "O=C(C/C(CC(OC)=O)=C/C(OC)=O)OC" ,
+                              "condition" : "PtO2, H2" ,
+                              "possibilities" : ["OCCC(CCO)CCO" ,
+                                                 "O=C(CC(CC(OC)=O)CC(OC)=O)OC" ],
+                              "solution" : 1 },
+
+				{ "equation": "O=C(CC(CC(OC)=O)CC(OC)=O)OC" ,
+                              "condition" : "Hydrolysis; then PCl5" ,
+                              "possibilities" : ["O=C(CC(C1)CC(Cl)=O)OC1=O" ,
+                                                 "O=C(CC(CC(Cl)=O)CC(Cl)=O)Cl" ],
+                              "solution" : 1 },
+
+				{ "equation": "O=C(CC(CC(Cl)=O)CC(Cl)=O)Cl" ,
+                              "condition" : "CH2N2" ,
+                              "possibilities" : ["O=C(CC(CC(C)=O)CC(C)=O)C" ,
+                                                 "O=C(C=[N+]=[N-])CC(CC(C=[N+]=[N-])=O)CC(C=[N+]=[N-])=O" ],
+                              "solution" : 1 },
+
+				{ "equation": "O=C(C=[N+]=[N-])CC(CC(C=[N+]=[N-])=O)CC(C=[N+]=[N-])=O" ,
+                              "condition" : "CuSO4, PhSMe, xylene, reflux, high dilution" ,
+                              "possibilities" : ["O=C(CC(CC(C)=O)C1)C=CC1=O" ,
+                                                 "O=C1C2[C@H]3CC(C[C@H](CC([C@H]23)=O)C1)=O" ],
+                              "solution" : 1 },
+
+				{ "equation": "O=C1C2[C@H]3CC(C[C@H](CC([C@H]23)=O)C1)=O" ,
+                              "condition" : "TsNHNH2, AcOH" ,
+                              "possibilities" : ["CC1=CC=C(S(N=NC2C3[C@H]4CC(C[C@H](C[C@H]([C@H]34)N=NS(C5=CC=C(C)C=C5)(=O)=O)C2)N=NS(C6=CC=C(C)C=C6)(=O)=O)(=O)=O)C=C1" ,
+                                                 "CC1=CC=C(S(N/N=C2C3[C@H]4C/C(C[C@H](C/C([C@H]34)=N\NS(C5=CC=C(C)C=C5)(=O)=O)C\2)=N\NS(C6=CC=C(C)C=C6)(=O)=O)(=O)=O)C=C1" ],
+                              "solution" : 1 },
+
+				{ "equation": "CC1=CC=C(S(N/N=C2C3[C@H]4C/C(C[C@H](C/C([C@H]34)=N\NS(C5=CC=C(C)C=C5)(=O)=O)C\2)=N\NS(C6=CC=C(C)C=C6)(=O)=O)(=O)=O)C=C1" ,
+                              "condition" : "MeLi, benzene, rt" ,
+                              "possibilities" : ["C12=CC[C@@H]3C/C=C\[C@H]1C2=CC3" ,
+                                                 "C12C=C[C@@H]3/C=C\C[C@H]1[C@@H]2C=C3" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
