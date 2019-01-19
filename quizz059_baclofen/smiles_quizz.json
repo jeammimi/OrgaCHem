@@ -1,0 +1,30 @@
+{ "quizz_title": "Baclofen",
+   "quizz_info_1":"Baclofen is a GABA agonist used as a skeletal muscle relaxant. Though it is commercialized in its racemic form, it is believed that only the R enantiomer is active. Since 2002, baclofen is giving promising results for treatment of alcoholism. A 2016 study suggest that only the R enantiomer is responsible for suppressing alcohol-motivated behaviors.",
+   "quizz_info_2":"For more details on this synthesis, see:  Synthetic Commun. 1997, 27, 2455–2465. For more information about alcoholism’s treatment, see: Alcohol and Alcoholism 2002, 37, 504-508 and Front. Psychiatry 2016, 7, 68.",
+ "cards" : [
+                { "equation": "C=CC1=CC=C(Cl)C=C1" ,
+                              "condition" : "Zn-Cu, POCl3, Cl3CCOCl, Et2O, rt, 20 h" ,
+                              "possibilities" : ["C=CC1=CC=C(C(C(Cl)(Cl)Cl)=O)C=C1" ,
+                                                 "ClC1=CC=C(C(C2(Cl)Cl)CC2=O)C=C1" ],
+                              "solution" : 1 },
+
+                { "equation": "ClC1=CC=C(C(C2(Cl)Cl)CC2=O)C=C1" ,
+                              "condition" : "Zn, CH3CO2H, 70 °C, 14 h" ,
+                              "possibilities" : ["ClC1=CC=C(C2CC3C2(Cl)O3)C=C1" ,
+                                                 "ClC1=CC=C(C(C2)CC2=O)C=C1" ],
+                              "solution" : 1 },
+
+                { "equation": "ClC1=CC=C(C(C2)CC2=O)C=C1" ,
+                              "condition" : "H2NOSO3H, HCO2H, reflux, 10 h" ,
+                              "possibilities" : ["ClC1=CC=C(C(C/2)CC2=N\OS(=O)(O)=O)C=C1" ,
+                                                 "ClC(C=C1)=CC=C1C(CN2)CC2=O" ],
+                              "solution" : 1 },
+
+                { "equation": "ClC(C=C1)=CC=C1C(CN2)CC2=O" ,
+                              "condition" : "6N HCl, reflux, 12 h" ,
+                              "possibilities" : ["NCC(C1=CC=C(Cl)C=C1)CC(Cl)=O" ,
+                                                 "NCC(C1=CC=C(Cl)C=C1)CC(O)=O" ],
+                              "solution" : 1 }                              
+
+              ]
+}
