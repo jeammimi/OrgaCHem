@@ -1,0 +1,31 @@
+{ "quizz_title": "Dodecaphenyltetracene",
+   "quizz_info_1":"Dodecaphenyltetracene is a molecule first synthesized in early 2019, which earned the nickname lobsterene. Though this molecule is aromatic, crystallographic data showed that the tetracene core had an end-to-end twist of 97° due to high steric hindrance from the phenyl susbtituents. This kind of polyacene could have application in organic electronics and photovoltaics.",
+   "quizz_info_2":"For more details on this synthesis, see: Angew. Chem. Int. Ed. 2019, doi:10.1002/anie.201812418. For more information, see: https://cen.acs.org/synthesis/Twisty-phenyl-laden-tetracene-synthesized/97/i3",
+ "cards" : [
+                { "equation": "O=C(C1=COC=C1)O" ,
+                              "condition" : "PhBr, Pd(OAc)2 (cat.), PCy3 (cat.), Cs2CO3, MS4Å, mesitylene, 170 °C, 12 h" ,
+                              "possibilities" : ["C1(C2=CC=CC=C2)=COC=C1" ,
+                                                 "C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)C(C4=CC=CC=C4)=C(C5=CC=CC=C5)O1" ],
+                              "solution" : 1 },
+
+                { "equation": "C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)C(C4=CC=CC=C4)=C(C5=CC=CC=C5)O1.BrC1=C(C2=CC=CC=C2)C(Br)=C(Br)C(C3=CC=CC=C3)=C1Br" ,
+                              "condition" : "n-BuLi, toluene/hexane, –78 °C to r.t., overnight" ,
+                              "possibilities" : ["C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)C4(C5=CC=CC=C5)C(C(C6=CC=CC=C6)=C(C7(C8=CC=CC=C8)C(C9=CC=CC=C9)=C(C%10=CC=CC=C%10)C%11(C%12=CC=CC=C%12)O7)C%11=C%13C%14=CC=CC=C%14)C%13C1(O4)C%15=CC=CC=C%15" ,
+                                                 "BrC1=C(C2=CC=CC=C2)C3=C(C(C4=CC=CC=C4)=C1Br)C5(C6=CC=CC=C6)C(C7=CC=CC=C7)=C(C8=CC=CC=C8)C3(O5)C9=CC=CC=C9" ],
+                              "solution" : 1 },
+
+                { "equation": "BrC1=C(C2=CC=CC=C2)C3=C(C(C4=CC=CC=C4)=C1Br)C5(C6=CC=CC=C6)C(C7=CC=CC=C7)=C(C8=CC=CC=C8)C3(O5)C9=CC=CC=C9.C12=C(C3=CC=CC=C3)OC(C4=CC=CC=C4)=C1C(C5=CC=CC=C5)=C(C6=CC=CC=C6)C(C7=CC=CC=C7)=C2C8=CC=CC=C8" ,
+                              "condition" : "n-BuLi, toluene/hexane, –78 °C to r.t., overnight" ,
+                              "possibilities" : ["BrC1=C(C2=CC=CC=C2)C3C(C(C4=CC=CC=C4)=C1Br)C5(C6=CC=CC=C6)C7(C8=CC=CC=C8)C(C(O9)(C%10=CC=CC=C%10)C(C(C%11=CC=CC=C%11)=C(C%12=CC=CC=C%12)C(C%13=CC=CC=C%13)=C%14C%15=CC=CC=C%15)=C%14C79C%16=CC=CC=C%16)(C%17=CC=CC=C%17)C3(O5)C%18=CC=CC=C%18" ,
+                                                 "C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)C4(C5=CC=CC=C5)C(C(C6=CC=CC=C6)=C(C7(C8=CC=CC=C8)C(C(C9=CC=CC=C9)=C(C%10=CC=CC=C%10)C(C%11=CC=CC=C%11)=C%12C%13=CC=CC=C%13)=C%12C%14(O7)C%15=CC=CC=C%15)C%14=C%16C%17=CC=CC=C%17)=C%16C1(O4)C%18=CC=CC=C%18" ],
+                              "solution" : 1 },
+
+                { "equation": "C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)C4(C5=CC=CC=C5)C(C(C6=CC=CC=C6)=C(C7(C8=CC=CC=C8)C(C(C9=CC=CC=C9)=C(C%10=CC=CC=C%10)C(C%11=CC=CC=C%11)=C%12C%13=CC=CC=C%13)=C%12C%14(O7)C%15=CC=CC=C%15)C%14=C%16C%17=CC=CC=C%17)=C%16C1(O4)C%18=CC=CC=C%18" ,
+                              "condition" : "n-BuLi, TiCl3•AlCl3, Et2O/hexane, –78 °C, 1.5 h, then –78 °C to r.t., 0.5 h" ,
+                              "possibilities" : ["OC1(C2=CC=CC=C2)C(C3=CC=CC=C3)=C(C4=CC=CC=C4)C(C5=CC=CC=C5)=C6C1=C(C7=CC=CC=C7)C8=C(C9=CC=CC=C9)C(C(C%10=CC=CC=C%10)=C(C%11=CC=CC=C%11)C(C%12=CC=CC=C%12)=C%13C%14=CC=CC=C%14)=C%13C(O)(C%15=CC=CC=C%15)C8=C6C%16=CC=CC=C%16" ,
+                                                 "C1(C2=CC=CC=C2)=C(C3=CC=CC=C3)C(C4=CC=CC=C4)=C(C(C5=CC=CC=C5)=C(C(C6=CC=CC=C6)=C(C(C7=CC=CC=C7)=C(C8=CC=CC=C8)C(C9=CC=CC=C9)=C%10C%11=CC=CC=C%11)C%10=C%12C%13=CC=CC=C%13)C%12=C%14C%15=CC=CC=C%15)C%14=C1C%16=CC=CC=C%16" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
