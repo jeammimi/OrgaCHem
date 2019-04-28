@@ -1,0 +1,31 @@
+{ "quizz_title": "Kainic acid",
+   "quizz_info_1":"For centuries, certain red seaweeds were used to treat intestinal worm infections in Japan. The active ingredient in those plants is the kainic acid. This molecule is now studied to treat epilepsy, Alzheimer’s disease, and other neurological condition. In the past, kilograms of kainic acid were extracted from red seaweeds to produce deworming drugs. But that source dried up about 20 years ago. ",
+   "quizz_info_2":"For more details on the synthesis, see: Chem. Eur. J. 2015, 21, 3937-3941. For more information for its use for neurological condition’s treatment, see: Epilepsia 2010, 51, 108–117 and Journal of Biomedicine and Biotechnology, 2011, Article ID 457079, 10 pages.",
+ "cards" : [
+                { "equation": "CC(C)(O)C=C.NC1=C(OC)C=C(OC)C=C1" ,
+                              "condition" : "Pt(cod)Cl2 (cat.), DPEphos (cat.), toluene, µw, 80 °C, 3 h" ,
+                              "possibilities" : ["CC(C)(C=C)NC1=C(OC)C=C(OC)C=C1" ,
+                                                 "C/C(C)=C/CNC1=C(OC)C=C(OC)C=C1" ],
+                              "solution" : 1 },
+
+                { "equation": "C/C(C)=C/CNC1=C(OC)C=C(OC)C=C1.O=C=O.CC(/C=C/[C@@H]1OC1)(C)C" ,
+                              "condition" : "Pt(cod)Cl2 (cat.), DPEphos (cat.), toluene, rt, 48 h" ,
+                              "possibilities" : ["C/C(C)=C/CN(C(/C=C/[C@@H]1OC1)=O)C2=C(OC)C=C(OC)C=C2" ,
+                                                 "C/C(C)=C/CN([C@@H](/C=C/C(OC(C)(C)C)=O)CO)C1=C(OC)C=C(OC)C=C1" ],
+                              "solution" : 1 },
+
+                { "equation": "C/C(C)=C/CN([C@@H](/C=C/C(OC(C)(C)C)=O)CO)C1=C(OC)C=C(OC)C=C1" ,
+                              "condition" : "i-Pr2NEt (cat.), xylenes, 135 °C, 48 h" ,
+                              "possibilities" : ["C/C(C)=C/CN([C@@H]1COC(C=C1)=O)C2=C(OC)C=C(OC)C=C2" ,
+                                                 "OC[C@H]([C@@H](CC(OC(C)(C)C)=O)[C@@H](C(C)=C)C1)N1C2=C(OC)C=C(OC)C=C2" ],
+                              "solution" : 1 },
+
+                { "equation": "OC[C@H]([C@@H](CC(OC(C)(C)C)=O)[C@@H](C(C)=C)C1)N1C2=C(OC)C=C(OC)C=C2" ,
+                              "condition" : "CrO3 (cat.), H5IO6, CH3CN, 0 °C, 8 h; then TFA/Et3SiH (10:1), reflux, 13 h" ,
+                              "possibilities" : ["CC([C@@H]1[C@H](CC(O)=O)[C@@H](CO)NC1)=O" ,
+                                                 "CC([C@@H]1[C@H](CC(O)=O)[C@@H](C(O)=O)NC1)=C" ],
+                              "solution" : 1 }
+                              
+
+              ]
+}
